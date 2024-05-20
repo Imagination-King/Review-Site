@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types"
 import Modal from "./Modal";
 
 function ShowCard({show}) {
@@ -18,10 +19,17 @@ function ShowCard({show}) {
         width: "150px",
         height: "225px"
       }}/>
-      <p>{show.SortName}</p>
+      <p>{show.Title}</p>
     </div>
     {modalOpen && <Modal show={show} onClose={handleModalClose} />}
     </>
   );
+}
+
+ShowCard.propTypes = {
+  show: PropTypes.shape({
+    Title: PropTypes.string.isRequired,
+    ImageLink: PropTypes.string.isRequired,
+  }).isRequired,
 }
 export default ShowCard

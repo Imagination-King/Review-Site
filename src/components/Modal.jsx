@@ -1,5 +1,7 @@
+import PropTypes from "prop-types"
 
-function Modal({show, onClose}) {
+function Modal({show, onClose}) { 
+
   return(
   <div style={{
     position: 'fixed',
@@ -13,7 +15,7 @@ function Modal({show, onClose}) {
     border: '1px solid black'
   }}>
     <h2>{show.Title}</h2>
-    <img src={show.ImageLink} style={{width: '300px', height: '450px'}} />
+    <img src={show.ImageLink} alt={show.Title} style={{width: '300px', height: '450px'}} />
     <p><strong>Watch Status:</strong> {show.WatchStatus}</p>
     <p><strong>Tier:</strong> {show.Tier}</p>
     <p>{show.Tags.join(", ")}</p>
@@ -21,4 +23,17 @@ function Modal({show, onClose}) {
     <button onClick={onClose}>Close</button>
   </div>)
 }
+
+Modal.propTypes = {
+  show: PropTypes.shape({
+    Title: PropTypes.string.isRequired,
+    ImageLink: PropTypes.string.isRequired,
+    WatchStatus: PropTypes.string,
+    Tier: PropTypes.string.isRequired,
+    Tags: PropTypes.arrayOf(PropTypes.string).isRequired,
+    Review: PropTypes.string,
+  }).isRequired,
+  onClose: PropTypes.func.isRequired
+}
+
 export default Modal
