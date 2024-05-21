@@ -5,7 +5,7 @@ function TierList() {
   const [tierData, setTierData] = useState({});
   const [error, setError] = useState(null);
 
-  const JSON_URL = "https://drive.google.com/uc?export=download&id=1T6jOzw_ZcCMW9FJnsVabS063dwyI_qSQ";
+  const JSON_URL = "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/c48f47c4428f5e09f0404bd02991c38d4237dfb8/tvShowsGraded.json";
  
   useEffect(() => {
     fetch(JSON_URL, {mode: "cors"})
