@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PropTypes from "prop-types"
-import Modal from "./Modal";
+import ShowModal from "./ShowModal";
 
 function ShowCard({show}) {
   const [modalOpen, setModalOpen] = useState(false);
@@ -15,13 +15,12 @@ function ShowCard({show}) {
   return(
     <>
     <div onClick={handleCardClick}>
-      <img src={show.ImageLink} alt={show.Title} style={{
-        width: "150px",
-        height: "225px"
-      }}/>
+      <img
+        src={show.ImageLink} alt={show.Title} style={{ width: "150px", height: "225px" }}
+      />
       <p>{show.Title}</p>
     </div>
-    {modalOpen && <Modal show={show} onClose={handleModalClose} />}
+    <ShowModal show={show} isOpen={modalOpen} onClose={handleModalClose} />
     </>
   );
 }
@@ -31,5 +30,5 @@ ShowCard.propTypes = {
     Title: PropTypes.string.isRequired,
     ImageLink: PropTypes.string.isRequired,
   }).isRequired,
-}
+};
 export default ShowCard
