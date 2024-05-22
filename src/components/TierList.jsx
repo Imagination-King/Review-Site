@@ -9,13 +9,14 @@ function TierList() {
     "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/0f1cffbde7cd48250ef3fe84968c0f0d9762bc5c/tvShowsGraded.json";
 
   //in case the server decides to not cooperate, use a local backup
-  const useLocalFile = true;
-  const LOCAL_JSON_URL = "/public/tvShowsGraded.json";
+  const useLocalFile = false;
+  const LOCAL_JSON_URL = "/tvShowsGraded.json";
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const url = useLocalFile ? LOCAL_JSON_URL : JSON_URL;
+        console.log(`Fetching data from ${url}`);
         const response = await fetch(url, { mode: "cors" });
 
         if (response.status >= 400) {
@@ -24,6 +25,7 @@ function TierList() {
         }
 
         const data = await response.json();
+        console.log('Fetched data: ', data);
 
         //Creates arrays for each Tier of the Tier List and pushes each show into the appropriate array
         const tiers = data.reduce((acc, show) => {
@@ -34,13 +36,18 @@ function TierList() {
           return acc;
         }, {});
 
-        //Sort shows alphabetically in each tier using SortName (which drops intances of "A" and "The")
+        //Sort shows alphabetically in each tier
         for (const tier in tiers) {
-          tiers[tier].sort((a, b) => a.SortName.localeCompare(b.SortName));
+          tiers[tier].sort((a, b) => {
+            const titleA = a.Title.replace(/^The\s+/i, "");
+            const titleB = b.Title.replace(/^The\s+/i, "");
+            return titleA.localeCompare(titleB);
+          });
         }
 
         setTierData(tiers);
       } catch (error) {
+        console.error('Error fetching or processing data: ', error);
         setError(error);
       }
     };
@@ -67,7 +74,7 @@ function TierList() {
               {
                 //this creates a little card for each show as we map over each tier
                 tierData[tier].map((show) => (
-                  <ShowCard key={show.SortName} show={show} />
+                  <ShowCard key={show.Title} show={show} />
                 ))
               }
             </div>
