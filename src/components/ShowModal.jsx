@@ -16,15 +16,29 @@ const modalStyle = {
   outline: "none",
 };
 
+const renderDates = (PremiereDate, EndDate) => {
+  if (EndDate === 0) {
+    //when the show is still airing or has been renewed for future seasons
+    return `${PremiereDate} - Present`;
+  } else if (EndDate === PremiereDate) {
+    //when the show aired entirely in a single year
+    return `${PremiereDate}`;
+  } else {
+    return `${PremiereDate} - ${EndDate}`;
+  }
+};
+
 const ShowModal = ({ show, isOpen, onClose }) => {
   const {
     Title = "N/A",
+    AltName = "",
     ImageLink = "",
     WatchStatus = "N/A",
-    Tier = "N/A",
+    Tier = "Undecided",
     PremiereDate = 0,
     EndDate = 0,
-    Tags = [],
+    Tags = [ "Unsorted" ],
+    Description = "No description available",
     Review = "No review available",
   } = show;
 
@@ -50,30 +64,42 @@ const ShowModal = ({ show, isOpen, onClose }) => {
         </IconButton>
         <Box display="flex" alignItems="flex-start">
           <Box flexShrink={0}>
-            <img src={ImageLink} alt={Title} style={{ width: "300px", height: "450px", marginRight: "16px" }} />
+            <img
+              src={ImageLink}
+              alt={Title}
+              style={{ width: "300px", height: "450px", marginRight: "16px" }}
+            />
           </Box>
-          <Box>
-            <Typography id="modal-title" variant="h4" component="h2">
+          <Box sx={{ flexGrow: 1, minWidth: 0 }}>
+            <Typography
+              id="modal-title"
+              variant="h4"
+              component="h2"
+              sx={{ wordWrap: "break-word" }}
+            >
               <strong>{Title}</strong>
             </Typography>
-            <Typography id="modal-subtitle" variant="h5" sx={{ mt: .5, }}>
-              Alternate Title
+            <Typography variant="h7" sx={{ color: "GrayText", mt: 0.5 }}>
+              {AltName}
             </Typography>
-            <Typography variant="h6" sx={{ mb: 1 }}>
-              {PremiereDate} - {EndDate}
+            <Typography variant="h6">
+              {renderDates(PremiereDate, EndDate)}
             </Typography>
-            <Typography>
+            <Typography sx={{ mt: 0.5, mb: 0.5 }}>
               <strong>Tier:</strong> {Tier}
             </Typography>
-            <Typography>
+            <Typography sx={{ mt: 0.5, mb: 1 }}>
               <strong>Watch Status:</strong> {WatchStatus}
             </Typography>
-            <Stack direction="row">
+            <Stack direction="row" sx={{ flexWrap: "wrap" }}>
               {Tags.map((tag, index) => (
-                <Chip key={index} label={tag} sx={{ margin: "2px" }}/>
+                <Chip key={index} label={tag} sx={{ margin: "2px" }} />
               ))}
             </Stack>
-            <Typography sx={{ mt: 4 }}>
+            <Typography sx={{ mt: 1, mb: 0.5 }}>
+              <strong>Description</strong> {Description}
+            </Typography>
+            <Typography id="modal-description" sx={{ mt: 1 }}>
               <strong>Review:</strong> {Review}
             </Typography>
           </Box>
@@ -86,6 +112,7 @@ const ShowModal = ({ show, isOpen, onClose }) => {
 ShowModal.propTypes = {
   show: PropTypes.shape({
     Title: PropTypes.string.isRequired,
+    AltName: PropTypes.string,
     ImageLink: PropTypes.string.isRequired,
     WatchStatus: PropTypes.string,
     Tier: PropTypes.string,

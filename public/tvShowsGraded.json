@@ -60,6 +60,19 @@
         "Review": "N/A"
     },
     {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "A",
+        "Title": "A Series of Unfortunate Events",
+        "PremiereDate": 2017,
+        "EndDate": 2019,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
         "ImageLink": "https://m.media-amazon.com/images/M/MV5BZDkwOTlhODItNGYzZS00Y2FlLWEzOTctZDU2NDNmYzFhNjJmXkEyXkFqcGdeQXVyMTA3OTEyODI1._V1_.jpg",
         "Tier": "F",
         "Title": "Aesthetica of a Rogue Hero",
@@ -81,27 +94,8 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTkwODYyMjgzOV5BMl5BanBnXkFtZTgwODAzMTE5MjE@._V1_.jpg",
-        "Tier": "D",
-        "Title": "Marvel's Agents of S.H.I.E.L.D.",
-        "PremiereDate": 2013,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Live-Action",
-            "Action",
-            "Adventure",
-            "Drama",
-            "Sci-Fi",
-            "Thriller",
-            "Secret Agents"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://cdn.cinematerial.com/p/297x/ngiimgxk/amphibia-movie-poster-md.jpg?v=1627485646",
-        "Tier": "U",
+        "Tier": "Undecided",
         "Title": "Amphibia",
         "PremiereDate": 2019,
         "EndDate": 2022,
@@ -116,26 +110,6 @@
             "Mystery",
             "Sci-Fi",
             "Isekai"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://rantingpenguincom.files.wordpress.com/2018/09/magus.jpg",
-        "Tier": "C",
-        "Title": "The Ancient Magus' Bride",
-        "AltName": "Mahoutsukai no Yome",
-        "PremiereDate": 2017,
-        "EndDate": 0,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Anime",
-            "Drama",
-            "Fantasy",
-            "Horror",
-            "Mystery",
-            "Romance",
-            "Mythology"
         ],
         "Description": "N/A",
         "Review": "N/A"
@@ -295,7 +269,7 @@
     },
     {
         "ImageLink": "https://assets.nick.com/uri/mgid:arc:imageassetref:shared.nick.us:61d0d32d-b0ac-4632-ad87-9339381eb1f1?quality=0.7&gen=ntrn&legacyStatusCode=true",
-        "Tier": "A+",
+        "Tier": "Top 10",
         "Title": "Avatar: The Last Airbender",
         "PremiereDate": 2005,
         "EndDate": 2008,
@@ -312,26 +286,8 @@
         "Review": "Drawing heavily from many Eastern cultures, Avatar has plenty of memorable characters, awesome fight scenes, and a good mix of seriousness and comedy. There's a reason Avatar has become a sort of gold standard for not only animation but all storytelling - everything it does, it does brilliantly."
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BN2NjNWEyNmItYWM3MC00NTE2LWE1ZmYtNWE2OTRjMzlkNmIxXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "D",
-        "Title": "The Legend of Korra",
-        "PremiereDate": 2012,
-        "EndDate": 2014,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Western Animation",
-            "Action",
-            "Adventure",
-            "Family",
-            "Fantasy",
-            "Mythology"
-        ],
-        "Description": "N/A",
-        "Review": "How the mighty have fallen. Korra fails to live up to the standard set by The Last Airbender, not because the characters are badly written or because of the lack of elements and characters from TLA, but because the story isn't cohesive. Not to spoil anything, but seasons 1 and 2 have pretty high stakes, and then seasons 3 and 4 come along with much lowest stakes. Granted, the last two seasons are pretty good, but getting to that point is a rough ride."
-    },
-    {
         "ImageLink": "https://static.wikia.nocookie.net/marveldatabase/images/9/91/Avengers_Earth%27s_Mightiest_Heroes_Vol_2_2_Textless.jpg/revision/latest?cb=20130713160400",
-        "Tier": "A+",
+        "Tier": "Top 10",
         "Title": "Avengers: Earth's Mightiest Heroes",
         "PremiereDate": 2010,
         "EndDate": 2012,
@@ -350,31 +306,11 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://static.wikia.nocookie.net/batman/images/3/36/QTYUK6BHYHXEuMiVI6KjZOkm2w4.jpg/revision/latest?cb=20200304202924",
-        "Tier": "A",
-        "Title": "The Batman (2004)",
-        "PremiereDate": 2004,
-        "EndDate": 2008,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Western Animation",
-            "Action",
-            "Adventure",
-            "Crime",
-            "Family",
-            "Mystery",
-            "Super Powers",
-            "Based on DC Comics"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "A",
-        "Title": "Batman: The Animated Series",
-        "PremiereDate": 1992,
-        "EndDate": 1995,
+        "Title": "Batman Beyond",
+        "PremiereDate": 1999,
+        "EndDate": 2001,
         "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
@@ -385,9 +321,9 @@
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "A",
-        "Title": "Batman Beyond",
-        "PremiereDate": 1999,
-        "EndDate": 2001,
+        "Title": "Batman: The Animated Series",
+        "PremiereDate": 1992,
+        "EndDate": 1995,
         "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
@@ -450,19 +386,6 @@
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "F",
-        "Title": "The Boys",
-        "PremiereDate": 2019,
-        "EndDate": 0,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Clearly inspired by Watchmen, this show is also trying to be the next Game of Thrones and has enough violence, gore, and sex to make HBO a little jealous. The story is well-written, and I actually really like the actors, but I cannot recommend this show. I only watched it as long as I did because Erin Moriarty (Starlight's actress) is pretty, but even then, it was not worth it. I should have called it quits after the first five minutes of episode 1."
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "F",
         "Title": "Bureau of Magical Things",
         "PremiereDate": 2018,
         "EndDate": 2021,
@@ -488,7 +411,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "K",
+        "Tier": "Conflicted",
         "Title": "Castlevania",
         "PremiereDate": 2017,
         "EndDate": 2021,
@@ -592,6 +515,19 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "C",
+        "Title": "DC's Legends of Tomorrow",
+        "PremiereDate": 2016,
+        "EndDate": 2022,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "B",
         "Title": "Death Note",
         "PremiereDate": 2006,
@@ -605,20 +541,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "D",
-        "Title": "The Defenders",
-        "PremiereDate": 2017,
-        "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "U",
+        "Tier": "Undecided",
         "Title": "Delicious in Dungeon",
         "PremiereDate": 2024,
         "EndDate": 0,
@@ -628,32 +551,6 @@
             "Comedy",
             "Fantasy",
             "Gourmet"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "F",
-        "Title": "The Demon Sword Master of Excalibur Academy",
-        "PremiereDate": 2023,
-        "EndDate": 2023,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "F",
-        "Title": "The Devil is a Part-Timer",
-        "PremiereDate": 2013,
-        "EndDate": 2023,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
         ],
         "Description": "N/A",
         "Review": "N/A"
@@ -725,7 +622,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "K",
+        "Tier": "Conflicted",
         "Title": "Doom Patrol",
         "PremiereDate": 2019,
         "EndDate": 2023,
@@ -764,19 +661,6 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A+",
-        "Title": "The Dragon Prince",
-        "PremiereDate": 2018,
-        "EndDate": 0,
-        "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Co-created by Aaron Ehasz (writer/co-producer of Avatar: TLA) and Justin Richmond (co-director of Uncharted 3), this show delivers a magical world filled with intrigue, action, romance, and heart. Though the animation does take a little getting used to, Dragon Prince is a great fantasy show for people of all ages."
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "B",
         "Title": "DuckTales (1987)",
         "PremiereDate": 1987,
@@ -790,7 +674,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A+",
+        "Tier": "Top 10",
         "Title": "DuckTales (2017)",
         "PremiereDate": 2017,
         "EndDate": 2021,
@@ -829,7 +713,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "U",
+        "Tier": "Undecided",
         "Title": "Eureka",
         "PremiereDate": 2006,
         "EndDate": 2012,
@@ -856,19 +740,6 @@
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "B",
-        "Title": "The Falcon and the Winter Soldier",
-        "PremiereDate": 2021,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "B",
         "Title": "Fantastic Four: World's Greatest Heroes",
         "PremiereDate": 2006,
         "EndDate": 2010,
@@ -881,20 +752,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "D",
-        "Title": "The Flash (2014)",
-        "PremiereDate": 2014,
-        "EndDate": 2023,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Season 1 was utter perfection. Season 2 was still great, but it didn't reach the same level as its predecessor. Seasons 3-5 were a mixed bag, there were great moments, but there were also many questionable choices. After that, the writing went downhill very quickly, to the point that I couldn't even finish watching season 8 because it had gotten that bad."
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "K",
+        "Tier": "Conflicted",
         "Title": "Food Wars! Shokugeki no Soma",
         "PremiereDate": 2015,
         "EndDate": 2020,
@@ -907,7 +765,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A+",
+        "Tier": "Top 10",
         "Title": "Friren: After Journey's End",
         "PremiereDate": 2023,
         "EndDate": 2024,
@@ -917,19 +775,6 @@
         ],
         "Description": "N/A",
         "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "F",
-        "Title": "House of the Dragon",
-        "PremiereDate": 2022,
-        "EndDate": 0,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "I realized that I was only watching this show because of Millie Alcock. Otherwise, this show is very disturbing, and it makes me extremely uncomfortable to watch. With rampant gore, nudity, and a cast of self-centered characters continuously back-stabbing each other, I wish I'd never started this show."
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
@@ -959,19 +804,6 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A",
-        "Title": "The Ghost & Molly McGee",
-        "PremiereDate": 2021,
-        "EndDate": 2024,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "B",
         "Title": "Glitch Techs",
         "PremiereDate": 2020,
@@ -989,19 +821,6 @@
         "Title": "Good Night World",
         "PremiereDate": 2023,
         "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "D",
-        "Title": "The Good Place",
-        "PremiereDate": 2016,
-        "EndDate": 2020,
         "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
@@ -1037,36 +856,10 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "F",
-        "Title": "The Great Jahy Will Not Be Defeated",
-        "PremiereDate": 2021,
-        "EndDate": 2021,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "B",
         "Title": "Green Lantern: The Animated Series",
         "PremiereDate": 2011,
         "EndDate": 2013,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "B",
-        "Title": "The Grim Adventures of Billy and Mandy",
-        "PremiereDate": 2003,
-        "EndDate": 2007,
         "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
@@ -1128,7 +921,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "K",
+        "Tier": "Conflicted",
         "Title": "Hazbin Hotel",
         "PremiereDate": 2019,
         "EndDate": 0,
@@ -1154,7 +947,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "K",
+        "Tier": "Conflicted",
         "Title": "Helluva Boss",
         "PremiereDate": 2019,
         "EndDate": 0,
@@ -1177,6 +970,19 @@
         ],
         "Description": "N/A",
         "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "F",
+        "Title": "House of the Dragon",
+        "PremiereDate": 2022,
+        "EndDate": 0,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "I realized that I was only watching this show because of Millie Alcock. Otherwise, this show is very disturbing, and it makes me extremely uncomfortable to watch. With rampant gore, nudity, and a cast of self-centered characters continuously back-stabbing each other, I wish I'd never started this show."
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
@@ -1271,7 +1077,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A+",
+        "Tier": "Top 10",
         "Title": "Justice League",
         "AltName": "Justice League Unlimited",
         "PremiereDate": 2001,
@@ -1298,7 +1104,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "K",
+        "Tier": "Conflicted",
         "Title": "Kill la Kill",
         "PremiereDate": 2013,
         "EndDate": 2014,
@@ -1328,19 +1134,6 @@
         "Title": "Koro Sensei's Quest",
         "PremiereDate": 2016,
         "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "C",
-        "Title": "DC's Legends of Tomorrow",
-        "PremiereDate": 2016,
-        "EndDate": 2022,
         "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
@@ -1448,6 +1241,25 @@
         "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTkwODYyMjgzOV5BMl5BanBnXkFtZTgwODAzMTE5MjE@._V1_.jpg",
+        "Tier": "D",
+        "Title": "Marvel's Agents of S.H.I.E.L.D.",
+        "PremiereDate": 2013,
+        "EndDate": 2020,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Live-Action",
+            "Action",
+            "Adventure",
+            "Drama",
+            "Sci-Fi",
+            "Thriller",
+            "Secret Agents"
         ],
         "Description": "N/A",
         "Review": "N/A"
@@ -1584,32 +1396,6 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "F",
-        "Title": "The Office",
-        "PremiereDate": 2005,
-        "EndDate": 2013,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "I don't usually do sitcoms anyway, but this show has not aged well. At all. I couldn't even get through a single episode without nearly dying of cringe. The only way you're getting through this show is with heavy doses of nostalgia - or brain damage."
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "C",
-        "Title": "Once Upon a Time",
-        "PremiereDate": 2011,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "A",
         "Title": "Once Punch Man",
         "PremiereDate": 2015,
@@ -1624,28 +1410,15 @@
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "C",
-        "Title": "The Orville",
-        "PremiereDate": 2017,
-        "EndDate": 2022,
+        "Title": "Once Upon a Time",
+        "PremiereDate": 2011,
+        "EndDate": 2018,
         "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],
         "Description": "N/A",
         "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "B",
-        "Title": "The Owl House",
-        "PremiereDate": 2020,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "While there isn't anything especially unique about this show, Owl House does have a certain charm to it. Whether that's due to the quirky cast of characters, the interesting magic system, or even just the wackiness of the world itself, Owl House is a fun, albeit slightly truncated, show."
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
@@ -1667,19 +1440,6 @@
         "PremiereDate": 2023,
         "EndDate": 0,
         "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "D",
-        "Title": "The Peripheral",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],
@@ -1714,20 +1474,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "D",
-        "Title": "The Punisher",
-        "PremiereDate": 2017,
-        "EndDate": 2019,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A+",
+        "Tier": "Top 10",
         "Title": "Rapunzel's Tangled Adventure",
         "AltName": "Tangled: The Series",
         "PremiereDate": 2017,
@@ -1767,20 +1514,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "D",
-        "Title": "The Lord of the Rings: Rings of Power",
-        "PremiereDate": 2022,
-        "EndDate": 0,
-        "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A+",
+        "Tier": "Top 10",
         "Title": "Romantic Killer",
         "PremiereDate": 2022,
         "EndDate": 2022,
@@ -1845,7 +1579,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A+",
+        "Tier": "Top 10",
         "Title": "Samurai Jack",
         "PremiereDate": 2001,
         "EndDate": 2017,
@@ -1855,19 +1589,6 @@
         ],
         "Description": "N/A",
         "Review": "Samurai Jack dared ask the question, \"What if the protagonist didn't say anything?\" And it worked. Extremely well. This show is visually stunning, with memorable characters and riveting action sequences. The only downside is that you have to go beat the video game to see the show's \"true\" ending (or you could just look it up on Youtube)."
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "C",
-        "Title": "The Santa Clauses",
-        "PremiereDate": 2022,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
@@ -1894,19 +1615,6 @@
         ],
         "Description": "N/A",
         "Review": "Such a complete waste of potential. It could have been a great spy-thriller featuring Nick Fury singlehandedly building a team of trusted agents to root out Skrulls hidden throughout the world's governments. If you want a good adaptation of Secret Invasion, go watch Avengers: Earth's Mightiest Heroes."
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A",
-        "Title": "A Series of Unfortunate Events",
-        "PremiereDate": 2017,
-        "EndDate": 2019,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
@@ -2027,32 +1735,6 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "B",
-        "Title": "Star Wars: The Bad Batch",
-        "PremiereDate": 2021,
-        "EndDate": 2024,
-        "WatchStatus": "Watching",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "F",
-        "Title": "Star Wars: The Book of Boba Fett",
-        "PremiereDate": 2021,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "A",
         "Title": "Star Wars: Clone Wars",
         "PremiereDate": 2003,
@@ -2063,32 +1745,6 @@
         ],
         "Description": "N/A",
         "Review": "Gendy Tartovsky (of Samurai Jack and Primal fame) does Star Wars. What more do you want?"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A",
-        "Title": "Star Wars: The Clone Wars",
-        "PremiereDate": 2008,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "A",
-        "Title": "Star Wars: The Mandalorian",
-        "PremiereDate": 2019,
-        "EndDate": 0,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Jon Favreau (Iron Man) and Dave Filoni (SW: The Clone Wars) take the term \"space western\" to a whole new level. A lone cowboy roaming the galaxy, getting into shoot-outs, and helping those he comes across, all while protecting a kid with special powers. Granted, the later seasons have started to branch out to follow other characters, but the core of the show is still intact."
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
@@ -2128,6 +1784,58 @@
         ],
         "Description": "N/A",
         "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "B",
+        "Title": "Star Wars: The Bad Batch",
+        "PremiereDate": 2021,
+        "EndDate": 2024,
+        "WatchStatus": "Watching",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "F",
+        "Title": "Star Wars: The Book of Boba Fett",
+        "PremiereDate": 2021,
+        "EndDate": 2022,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "A",
+        "Title": "Star Wars: The Clone Wars",
+        "PremiereDate": 2008,
+        "EndDate": 2020,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "A",
+        "Title": "Star Wars: The Mandalorian",
+        "PremiereDate": 2019,
+        "EndDate": 0,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Jon Favreau (Iron Man) and Dave Filoni (SW: The Clone Wars) take the term \"space western\" to a whole new level. A lone cowboy roaming the galaxy, getting into shoot-outs, and helping those he comes across, all while protecting a kid with special powers. Granted, the later seasons have started to branch out to follow other characters, but the core of the show is still intact."
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
@@ -2299,6 +2007,311 @@
         "Review": "The fans wanted another season of the 2003 Teen Titans show but instead got a pale, hollow reflection. It is nice to hear the original cast members reprise their roles, but the characters have become extremely simplified versions of their old selves. Teen Titans GO! can be an enjoyable show, but if you're looking for a continuation of the original, you'd be best to keep searching."
     },
     {
+        "ImageLink": "https://rantingpenguincom.files.wordpress.com/2018/09/magus.jpg",
+        "Tier": "C",
+        "Title": "The Ancient Magus' Bride",
+        "AltName": "Mahoutsukai no Yome",
+        "PremiereDate": 2017,
+        "EndDate": 0,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Anime",
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Mystery",
+            "Romance",
+            "Mythology"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://static.wikia.nocookie.net/batman/images/3/36/QTYUK6BHYHXEuMiVI6KjZOkm2w4.jpg/revision/latest?cb=20200304202924",
+        "Tier": "A",
+        "Title": "The Batman (2004)",
+        "PremiereDate": 2004,
+        "EndDate": 2008,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Western Animation",
+            "Action",
+            "Adventure",
+            "Crime",
+            "Family",
+            "Mystery",
+            "Super Powers",
+            "Based on DC Comics"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "F",
+        "Title": "The Boys",
+        "PremiereDate": 2019,
+        "EndDate": 0,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Clearly inspired by Watchmen, this show is also trying to be the next Game of Thrones and has enough violence, gore, and sex to make HBO a little jealous. The story is well-written, and I actually really like the actors, but I cannot recommend this show. I only watched it as long as I did because Erin Moriarty (Starlight's actress) is pretty, but even then, it was not worth it. I should have called it quits after the first five minutes of episode 1."
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "D",
+        "Title": "The Defenders",
+        "PremiereDate": 2017,
+        "EndDate": 2017,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "F",
+        "Title": "The Demon Sword Master of Excalibur Academy",
+        "PremiereDate": 2023,
+        "EndDate": 2023,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "F",
+        "Title": "The Devil is a Part-Timer",
+        "PremiereDate": 2013,
+        "EndDate": 2023,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "Top 10",
+        "Title": "The Dragon Prince",
+        "PremiereDate": 2018,
+        "EndDate": 0,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Co-created by Aaron Ehasz (writer/co-producer of Avatar: TLA) and Justin Richmond (co-director of Uncharted 3), this show delivers a magical world filled with intrigue, action, romance, and heart. Though the animation does take a little getting used to, Dragon Prince is a great fantasy show for people of all ages."
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "B",
+        "Title": "The Falcon and the Winter Soldier",
+        "PremiereDate": 2021,
+        "EndDate": 2021,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "Undecided",
+        "Title": "The Flash",
+        "PremiereDate": 1990,
+        "EndDate": 1991,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "D",
+        "Title": "The Flash (2014)",
+        "PremiereDate": 2014,
+        "EndDate": 2023,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Season 1 was utter perfection. Season 2 was still great, but it didn't reach the same level as its predecessor. Seasons 3-5 were a mixed bag, there were great moments, but there were also many questionable choices. After that, the writing went downhill very quickly, to the point that I couldn't even finish watching season 8 because it had gotten that bad."
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "A",
+        "Title": "The Ghost & Molly McGee",
+        "PremiereDate": 2021,
+        "EndDate": 2024,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "D",
+        "Title": "The Good Place",
+        "PremiereDate": 2016,
+        "EndDate": 2020,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "F",
+        "Title": "The Great Jahy Will Not Be Defeated",
+        "PremiereDate": 2021,
+        "EndDate": 2021,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "B",
+        "Title": "The Grim Adventures of Billy and Mandy",
+        "PremiereDate": 2003,
+        "EndDate": 2007,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BN2NjNWEyNmItYWM3MC00NTE2LWE1ZmYtNWE2OTRjMzlkNmIxXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "D",
+        "Title": "The Legend of Korra",
+        "PremiereDate": 2012,
+        "EndDate": 2014,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Western Animation",
+            "Action",
+            "Adventure",
+            "Family",
+            "Fantasy",
+            "Mythology"
+        ],
+        "Description": "N/A",
+        "Review": "How the mighty have fallen. Korra fails to live up to the standard set by The Last Airbender, not because the characters are badly written or because of the lack of elements and characters from TLA, but because the story isn't cohesive. Not to spoil anything, but seasons 1 and 2 have pretty high stakes, and then seasons 3 and 4 come along with much lowest stakes. Granted, the last two seasons are pretty good, but getting to that point is a rough ride."
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "D",
+        "Title": "The Lord of the Rings: Rings of Power",
+        "PremiereDate": 2022,
+        "EndDate": 0,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "F",
+        "Title": "The Office",
+        "PremiereDate": 2005,
+        "EndDate": 2013,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "I don't usually do sitcoms anyway, but this show has not aged well. At all. I couldn't even get through a single episode without nearly dying of cringe. The only way you're getting through this show is with heavy doses of nostalgia - or brain damage."
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "C",
+        "Title": "The Orville",
+        "PremiereDate": 2017,
+        "EndDate": 2022,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "B",
+        "Title": "The Owl House",
+        "PremiereDate": 2020,
+        "EndDate": 2023,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "While there isn't anything especially unique about this show, Owl House does have a certain charm to it. Whether that's due to the quirky cast of characters, the interesting magic system, or even just the wackiness of the world itself, Owl House is a fun, albeit slightly truncated, show."
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "D",
+        "Title": "The Peripheral",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "D",
+        "Title": "The Punisher",
+        "PremiereDate": 2017,
+        "EndDate": 2019,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "C",
+        "Title": "The Santa Clauses",
+        "PremiereDate": 2022,
+        "EndDate": 2023,
+        "WatchStatus": "Complete",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "B",
         "Title": "The Tick",
@@ -2326,6 +2339,19 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
+        "Tier": "Conflicted",
+        "Title": "The Witcher",
+        "PremiereDate": 2019,
+        "EndDate": 0,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
         "Tier": "F",
         "Title": "Titans",
         "PremiereDate": 2018,
@@ -2339,7 +2365,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "U",
+        "Tier": "Undecided",
         "Title": "Tomo-chan Is a Girl!",
         "PremiereDate": 2023,
         "EndDate": 2023,
@@ -2352,7 +2378,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "U",
+        "Tier": "Undecided",
         "Title": "Toradora!",
         "PremiereDate": 2008,
         "EndDate": 2009,
@@ -2469,7 +2495,7 @@
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "K",
+        "Tier": "Conflicted",
         "Title": "Westworld",
         "PremiereDate": 2016,
         "EndDate": 2022,
@@ -2492,19 +2518,6 @@
         ],
         "Description": "N/A",
         "Review": "Like other anthology shows, most episodes are self-contained, though What if...? does break this rule occasionally, having certain characters and plot threads returning in later episodes. There are some really good episodes here, and while the rest aren't perfect, they're enjoyable enough for what they are: familiar MCU characters in unfamiliar circumstances."
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "K",
-        "Title": "The Witcher",
-        "PremiereDate": 2019,
-        "EndDate": 0,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
     },
     {
         "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
@@ -2565,19 +2578,6 @@
         "PremiereDate": 2018,
         "EndDate": 2021,
         "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://external-preview.redd.it/5h072hUGg0rINvHx0CYH8k2OVeF8_cLkdSokeRsep34.jpg?auto=webp&s=5d81f59c0dcfa703c331c28c3041caf961aa1731",
-        "Tier": "U",
-        "Title": "The Flash",
-        "PremiereDate": 1990,
-        "EndDate": 1991,
-        "WatchStatus": "Hold",
         "Tags": [
             "Unsorted"
         ],
