@@ -1,8 +1,5 @@
 import PropTypes from "prop-types";
-import Modal from "@mui/material/Modal";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
+import { Modal, Box, Typography, IconButton, Chip, Stack } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 
 const modalStyle = {
@@ -13,6 +10,7 @@ const modalStyle = {
   width: "80%",
   maxWidth: 800,
   bgcolor: "background.paper",
+  color: "black",
   boxShadow: 24,
   p: 4,
   outline: "none",
@@ -24,8 +22,9 @@ const ShowModal = ({ show, isOpen, onClose }) => {
     ImageLink = "",
     WatchStatus = "N/A",
     Tier = "N/A",
-    PremiereDate = "N/A",
-    Tags = ["Unsorted"],
+    PremiereDate = 0,
+    EndDate = 0,
+    Tags = [],
     Review = "No review available",
   } = show;
 
@@ -57,19 +56,24 @@ const ShowModal = ({ show, isOpen, onClose }) => {
             <Typography id="modal-title" variant="h4" component="h2">
               <strong>{Title}</strong>
             </Typography>
-            <Typography id="modal-description" sx={{ mt: 2 }}>
-              <strong>Watch Status:</strong> {WatchStatus}
+            <Typography id="modal-subtitle" variant="h5" sx={{ mt: .5, }}>
+              Alternate Title
+            </Typography>
+            <Typography variant="h6" sx={{ mb: 1 }}>
+              {PremiereDate} - {EndDate}
             </Typography>
             <Typography>
               <strong>Tier:</strong> {Tier}
             </Typography>
             <Typography>
-              <strong>Premiere Date:</strong> {PremiereDate}
+              <strong>Watch Status:</strong> {WatchStatus}
             </Typography>
-            <Typography>
-              {Tags.join(", ")}
-            </Typography>
-            <Typography id="modal-review" sx={{ mt: 4 }}>
+            <Stack direction="row">
+              {Tags.map((tag, index) => (
+                <Chip key={index} label={tag} sx={{ margin: "2px" }}/>
+              ))}
+            </Stack>
+            <Typography sx={{ mt: 4 }}>
               <strong>Review:</strong> {Review}
             </Typography>
           </Box>
@@ -85,8 +89,10 @@ ShowModal.propTypes = {
     ImageLink: PropTypes.string.isRequired,
     WatchStatus: PropTypes.string,
     Tier: PropTypes.string,
-    PremiereDate: PropTypes.string,
+    PremiereDate: PropTypes.number,
+    EndDate: PropTypes.number,
     Tags: PropTypes.arrayOf(PropTypes.string),
+    Description: PropTypes.string,
     Review: PropTypes.string,
   }).isRequired,
   isOpen: PropTypes.bool.isRequired,

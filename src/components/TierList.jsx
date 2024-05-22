@@ -5,21 +5,29 @@ function TierList() {
   const [tierData, setTierData] = useState({});
   const [error, setError] = useState(null);
 
-  const JSON_URL = "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/c48f47c4428f5e09f0404bd02991c38d4237dfb8/tvShowsGraded.json";
- 
+  const JSON_URL =
+    "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/0f1cffbde7cd48250ef3fe84968c0f0d9762bc5c/tvShowsGraded.json";
+
+  //in case the server decides to not cooperate, use a local backup
+  const useLocalFile = true;
+  const LOCAL_JSON_URL = "/public/tvShowsGraded.json";
+
   useEffect(() => {
-    fetch(JSON_URL, {mode: "cors"})
-      .then((response) => {
-        if(response.status >= 400) {
+    const fetchData = async () => {
+      try {
+        const url = useLocalFile ? LOCAL_JSON_URL : JSON_URL;
+        const response = await fetch(url, { mode: "cors" });
+
+        if (response.status >= 400) {
           //in case JSON isn't found due to network or pathing issues
           throw new Error("server error");
         }
-        return response.json();
-      })
-      .then((data) => {
+
+        const data = await response.json();
+
         //Creates arrays for each Tier of the Tier List and pushes each show into the appropriate array
         const tiers = data.reduce((acc, show) => {
-          if(!acc[show.Tier]) {
+          if (!acc[show.Tier]) {
             acc[show.Tier] = [];
           }
           acc[show.Tier].push(show);
@@ -27,31 +35,45 @@ function TierList() {
         }, {});
 
         //Sort shows alphabetically in each tier using SortName (which drops intances of "A" and "The")
-        for(const tier in tiers) {
-          tiers[tier].sort((a,b) => a.SortName.localeCompare(b.SortName));
+        for (const tier in tiers) {
+          tiers[tier].sort((a, b) => a.SortName.localeCompare(b.SortName));
         }
 
         setTierData(tiers);
-      })
-      .catch((error) => setError(error));
-  }, []);
+      } catch (error) {
+        setError(error);
+      }
+    };
 
-  if (error) return <p>We appear to be having network-related issues. Please contact site admin for assitance.</p>
+    fetchData();
+  }, [useLocalFile]);
 
-  return(
+  if (error)
+    return (
+      <p>
+        We appear to be having network-related issues. Please contact site admin
+        for assitance.
+      </p>
+    );
+
+  return (
     <div>
-      {//this whole thing loops over every show, going tier by tier
-      Object.keys(tierData).map((tier) => (
-        <div key={tier}>
-          <h2>{tier}</h2>
-          <div style={{display: "flex", flexWrap: "wrap"}}>
-            {//this creates a little card for each show as we map over each tier
-            tierData[tier].map((show) => (
-              <ShowCard key={show.SortName} show={show} />
-            ))}
+      {
+        //this whole thing loops over every show, going tier by tier
+        Object.keys(tierData).map((tier) => (
+          <div key={tier}>
+            <h2>{tier}</h2>
+            <div style={{ display: "flex", flexWrap: "wrap" }}>
+              {
+                //this creates a little card for each show as we map over each tier
+                tierData[tier].map((show) => (
+                  <ShowCard key={show.SortName} show={show} />
+                ))
+              }
+            </div>
           </div>
-        </div>
-      ))}
+        ))
+      }
     </div>
   );
 }
