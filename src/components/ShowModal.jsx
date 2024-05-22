@@ -9,7 +9,7 @@ const modalStyle = {
   transform: "translate(-50%, -50%)",
   width: "80%",
   maxWidth: 800,
-  bgcolor: "background.paper",
+  bgcolor: "beige",
   color: "black",
   boxShadow: 24,
   p: 4,
@@ -37,7 +37,7 @@ const ShowModal = ({ show, isOpen, onClose }) => {
     Tier = "Undecided",
     PremiereDate = 0,
     EndDate = 0,
-    Tags = [ "Unsorted" ],
+    Tags = ["Unsorted"],
     Description = "No description available",
     Review = "No review available",
   } = show;

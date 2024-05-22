@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import ShowCard from "./ShowCard";
+import { Box, Typography } from "@mui/material";
 
 function TierList() {
   const [tierData, setTierData] = useState({});
@@ -12,16 +13,17 @@ function TierList() {
   const useLocalFile = false;
   const LOCAL_JSON_URL = "/tvShowsGraded.json";
 
+  //allows custom placement of tiers
   const tierOrder = {
     "Top 10": 0,
-    "A": 1,
-    "B": 2,
-    "C": 3,
-    "D": 4,
-    "F": 5,
-    "Conflicted": 6,
-    "Undecided": 7,
-  }
+    A: 1,
+    B: 2,
+    C: 3,
+    D: 4,
+    F: 5,
+    Conflicted: 6,
+    Undecided: 7,
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -47,7 +49,7 @@ function TierList() {
           return acc;
         }, {});
 
-        //Sort shows alphabetically in each tier
+        //Sort shows alphabetically in each tier, ignores "The" at beginning of titles
         for (const tier in tiers) {
           tiers[tier].sort((a, b) => {
             const titleA = a.Title.replace(/^The\s+/i, "");
@@ -74,27 +76,44 @@ function TierList() {
       </p>
     );
 
-  const sortedTiers = Object.keys(tierData).sort((a, b) => tierOrder[a] - tierOrder[b]);
+  const sortedTiers = Object.keys(tierData).sort(
+    (a, b) => tierOrder[a] - tierOrder[b]
+  );
 
   return (
-    <div>
+    <Box sx={{ p: 1 }}>
       {
-        //this whole thing loops over every show, going tier by tier
+        //this whole thing loops over every show, going tier by tier, using sortedTiers to enforce desired Tier Order
         sortedTiers.map((tier) => (
-          <div key={tier}>
-            <h2>{tier}</h2>
-            <div style={{ display: "flex", flexWrap: "wrap" }}>
+          <Box key={tier} sx={{ mb: 4 }}>
+            <Typography
+              variant="h4"
+              component="h2"
+              sx={{
+                mb: 2,
+                textAlign: "center",
+              }}
+            >
+              <strong>{tier}</strong>
+            </Typography>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                flexWrap: "wrap",
+              }}
+            >
               {
                 //this creates a little card for each show as we map over each tier
                 tierData[tier].map((show) => (
                   <ShowCard key={show.Title} show={show} />
                 ))
               }
-            </div>
-          </div>
+            </Box>
+          </Box>
         ))
       }
-    </div>
+    </Box>
   );
 }
 
