@@ -1,6 +1,12 @@
 import { useState, useEffect } from "react";
 import ShowCard from "./ShowCard";
-import { Box, Typography } from "@mui/material";
+import {
+  Box,
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+} from "@mui/material";
+import { ExpandMoreRounded } from "@mui/icons-material";
 
 function TierList() {
   const [tierData, setTierData] = useState({});
@@ -85,22 +91,28 @@ function TierList() {
       {
         //this whole thing loops over every show, going tier by tier, using sortedTiers to enforce desired Tier Order
         sortedTiers.map((tier) => (
-          <Box key={tier} sx={{ mb: 4 }}>
-            <Typography
+          <Accordion defaultExpanded key={tier} sx={{background: "#15191c", color: "white"}}>
+            <AccordionSummary
+              expandIcon={<ExpandMoreRounded />}
+              aria-controls={`panel-${tier}-content`}
+              id={`panel-${tier}-header`}
               variant="h4"
               component="h2"
               sx={{
-                mb: 2,
-                textAlign: "center",
+                justifyContent: "center",
+                "& .MuiAccordionSummary-content": {
+                  justifyContent: "center",
+                },
               }}
             >
               <strong>{tier}</strong>
-            </Typography>
-            <Box
+            </AccordionSummary>
+            <AccordionDetails
               sx={{
                 display: "flex",
                 justifyContent: "center",
                 flexWrap: "wrap",
+                background: "#121212"
               }}
             >
               {
@@ -109,8 +121,8 @@ function TierList() {
                   <ShowCard key={show.Title} show={show} />
                 ))
               }
-            </Box>
-          </Box>
+            </AccordionDetails>
+          </Accordion>
         ))
       }
     </Box>
