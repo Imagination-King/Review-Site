@@ -5,8 +5,14 @@ import {
   Accordion,
   AccordionDetails,
   AccordionSummary,
+  Typography,
 } from "@mui/material";
-import { ExpandMoreRounded } from "@mui/icons-material";
+import {
+  ExpandMoreRounded,
+  SortRounded,
+  UnfoldLessRounded,
+  UnfoldMoreRounded,
+} from "@mui/icons-material";
 
 function TierList() {
   const [tierData, setTierData] = useState({});
@@ -88,10 +94,36 @@ function TierList() {
 
   return (
     <Box sx={{ p: 1 }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          p: "0 1em",
+          justifyContent: "space-between",
+        }}
+      >
+        <Box sx={{ display: "flex", flexDirection: "row" }}>
+          <SortRounded></SortRounded>
+          <Typography>Sort</Typography>
+        </Box>
+        <Box sx={{ display: "flex", flexDirection: "row" }}>
+          <UnfoldMoreRounded></UnfoldMoreRounded>
+          <Typography sx={{ pr: "1.5em" }}>Expand All</Typography>
+          <UnfoldLessRounded></UnfoldLessRounded>
+          <Typography>Collapse All</Typography>
+        </Box>
+      </Box>
       {
         //this whole thing loops over every show, going tier by tier, using sortedTiers to enforce desired Tier Order
         sortedTiers.map((tier) => (
-          <Accordion defaultExpanded key={tier} sx={{background: "#15191c", color: "white"}}>
+          <Accordion
+            defaultExpanded
+            key={tier}
+            sx={{
+              background: "#15191c",
+              color: "white",
+            }}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreRounded />}
               aria-controls={`panel-${tier}-content`}
@@ -112,7 +144,7 @@ function TierList() {
                 display: "flex",
                 justifyContent: "center",
                 flexWrap: "wrap",
-                background: "#121212"
+                background: "#121212",
               }}
             >
               {
