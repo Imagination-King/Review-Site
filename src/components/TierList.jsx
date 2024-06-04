@@ -13,8 +13,9 @@ import {
   UnfoldLessRounded,
   UnfoldMoreRounded,
 } from "@mui/icons-material";
+import PropTypes from "prop-types";
 
-function TierList() {
+function TierList({mode}) {
   const [tierData, setTierData] = useState({});
   const [error, setError] = useState(null);
 
@@ -117,12 +118,11 @@ function TierList() {
         //this whole thing loops over every show, going tier by tier, using sortedTiers to enforce desired Tier Order
         sortedTiers.map((tier) => (
           <Accordion
-            defaultExpanded
             key={tier}
-            sx={{
-              background: "#15191c",
-              color: "white",
-            }}
+            // sx={{
+            //   background: "#15191c",
+            //   color: "white",
+            // }}
           >
             <AccordionSummary
               expandIcon={<ExpandMoreRounded />}
@@ -144,13 +144,13 @@ function TierList() {
                 display: "flex",
                 justifyContent: "center",
                 flexWrap: "wrap",
-                background: "#121212",
+                // background: "#121212",
               }}
             >
               {
                 //this creates a little card for each show as we map over each tier
                 tierData[tier].map((show) => (
-                  <ShowCard key={show.Title} show={show} />
+                  <ShowCard key={show.Title} show={show} mode={mode}/>
                 ))
               }
             </AccordionDetails>
@@ -160,5 +160,9 @@ function TierList() {
     </Box>
   );
 }
+
+TierList.propTypes = {
+  mode: PropTypes.string.isRequired,
+};
 
 export default TierList;
