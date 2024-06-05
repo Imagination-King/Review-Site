@@ -2,10 +2,11 @@ import { useState, useEffect, useMemo } from "react";
 import ShowCard from "./ShowCard";
 import {
   Box,
+  Typography,
+  Button,
   Accordion,
   AccordionDetails,
   AccordionSummary,
-  Typography,
 } from "@mui/material";
 import {
   ExpandMoreRounded,
@@ -17,6 +18,7 @@ import PropTypes from "prop-types";
 
 function TierList({ mode }) {
   const [tierData, setTierData] = useState({});
+  const [tierExpanded, setTierExpanded] = useState({});
   const [error, setError] = useState(null);
 
   const JSON_URL =
@@ -28,7 +30,7 @@ function TierList({ mode }) {
 
   const tiersDefined = useMemo(
     () => [
-      { key: "Top 10", name: "S Tier: Current Top 10", order: 0 },
+      { key: "S", name: "S Tier: Current Top 10", order: 0 },
       { key: "A", name: "A Tier: All Around Great", order: 1 },
       { key: "B", name: "B Tier: Flawed But Still Enjoyable", order: 2 },
       { key: "C", name: "C Tier: They Had Their Moments", order: 3 },
@@ -39,6 +41,36 @@ function TierList({ mode }) {
     ],
     []
   );
+
+  const handleExpandAll = () => {
+    tiersDefined
+      .slice()
+      .reverse()
+      .forEach((tier, index) => {
+        setTimeout(() => {
+          setTierExpanded((prevExpanded) => ({
+            ...prevExpanded,
+            [tier.key]: true,
+          }));
+        }, index * 50); // Adjust the delay time as needed
+      });
+  };
+  const handleCollapseAll = () => {
+    tiersDefined.forEach((tier, index) => {
+      setTimeout(() => {
+        setTierExpanded((prevExpanded) => ({
+          ...prevExpanded,
+          [tier.key]: false,
+        }));
+      }, index * 50); // Adjust the delay time as needed
+    });
+  };
+  const handleAccordionChange = (key) => (event, isExpanded) => {
+    setTierExpanded((prevExpanded) => ({
+      ...prevExpanded,
+      [key]: isExpanded,
+    }));
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -107,16 +139,30 @@ function TierList({ mode }) {
           <Typography>Sort</Typography>
         </Box>
         <Box sx={{ display: "flex", flexDirection: "row" }}>
-          <UnfoldMoreRounded />
-          <Typography sx={{ pr: "1.5em" }}>Expand All</Typography>
-          <UnfoldLessRounded />
-          <Typography>Collapse All</Typography>
+          <Button
+            variant="text"
+            startIcon={<UnfoldMoreRounded />}
+            onClick={handleExpandAll}
+          >
+            Expand
+          </Button>
+          <Button
+            variant="text"
+            startIcon={<UnfoldLessRounded />}
+            onClick={handleCollapseAll}
+          >
+            Collapse
+          </Button>
         </Box>
       </Box>
       {tiersDefined
         .sort((a, b) => a.order - b.order)
         .map((tier) => (
-          <Accordion key={tier.key}>
+          <Accordion
+            key={tier.key}
+            expanded={tierExpanded[tier.key] || false}
+            onChange={handleAccordionChange(tier.key)}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreRounded />}
               aria-controls={`panel-${tier.key}-content`}
