@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import ShowCard from "./ShowCard";
 import {
   Box,
@@ -15,7 +15,7 @@ import {
 } from "@mui/icons-material";
 import PropTypes from "prop-types";
 
-function TierList({mode}) {
+function TierList({ mode }) {
   const [tierData, setTierData] = useState({});
   const [error, setError] = useState(null);
 
@@ -26,23 +26,24 @@ function TierList({mode}) {
   const useLocalFile = false;
   const LOCAL_JSON_URL = "/tvShowsGraded.json";
 
-  //allows custom placement of tiers
-  const tierOrder = {
-    "Top 10": 0,
-    A: 1,
-    B: 2,
-    C: 3,
-    D: 4,
-    F: 5,
-    Conflicted: 6,
-    Undecided: 7,
-  };
+  const tiersDefined = useMemo(
+    () => [
+      { key: "Top 10", name: "S Tier: Current Top 10", order: 0 },
+      { key: "A", name: "A Tier: All Around Great", order: 1 },
+      { key: "B", name: "B Tier: Flawed But Still Enjoyable", order: 2 },
+      { key: "C", name: "C Tier: They Had Their Moments", order: 3 },
+      { key: "D", name: "D Tier: Mostly Wasted Potential", order: 4 },
+      { key: "F", name: "F Tier: Nothing But Regret", order: 5 },
+      { key: "K", name: "Mixed Feelings", order: 6 },
+      { key: "U", name: "Undecided", order: 7 },
+    ],
+    []
+  );
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const url = useLocalFile ? LOCAL_JSON_URL : JSON_URL;
-        //console.log(`Fetching data from ${url}`);
         const response = await fetch(url, { mode: "cors" });
 
         //in case JSON isn't found due to network or pathing issues
@@ -51,16 +52,18 @@ function TierList({mode}) {
         }
 
         const data = await response.json();
-        //console.log('Fetched data: ', data);
 
-        //Creates arrays for each Tier of the Tier List and pushes each show into the appropriate array
-        const tiers = data.reduce((acc, show) => {
-          if (!acc[show.Tier]) {
-            acc[show.Tier] = [];
-          }
-          acc[show.Tier].push(show);
+        //Creates arrays for each Tier based on tiersDefined array
+        const tiers = tiersDefined.reduce((acc, tier) => {
+          acc[tier.key] = [];
           return acc;
         }, {});
+
+        data.forEach((show) => {
+          if (tiers[show.Tier]) {
+            tiers[show.Tier].push(show);
+          }
+        });
 
         //Sort shows alphabetically in each tier, ignores "The" at beginning of titles
         for (const tier in tiers) {
@@ -73,25 +76,21 @@ function TierList({mode}) {
 
         setTierData(tiers);
       } catch (error) {
-        //console.error('Error fetching or processing data: ', error);
         setError(error);
       }
     };
 
     fetchData();
-  }, [useLocalFile]);
+  }, [useLocalFile, tiersDefined]);
 
-  if (error)
+  if (error) {
     return (
       <p>
         We appear to be having network-related issues. Please contact site admin
         for assitance.
       </p>
     );
-
-  const sortedTiers = Object.keys(tierData).sort(
-    (a, b) => tierOrder[a] - tierOrder[b]
-  );
+  }
 
   return (
     <Box sx={{ p: 1 }}>
@@ -104,30 +103,24 @@ function TierList({mode}) {
         }}
       >
         <Box sx={{ display: "flex", flexDirection: "row" }}>
-          <SortRounded></SortRounded>
+          <SortRounded />
           <Typography>Sort</Typography>
         </Box>
         <Box sx={{ display: "flex", flexDirection: "row" }}>
-          <UnfoldMoreRounded></UnfoldMoreRounded>
+          <UnfoldMoreRounded />
           <Typography sx={{ pr: "1.5em" }}>Expand All</Typography>
-          <UnfoldLessRounded></UnfoldLessRounded>
+          <UnfoldLessRounded />
           <Typography>Collapse All</Typography>
         </Box>
       </Box>
-      {
-        //this whole thing loops over every show, going tier by tier, using sortedTiers to enforce desired Tier Order
-        sortedTiers.map((tier) => (
-          <Accordion
-            key={tier}
-            // sx={{
-            //   background: "#15191c",
-            //   color: "white",
-            // }}
-          >
+      {tiersDefined
+        .sort((a, b) => a.order - b.order)
+        .map((tier) => (
+          <Accordion key={tier.key}>
             <AccordionSummary
               expandIcon={<ExpandMoreRounded />}
-              aria-controls={`panel-${tier}-content`}
-              id={`panel-${tier}-header`}
+              aria-controls={`panel-${tier.key}-content`}
+              id={`panel-${tier.key}-header`}
               variant="h4"
               component="h2"
               sx={{
@@ -137,26 +130,28 @@ function TierList({mode}) {
                 },
               }}
             >
-              <strong>{tier}</strong>
+              <strong>{tier.name}</strong>
             </AccordionSummary>
             <AccordionDetails
               sx={{
                 display: "flex",
                 justifyContent: "center",
                 flexWrap: "wrap",
-                // background: "#121212",
               }}
             >
               {
-                //this creates a little card for each show as we map over each tier
-                tierData[tier].map((show) => (
-                  <ShowCard key={show.Title} show={show} mode={mode}/>
-                ))
+                //this check prevents uncaught reference errors from map function
+                tierData[tier.key]?.length > 0 ? (
+                  tierData[tier.key].map((show) => (
+                    <ShowCard key={show.Title} show={show} mode={mode} />
+                  ))
+                ) : (
+                  <Typography>No shows in this tier</Typography>
+                )
               }
             </AccordionDetails>
           </Accordion>
-        ))
-      }
+        ))}
     </Box>
   );
 }
