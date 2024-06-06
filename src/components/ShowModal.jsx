@@ -97,7 +97,7 @@ const ShowModal = ({ show, isOpen, onClose }) => {
               ))}
             </Stack>
             <Typography sx={{ mt: 1, mb: 0.5 }}>
-              <strong>Description</strong> {Description}
+              <strong>Description:</strong> {Description}
             </Typography>
             <Typography id="modal-description" sx={{ mt: 1 }}>
               <strong>Review:</strong> {Review}

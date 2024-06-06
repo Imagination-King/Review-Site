@@ -4,6 +4,8 @@ import {
   Box,
   Typography,
   Button,
+  Menu,
+  MenuItem,
   Accordion,
   AccordionDetails,
   AccordionSummary,
@@ -19,6 +21,7 @@ import PropTypes from "prop-types";
 function TierList({ mode }) {
   const [tierData, setTierData] = useState({});
   const [tierExpanded, setTierExpanded] = useState({});
+  const [anchorEl, setAnchorEl] = useState(null);
   const [error, setError] = useState(null);
 
   const JSON_URL =
@@ -36,12 +39,22 @@ function TierList({ mode }) {
       { key: "C", name: "C Tier: They Had Their Moments", order: 3 },
       { key: "D", name: "D Tier: Mostly Wasted Potential", order: 4 },
       { key: "F", name: "F Tier: Nothing But Regret", order: 5 },
-      { key: "K", name: "Mixed Feelings", order: 6 },
+      { key: "K", name: "Conflicted Feelings", order: 6 },
       { key: "U", name: "Undecided", order: 7 },
     ],
     []
   );
 
+  //sort menu logic
+  const open = Boolean(anchorEl);
+  const handleSortClick = (e) => {
+    setAnchorEl(e.currentTarget);
+  };
+  const handleSortClose = () => {
+    setAnchorEl(null);
+  };
+
+  //epand+collapse button logic
   const handleExpandAll = () => {
     tiersDefined
       .slice()
@@ -52,7 +65,7 @@ function TierList({ mode }) {
             ...prevExpanded,
             [tier.key]: true,
           }));
-        }, index * 50); // Adjust the delay time as needed
+        }, index * 50); // delays opening of tiers for visual effect
       });
   };
   const handleCollapseAll = () => {
@@ -62,9 +75,10 @@ function TierList({ mode }) {
           ...prevExpanded,
           [tier.key]: false,
         }));
-      }, index * 50); // Adjust the delay time as needed
+      }, index * 50); // delays closing of tiers for visual effect
     });
   };
+  //tracks accordion open/close state for expand+collapse button logic
   const handleAccordionChange = (key) => (event, isExpanded) => {
     setTierExpanded((prevExpanded) => ({
       ...prevExpanded,
@@ -130,27 +144,41 @@ function TierList({ mode }) {
         sx={{
           display: "flex",
           flexDirection: "row",
-          p: "0 1em",
+          pb: ".5em",
           justifyContent: "space-between",
         }}
       >
         <Box sx={{ display: "flex", flexDirection: "row" }}>
-          <SortRounded />
-          <Typography>Sort</Typography>
+          <Button
+            variant="outlined"
+            id="sort-button"
+            startIcon={<SortRounded />}
+            aria-controls={open ? "sort-menu" : undefined}
+            aria-haspopup="true"
+            aria-expanded={open ? "true" : undefined}
+            onClick={handleSortClick}
+          >
+            Sort
+          </Button>
+          <Menu
+            id="sort-menu"
+            anchorEl={anchorEl}
+            open={open}
+            onClose={handleSortClose}
+            MenuListProps={{
+              "aria-labelledby": "sort-button",
+            }}
+          >
+            <MenuItem onClick={handleSortClose}>Ranking</MenuItem>
+            <MenuItem onClick={handleSortClose}>Title</MenuItem>
+            <MenuItem onClick={handleSortClose}>Watch Status</MenuItem>
+          </Menu>
         </Box>
         <Box sx={{ display: "flex", flexDirection: "row" }}>
-          <Button
-            variant="text"
-            startIcon={<UnfoldMoreRounded />}
-            onClick={handleExpandAll}
-          >
+          <Button startIcon={<UnfoldMoreRounded />} onClick={handleExpandAll}>
             Expand
           </Button>
-          <Button
-            variant="text"
-            startIcon={<UnfoldLessRounded />}
-            onClick={handleCollapseAll}
-          >
+          <Button startIcon={<UnfoldLessRounded />} onClick={handleCollapseAll}>
             Collapse
           </Button>
         </Box>

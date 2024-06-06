@@ -8,25 +8,25 @@ const tierStyles = (mode) => ({
   ...(mode === "light"
     ? {
         // palette values for light mode
-        "Top 10": { borderColor: "gold", bgcolor: "#FFFA80" },
+        S: { borderColor: "gold", bgcolor: "#FFFA80" },
         A: { borderColor: "#BA00FF", bgcolor: "#DD80FF" },
         B: { borderColor: "#002FFF", bgcolor: "#8098FF" },
         C: { borderColor: "#09C400", bgcolor: "#86FF80" },
         D: { borderColor: "#FF9300", bgcolor: "#FFCA80" },
         F: { borderColor: "#FF0000", bgcolor: "#FF7F7F" },
-        Conflicted: { borderColor: "#a8dadc", bgcolor: "#D0FEFF" },
-        Undecided: { borderColor: "black", bgcolor: "#E4E4E4" },
+        K: { borderColor: "#a8dadc", bgcolor: "#D0FEFF" },
+        U: { borderColor: "black", bgcolor: "#E4E4E4" },
       }
     : {
         // palette values for dark mode
-        "Top 10": { borderColor: "gold", bgcolor: "#938D00" },
+        S: { borderColor: "gold", bgcolor: "#938D00" },
         A: { borderColor: "#BA00FF", bgcolor: "#6B0093" }, //purple
         B: { borderColor: "#002FFF", bgcolor: "#001B93" }, //blue
         C: { borderColor: "#09C400", bgcolor: "#079300" }, //green
         D: { borderColor: "#FF9300", bgcolor: "#945600" }, //orange
         F: { borderColor: "#FF0000", bgcolor: "#940000" }, //red
-        Conflicted: { borderColor: "#a8dadc", bgcolor: "#587D7E" },
-        Undecided: { borderColor: "white", bgcolor: "#4A4A4A" },
+        K: { borderColor: "#a8dadc", bgcolor: "#587D7E" },
+        U: { borderColor: "white", bgcolor: "#4A4A4A" },
       }),
 });
 
@@ -65,6 +65,7 @@ function ShowCard({ show, mode }) {
           style={{
             width: "150px",
             height: "225px",
+            objectFit: "cover",
           }}
         />
         <Typography
