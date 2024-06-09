@@ -1,5 +1,13 @@
 import PropTypes from "prop-types";
-import { Modal, Box, Typography, IconButton, Chip, Stack } from "@mui/material";
+import {
+  Modal,
+  Box,
+  Typography,
+  IconButton,
+  Chip,
+  Stack,
+  useMediaQuery,
+} from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 
 const modalStyle = {
@@ -9,11 +17,13 @@ const modalStyle = {
   transform: "translate(-50%, -50%)",
   width: "80%",
   maxWidth: 800,
+  maxHeight: "85%",
   bgcolor: "beige",
   color: "black",
   boxShadow: 24,
   p: 4,
   outline: "none",
+  overflowY: "auto",
 };
 
 const renderDates = (PremiereDate, EndDate) => {
@@ -42,6 +52,8 @@ const ShowModal = ({ show, isOpen, onClose }) => {
     Review = "No review available",
   } = show;
 
+  const isScreenSmall = useMediaQuery((theme) => theme.breakpoints.down("md"));
+
   return (
     <Modal
       open={isOpen}
@@ -62,12 +74,21 @@ const ShowModal = ({ show, isOpen, onClose }) => {
         >
           <CloseIcon />
         </IconButton>
-        <Box display="flex" alignItems="flex-start">
+        <Box
+          display="flex"
+          flexDirection={isScreenSmall ? "column" : "row"}
+          alignItems={isScreenSmall ? "center" : "flex-start"}
+        >
           <Box flexShrink={0}>
             <img
               src={ImageLink}
               alt={Title}
-              style={{ width: "300px", height: "450px", marginRight: "16px" }}
+              style={{
+                width: isScreenSmall ? "200px" : "300px",
+                height: isScreenSmall ? "300px" : "450px",
+                objectFit: "cover",
+                marginRight: isScreenSmall ? "0" : "16px",
+              }}
             />
           </Box>
           <Box sx={{ flexGrow: 1, minWidth: 0 }}>
@@ -75,32 +96,72 @@ const ShowModal = ({ show, isOpen, onClose }) => {
               id="modal-title"
               variant="h4"
               component="h2"
-              sx={{ wordWrap: "break-word" }}
+              sx={{
+                wordWrap: "break-word",
+                textAlign: isScreenSmall ? "center" : "left",
+              }}
             >
               <strong>{Title}</strong>
             </Typography>
-            <Typography variant="h7" sx={{ color: "GrayText", mt: 0.5 }}>
+            <Typography
+              sx={{
+                color: "GrayText",
+                mt: 0.5,
+                textAlign: isScreenSmall ? "center" : "left",
+              }}
+            >
               {AltName}
             </Typography>
-            <Typography variant="h6">
+            <Typography
+              variant="h6"
+              sx={{ textAlign: isScreenSmall ? "center" : "left" }}
+            >
               {renderDates(PremiereDate, EndDate)}
             </Typography>
-            <Typography sx={{ mt: 0.5, mb: 0.5 }}>
-              <strong>Tier:</strong> {Tier}
+            <Typography
+              sx={{
+                mt: 0.5,
+                mb: 0.5,
+                textAlign: isScreenSmall ? "center" : "left",
+              }}
+            >
+              <strong>TIER:</strong> {Tier}
             </Typography>
-            <Typography sx={{ mt: 0.5, mb: 1 }}>
-              <strong>Watch Status:</strong> {WatchStatus}
+            <Typography
+              sx={{
+                mt: 0.5,
+                mb: 1,
+                textAlign: isScreenSmall ? "center" : "left",
+              }}
+            >
+              <strong>WATCH STATUS:</strong> {WatchStatus}
             </Typography>
-            <Stack direction="row" sx={{ flexWrap: "wrap" }}>
+            <Stack
+              direction="row"
+              sx={{
+                flexWrap: "wrap",
+                justifyContent: isScreenSmall ? "center" : "left",
+              }}
+            >
               {Tags.map((tag, index) => (
-                <Chip key={index} label={tag} sx={{ margin: "2px" }} />
+                <Chip
+                  key={index}
+                  label={tag}
+                  sx={{
+                    margin: "2px",
+                    color: "black",
+                    background: "lightgray",
+                  }}
+                />
               ))}
             </Stack>
             <Typography sx={{ mt: 1, mb: 0.5 }}>
-              <strong>Description:</strong> {Description}
+              <strong>DESCRIPTION</strong>
+              <br /> {Description}
             </Typography>
             <Typography id="modal-description" sx={{ mt: 1 }}>
-              <strong>Review:</strong> {Review}
+              <strong>REVIEW</strong>
+              <br /> {Review}
             </Typography>
           </Box>
         </Box>
