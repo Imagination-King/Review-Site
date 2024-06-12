@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback } from "react";
 import ShowCard from "./ShowCard";
 import {
   Box,
@@ -16,14 +16,13 @@ import {
   UnfoldLessRounded,
   UnfoldMoreRounded,
 } from "@mui/icons-material";
+import useFetchShowData from "./useFetchShowData";
 import PropTypes from "prop-types";
 
 function TierList({ mode }) {
-  const [tierData, setTierData] = useState({});
   const [tierExpanded, setTierExpanded] = useState({});
   const [anchorEl, setAnchorEl] = useState(null);
   const [sortMode, setSortMode] = useState("tier");
-  const [error, setError] = useState(null);
 
   const JSON_URL =
     "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/tvShowsGraded.json";
@@ -32,19 +31,7 @@ function TierList({ mode }) {
   const useLocalFile = false;
   const LOCAL_JSON_URL = "/tvShowsGraded.json";
 
-  const tiersDefined = useMemo(
-    () => [
-      { key: "S", tLabel: "S Tier: Current Top 10", order: 0 },
-      { key: "A", tLabel: "A Tier: All Around Great", order: 1 },
-      { key: "B", tLabel: "B Tier: Flawed But Still Enjoyable", order: 2 },
-      { key: "C", tLabel: "C Tier: They Had Their Moments", order: 3 },
-      { key: "D", tLabel: "D Tier: Mostly Wasted Potential", order: 4 },
-      { key: "F", tLabel: "F Tier: Nothing But Regret", order: 5 },
-      { key: "K", tLabel: "Conflicted Feelings", order: 6 },
-      { key: "U", tLabel: "Undecided", order: 7 },
-    ],
-    []
-  );
+  const { tierData, tiersDefined, error} = useFetchShowData(JSON_URL, LOCAL_JSON_URL, useLocalFile);
 
   //sort menu logic
   const open = Boolean(anchorEl);
@@ -89,40 +76,6 @@ function TierList({ mode }) {
       [key]: isExpanded,
     }));
   };
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const url = useLocalFile ? LOCAL_JSON_URL : JSON_URL;
-        const response = await fetch(url, { mode: "cors" });
-
-        //in case JSON isn't found due to network or pathing issues
-        if (response.status >= 400) {
-          throw new Error("server error");
-        }
-
-        const data = await response.json();
-
-        //Default sort mode, Creates arrays for each Tier based on tiersDefined array
-        const tiers = tiersDefined.reduce((acc, tier) => {
-          acc[tier.key] = [];
-          return acc;
-        }, {});
-
-        data.forEach((show) => {
-          if (tiers[show.Tier]) {
-            tiers[show.Tier].push(show);
-          }
-        });
-
-        setTierData(tiers);
-      } catch (error) {
-        setError(error);
-      }
-    };
-
-    fetchData();
-  }, [useLocalFile, tiersDefined]);
 
   const sortByTier = useCallback(() => {
     const tierSplit = { ...tierData };

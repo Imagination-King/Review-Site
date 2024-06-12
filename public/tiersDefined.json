@@ -1,0 +1,10 @@
+[
+  { "key": "S", "tLabel": "S Tier: Current Top 10", "order": 0 },
+  { "key": "A", "tLabel": "A Tier: All Around Great", "order": 1 },
+  { "key": "B", "tLabel": "B Tier: Flawed But Still Enjoyable", "order": 2 },
+  { "key": "C", "tLabel": "C Tier: They Had Their Moments", "order": 3 },
+  { "key": "D", "tLabel": "D Tier: Mostly Wasted Potential", "order": 4 },
+  { "key": "F", "tLabel": "F Tier: Nothing But Regret", "order": 5 },
+  { "key": "K", "tLabel": "Conflicted Feelings", "order": 6 },
+  { "key": "U", "tLabel": "Undecided", "order": 7 }
+]
