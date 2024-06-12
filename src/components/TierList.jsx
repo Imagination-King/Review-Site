@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import ShowCard from "./ShowCard";
 import {
   Box,
@@ -120,64 +120,65 @@ function TierList({ mode }) {
         setError(error);
       }
     };
+
     fetchData();
   }, [useLocalFile, tiersDefined]);
 
+  const sortByTier = useCallback(() => {
+    const tierSplit = { ...tierData };
+
+    for (const tier in tierSplit) {
+      tierSplit[tier].sort((a, b) => {
+        const titleA = a.Title.replace(/^The\s+/i, "");
+        const titleB = b.Title.replace(/^The\s+/i, "");
+        return titleA.localeCompare(titleB);
+      });
+    }
+    return tierSplit;
+  }, [tierData]);
+
+  const sortByTitle = useCallback(() => {
+    const alphaSplit = {
+      "#-F": [],
+      "G-M": [],
+      "N-R": [],
+      "S-Z": [],
+    };
+
+    Object.values(tierData)
+      .flat()
+      .forEach((show) => {
+        const title = show.Title.replace(/^The\s+/i, "");
+        const firstLetter = title.charAt(0).toUpperCase();
+
+        if (firstLetter >= "0" && firstLetter <= "F") {
+          alphaSplit["#-F"].push(show);
+        } else if (firstLetter >= "G" && firstLetter <= "M") {
+          alphaSplit["G-M"].push(show);
+        } else if (firstLetter >= "N" && firstLetter <= "R") {
+          alphaSplit["N-R"].push(show);
+        } else if (firstLetter >= "S" && firstLetter <= "Z") {
+          alphaSplit["S-Z"].push(show);
+        }
+      });
+
+    for (const key in alphaSplit) {
+      alphaSplit[key].sort((a, b) => {
+        const titleA = a.Title.replace(/^The\s+/i, "");
+        const titleB = b.Title.replace(/^The\s+/i, "");
+        return titleA.localeCompare(titleB);
+      });
+    }
+    return alphaSplit;
+  }, [tierData]);
+
   const sortedData = useMemo(() => {
-    const sortByTier = () => {
-      const tierSplit = { ...tierData };
-
-      for (const tier in tierSplit) {
-        tierSplit[tier].sort((a, b) => {
-          const titleA = a.Title.replace(/^The\s+/i, "");
-          const titleB = b.Title.replace(/^The\s+/i, "");
-          return titleA.localeCompare(titleB);
-        });
-      }
-      return tierSplit;
-    };
-
-    const sortByTitle = () => {
-      const alphaSplit = {
-        "#-F": [],
-        "G-M": [],
-        "N-R": [],
-        "S-Z": [],
-      };
-
-      Object.values(tierData)
-        .flat()
-        .forEach((show) => {
-          const title = show.Title.replace(/^The\s+/i, "");
-          const firstLetter = title.charAt(0).toUpperCase();
-
-          if (firstLetter >= "0" && firstLetter <= "F") {
-            alphaSplit["#-F"].push(show);
-          } else if (firstLetter >= "G" && firstLetter <= "M") {
-            alphaSplit["G-M"].push(show);
-          } else if (firstLetter >= "N" && firstLetter <= "R") {
-            alphaSplit["N-R"].push(show);
-          } else if (firstLetter >= "S" && firstLetter <= "Z") {
-            alphaSplit["S-Z"].push(show);
-          }
-        });
-
-      for (const key in alphaSplit) {
-        alphaSplit[key].sort((a, b) => {
-          const titleA = a.Title.replace(/^The\s+/i, "");
-          const titleB = b.Title.replace(/^The\s+/i, "");
-          return titleA.localeCompare(titleB);
-        });
-      }
-      return alphaSplit;
-    };
-
-    if (sortMode === "Title") {
+    if (sortMode === "title") {
       return sortByTitle();
     } else {
       return sortByTier();
     }
-  }, [sortMode, tierData]);
+  }, [sortMode, sortByTitle, sortByTier]);
 
   if (error) {
     return (
@@ -188,7 +189,7 @@ function TierList({ mode }) {
     );
   }
 
-  if (!sortedData || Object.keys(sortedData.length) === 0) {
+  if (!sortedData || Object.keys(sortedData).length === 0) {
     return <p>Loading data. Please wait...</p>;
   }
 
@@ -218,14 +219,14 @@ function TierList({ mode }) {
             id="sort-menu"
             anchorEl={anchorEl}
             open={open}
-            onClose={handleSortClose(null)}
+            onClose={() => handleSortClose(null)}
             MenuListProps={{
               "aria-labelledby": "sort-button",
             }}
           >
-            <MenuItem onClick={handleSortClose("tier")}>Tier</MenuItem>
-            <MenuItem onClick={handleSortClose("title")}>Title</MenuItem>
-            {/*<MenuItem onClick={handleSortClose("watch status")}>Watch Status</MenuItem>*/}
+            <MenuItem onClick={() => handleSortClose("tier")}>Tier</MenuItem>
+            <MenuItem onClick={() => handleSortClose("title")}>Title</MenuItem>
+            {/*<MenuItem onClick={() => handleSortClose("watch status")}>Watch Status</MenuItem>*/}
           </Menu>
         </Box>
         <Box sx={{ display: "flex", flexDirection: "row" }}>
