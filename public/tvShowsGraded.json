@@ -5,7 +5,7 @@
         "Title": "3Below: Tales of Arcadia",
         "PremiereDate": 2018,
         "EndDate": 2019,
-        "WatchStatus": "Complete",
+        "WatchStatus": "Completed",
         "Tags": [
             "Western Animation",
             "Action",
@@ -20,52 +20,12 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZDkxMTdmMDgtZmQ1NC00NzZlLWIxMjgtMjkyMTFlZjI3OWZiXkEyXkFqcGdeQXVyMjQ0OTA1Nzc@._V1_.jpg",
-        "Tier": "F",
-        "Title": "A Certain Magical Index",
-        "AltName": "Toaru Majutsu no Index",
-        "PremiereDate": 2008,
-        "EndDate": 2019,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Anime",
-            "Action",
-            "Comedy",
-            "Drama",
-            "Fantasy",
-            "Sci-Fi",
-            "Super Powers"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/dZt1dqw0K4JGhwcqTh8yExHYK9w.jpg",
-        "Tier": "C",
-        "Title": "A Certain Scientific Railgun",
-        "AltName": "Toaru Kagaku no Railgun",
-        "PremiereDate": 2009,
-        "EndDate": 2020,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Anime",
-            "Action",
-            "Comedy",
-            "Drama",
-            "Fantasy",
-            "Sci-Fi",
-            "Super Powers"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://i.ebayimg.com/images/g/ki4AAOSwO-hcP6jt/s-l1600.jpg",
         "Tier": "A",
         "Title": "A Series of Unfortunate Events",
         "PremiereDate": 2017,
         "EndDate": 2019,
-        "WatchStatus": "Complete",
+        "WatchStatus": "Completed",
         "Tags": [
             "Adventure",
             "Comedy",
@@ -73,6 +33,1554 @@
             "Family",
             "Mystery",
             "Musical"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOTYzNWUzODQtYzU5Ni00YWQ0LTg5YmQtOWU0ZWNjZmE3MDczXkEyXkFqcGdeQXVyODA4OTIyMzY@._V1_.jpg",
+        "Tier": "A",
+        "Title": "Animaniacs",
+        "PremiereDate": 1993,
+        "EndDate": 1998,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Western Animation",
+            "Shorts",
+            "Adventure",
+            "Comedy",
+            "Family",
+            "Musical"
+        ],
+        "Description": "Yakko, Wakko, and Dot are the Warner siblings. Their only goal in life is to have fun and cause mischief wherever they go, whether that's around the world, across time, or at home on the Warner Bros lot. Joining them are a whole host of other characters, including Dr. Scratchansniff, Ralph the Security Guard, Pinky and the Brain, Slappy and Skippy, and many others.",
+        "Review": "The Warners' zaniness is in full swing here. Plus, the large cast of supporting characters ensures there's always a nice variety of skits to entertain everyone. Some jokes don't land as well anymore, (especially those referencing then-current celebrities and politicians), but most jokes still hold up over 20 years later. My personal favorite is Rita and Runt, the cat-and-dog duo who are looking for a new home (and singing all the way)."
+    },
+    {
+        "ImageLink": "https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=480,height=720,quality=85/catalog/crunchyroll/56ca71acb9f5bd17ec28a3a6bb145da8.jpe",
+        "Tier": "D",
+        "Title": "Armed Girls' Machiavellianism",
+        "AltName": "Busou Shoujo Machiavellianism",
+        "PremiereDate": 2017,
+        "EndDate": 2017,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Anime",
+            "Action",
+            "Comedy",
+            "Ecchi",
+            "Harem",
+            "Martial Arts",
+            "School"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTI0NTMwMDgtYTMzZC00YmJhLTg4NzMtMTc1NjI4MWY4NmQ4XkEyXkFqcGdeQXVyNTY3MTYzOTA@._V1_.jpg",
+        "Tier": "C",
+        "Title": "Arrow",
+        "PremiereDate": 2012,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Live-Action",
+            "Action",
+            "Adventure",
+            "Crime",
+            "Drama",
+            "Mystery",
+            "Sci-Fi",
+            "Super Powers",
+            "Based on DC Comics"
+        ],
+        "Description": "N/A",
+        "Review": "Starting out, Arrow was a great show. Then, about halfway through season 3, the quality decided to go on a roller coaster ride, with many lows and only a few highs. Ultimately, however, Arrow ended on a fantastic final season, which lead directly into the final crossover of the Arrowverse: Crisis on Infinite Earths."
+    },
+    {
+        "ImageLink": "https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=480,height=720,quality=85/catalog/crunchyroll/085af105e7599a59da03ab47750a36e5.jpe",
+        "Tier": "B",
+        "Title": "Ascendance of a Bookworm",
+        "AltName": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen",
+        "PremiereDate": 2019,
+        "EndDate": 0,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Anime",
+            "Adventure",
+            "Comedy",
+            "Drama",
+            "Fantasy",
+            "Isekai"
+        ],
+        "Description": "N/A",
+        "Review": "Finally a modern isekai that doesn't feel like all the other isekais. Myne being physically weak and still striving toward her goals is admirable, and the viewer can't help but root for her to succeed. Overall, a very well written show with a likeable-enough main character and decently fleshed-out supporting characters. It's nowhere near perfect, but it's cute, fun, and relaxing. And sometimes, that's all you need in a show. "
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYzI0OWJlMjItYmE1NS00YzE2LWExNDAtMDM3MDA5MzM5NmExXkEyXkFqcGdeQXVyNzA5MDUyODA@._V1_.jpg",
+        "Tier": "B",
+        "Title": "Assassination Classroom",
+        "AltName": "Ansatsu Kyoushitsu",
+        "PremiereDate": 2015,
+        "EndDate": 2016,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Anime",
+            "Action",
+            "Comedy",
+            "School",
+            "Sci-Fi"
+        ],
+        "Description": "N/A",
+        "Review": "This is by no means a perfect show, but it's a fun show. I mean, the premise of high schoolers trying to kill a superpowered octopus thing while it serves as their teacher is ridiculous. But that ridiculousness is part of its charm. Plus, there are enough twists and turns throughout to keep you guessing."
+    },
+    {
+        "ImageLink": "https://assets.nick.com/uri/mgid:arc:imageassetref:shared.nick.us:61d0d32d-b0ac-4632-ad87-9339381eb1f1?quality=0.7&gen=ntrn&legacyStatusCode=true",
+        "Tier": "S",
+        "Title": "Avatar: The Last Airbender",
+        "PremiereDate": 2005,
+        "EndDate": 2008,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Western Animation",
+            "Action",
+            "Adventure",
+            "Family",
+            "Fantasy",
+            "Mythology"
+        ],
+        "Description": "N/A",
+        "Review": "Drawing heavily from many Eastern cultures, Avatar has plenty of memorable characters, awesome fight scenes, and a good mix of seriousness and comedy. There's a reason Avatar has become a sort of gold standard for not only animation but all storytelling - everything it does, it does brilliantly."
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/eyUeOUefufuBCeih3lOi2NkFD9r.jpg",
+        "Tier": "S",
+        "Title": "Avengers: Earth's Mightiest Heroes",
+        "PremiereDate": 2010,
+        "EndDate": 2012,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Western Animation",
+            "Action",
+            "Adventure",
+            "Family",
+            "Fantasy",
+            "Sci-Fi",
+            "Super Powers",
+            "Based on Marvel Comics"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOWVlM2I2MjctYzk0My00MTEzLWJkZjYtY2JlZTA4MDQ1ZWI1XkEyXkFqcGdeQXVyODA4OTIyMzY@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "A",
+        "Title": "Batman Beyond",
+        "PremiereDate": 1999,
+        "EndDate": 2001,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZmVkNDc3YjQtZDMzOS00MTNjLTljNzUtZDhjYWQxMmVlNjE5XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+        "Tier": "A",
+        "Title": "Batman: The Animated Series",
+        "AltName": "The New Batman Adventures",
+        "PremiereDate": 1992,
+        "EndDate": 1995,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p191624_b_v13_ab.jpg",
+        "Tier": "B",
+        "Title": "Batman: The Brave and the Bold",
+        "PremiereDate": 2008,
+        "EndDate": 2011,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTJhY2Y0MjQtMTQxYy00ODU5LWI1YzgtOGNkNzViMTI2ZDg3XkEyXkFqcGdeQXVyNjUyMzA0MzY@._V1_FMjpg_UY2340_.jpg",
+        "Tier": "D",
+        "Title": "BNA: Brand New Animal",
+        "PremiereDate": 2020,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/71Z6Rr0iwvL._AC_UF894,1000_QL80_.jpg",
+        "Tier": "A",
+        "Title": "Bocchi the Rock",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BY2ZkZTI0MzktYjQyOC00MDQ5LWE4MDItMjE5NTQ3NmM4MGQzXkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_.jpg",
+        "Tier": "A",
+        "Title": "Carmen Sandiego",
+        "PremiereDate": 2019,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://fr.web.img2.acsta.net/pictures/17/06/05/13/22/514027.jpg",
+        "Tier": "K",
+        "Title": "Castlevania",
+        "PremiereDate": 2017,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Western Animation",
+            "Action",
+            "Adventure",
+            "Drama",
+            "Fantasy",
+            "Horror",
+            "Based on a Video Game"
+        ],
+        "Description": "N/A",
+        "Review": "I regret watching this so much. The dynamic between Alucard and Trefor was amazing, and James Callis' portrayal of Dracula was top-notch, but none of that could have ever made up for the massive amount of gore and sex in this show. If you absolutely have to watch Castlevania, do yourself a favor and stop after Season 2."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZmJiYmNmOWEtN2RhNi00YTViLWFlNGQtODBlMTM0NzlmMzIzXkEyXkFqcGdeQXVyODk1MjAxNzQ@._V1_FMjpg_UY480_.jpg",
+        "Tier": "F",
+        "Title": "Clone High",
+        "PremiereDate": 2002,
+        "EndDate": 2003,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNzRkOTA4MDQtNDgxMi00OTc0LWFhNDUtNzIxNTQxYmU5ZGRmXkEyXkFqcGdeQXVyMTA3OTEyODI1._V1_QL75_UX820_.jpg",
+        "Tier": "A",
+        "Title": "Cowboy Bebop",
+        "PremiereDate": 1998,
+        "EndDate": 1999,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/amQbWPfb6HYS67JpWhKdXO0NmYT.jpg",
+        "Tier": "B",
+        "Title": "Danny Phantom",
+        "PremiereDate": 2003,
+        "EndDate": 2007,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/2qfaHJaodEbMmj9GXMvj84mbpy3.jpg",
+        "Tier": "C",
+        "Title": "Daredevil",
+        "PremiereDate": 2015,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://static.tvtropes.org/pmwiki/pub/images/lots2s.png",
+        "Tier": "C",
+        "Title": "DC's Legends of Tomorrow",
+        "PremiereDate": 2016,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNjRiNmNjMmMtN2U2Yi00ODgxLTk3OTMtMmI1MTI1NjYyZTEzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "B",
+        "Title": "Death Note",
+        "PremiereDate": 2006,
+        "EndDate": 2007,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Anime",
+            "Crime",
+            "Drama",
+            "Fantasy",
+            "Mystery",
+            "Thriller",
+            "Psychological"
+        ],
+        "Description": "N/A",
+        "Review": "This show starts very strong, featuring a war between Light and L that had me on the edge of my seat the whole time. The push-and-pull dynamic between those two is masterfully done. However, about halfway through the show, something happens that, without spoiling anything, makes the show feel less suspenseful. The second half of the show is still good, but it never reaches the same high as the first half."
+    },
+    {
+        "ImageLink": "https://i.ebayimg.com/images/g/UJAAAOSwD39aZ5OM/s-l1600.jpg",
+        "Tier": "B",
+        "Title": "Doctor Who (10th Doctor)",
+        "PremiereDate": 2006,
+        "EndDate": 2008,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://i.pinimg.com/564x/9f/c4/96/9fc496481f78975c58e3ca49b9554744.jpg",
+        "Tier": "A",
+        "Title": "Doctor Who (11th Doctor)",
+        "PremiereDate": 2010,
+        "EndDate": 2012,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/61EZ9voQnAL.jpg",
+        "Tier": "B",
+        "Title": "Doctor Who (12th Doctor)",
+        "PremiereDate": 2014,
+        "EndDate": 2017,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://cdn.europosters.eu/image/750/posters/doctor-who-13th-doctor-i58007.jpg",
+        "Tier": "F",
+        "Title": "Doctor Who (13th Doctor)",
+        "PremiereDate": 2018,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://tinyobsessions.files.wordpress.com/2014/03/tumblr_n320noaiev1sw4g05o1_500.jpg",
+        "Tier": "C",
+        "Title": "Doctor Who (9th Doctor)",
+        "PremiereDate": 2005,
+        "EndDate": 2005,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZGQ4ZjAxZTUtZGVjZS00MzA2LWI5NGYtZWQ0NGY5NWNmMWQ3XkEyXkFqcGdeQXVyMzg1OTc1ODk@._V1_.jpg",
+        "Tier": "F",
+        "Title": "Dragon Age: Absolution",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/6oaEH8CNlMDiiQHUSeirza96q0g.jpg",
+        "Tier": "B",
+        "Title": "Dragon Pilot: Hisone and Masotan",
+        "AltName": "Hisone to Maso-tan",
+        "PremiereDate": 2018,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTA2NTc5MzQwNV5BMl5BanBnXkFtZTgwOTY2ODI2MjI@._V1_.jpg",
+        "Tier": "S",
+        "Title": "DuckTales (2017)",
+        "PremiereDate": 2017,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Western Animation",
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Family",
+            "Fantasy",
+            "Mystery",
+            "Sci-Fi",
+            "Disney"
+        ],
+        "Description": "N/A",
+        "Review": "A reboot that manages to surpass the original, in my opinion. Scrooge is the same stingy adventuring billionaire as always, but the rest of the cast has received updated, more fleshed-out personalities that only enhance the overall show. Plus, the theme song's still here, amazing as ever."
+    },
+    {
+        "ImageLink": "https://resizing.flixster.com/xQk5Lmt4PuxZ0bvZgAD1NkPMons=/206x305/v2/https://resizing.flixster.com/m3WV9N8F2Zfm6QcvqsPBXiE3SEM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjg3NjAyMC53ZWJw",
+        "Tier": "C",
+        "Title": "Eden (ONA)",
+        "PremiereDate": 2021,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BM2IxZjZkNGQtMDhiMi00MmViLWFiYzQtZGFiNjJiYWIzZDVmXkEyXkFqcGdeQXVyMjI5MTc5MA@@._V1_.jpg",
+        "Tier": "D",
+        "Title": "Elena of Avalor",
+        "PremiereDate": 2016,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTAwZjI1ZWUtZjEyOS00ZTAwLWEzYmItMjQ3OWYyYmI2ZTI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        "Tier": "B",
+        "Title": "Fantastic Four: World's Greatest Heroes",
+        "PremiereDate": 2006,
+        "EndDate": 2010,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://cdn11.bigcommerce.com/s-j3ptcnmq25/images/stencil/1280x1280/products/2991/4839/796835e3-7251-46e9-a7b8-6c7d5daf2607__71579__90777.1627581107.jpg?c=2",
+        "Tier": "K",
+        "Title": "Food Wars!",
+        "AltName": "Shokugeki no Soma",
+        "PremiereDate": 2015,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "This show perfected the art of food porn - unfortunately, it came awful close to showing the other kind, too. Food Wars consistently served up deliciously gorgeous imagery of food, delivered a fun, often wacky story, and featured many memorable characters. However, the excessive amount of fanservice scenes, dubbed \"foodgasms\" by the community, makes this show difficult to recommend."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMjVjZGU5ZTktYTZiNC00N2Q1LThiZjMtMDVmZDljN2I3ZWIwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "Tier": "S",
+        "Title": "Friren: After Journey's End",
+        "AltName": "Sousou no Frieren",
+        "PremiereDate": 2023,
+        "EndDate": 2024,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:600/h:889/q:75/https://bleedingcool.com/wp-content/uploads/2021/10/genlock200.jpg",
+        "Tier": "D",
+        "Title": "gen:LOCK",
+        "PremiereDate": 2018,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "I genuinely enjoyed Season 1; it made me want to rewatch Voltron, but it was enjoyable. Seeing the relationships between the Gen Lock team develop as they faced Nemesis was definitely a highlight. There was a shift, however, for Season 2, and it was not a good shift. The story got weirder, subject matter got darker, and some sex scenes were added. The shift probably occured because the season initially aired on HBO, but whatever the reason, I'm not a fan."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYjliNTkwYjEtMmU3Mi00NDRlLWFjY2EtNWI2NjlkMjI4ODkxXkEyXkFqcGdeQXVyMTI1OTg1MTQ2._V1_FMjpg_UX1000_.jpg",
+        "Tier": "B",
+        "Title": "Glitch Techs",
+        "PremiereDate": 2020,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://images.ctfassets.net/4cd45et68cgf/3ylo8VbVSt5bvIUTucAipp/266f879dac6e69c059b26525460bfd4f/en-US_gnw_main_group_vertical_27x40_rgb_pre_1.jpg",
+        "Tier": "D",
+        "Title": "Good Night World",
+        "PremiereDate": 2023,
+        "EndDate": 2023,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://static.dc.com/dc/files/default_images/TVPage_Thumb_Gotham_6345b806b1e5b2.56683543.jpg",
+        "Tier": "F",
+        "Title": "Gotham",
+        "PremiereDate": 2014,
+        "EndDate": 2019,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTEzNDc3MDQ2NzNeQTJeQWpwZ15BbWU4MDYzMzUwMDIx._V1_FMjpg_UX1000_.jpg",
+        "Tier": "A",
+        "Title": "Gravity Falls",
+        "PremiereDate": 2012,
+        "EndDate": 2016,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://static.tvtropes.org/pmwiki/pub/images/gltas2.png",
+        "Tier": "B",
+        "Title": "Green Lantern: The Animated Series",
+        "PremiereDate": 2011,
+        "EndDate": 2013,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNzVjM2E2OTktYzBiMy00NzJjLWFlNTQtYWMzMzYwNjM0Y2I2XkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_.jpg",
+        "Tier": "C",
+        "Title": "Gudatama: An Eggcellent Adventure",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYTdjNDljNGUtNWFlYS00MTA4LThhZmEtMzA5ZGY0OGEzMjE1XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+        "Tier": "D",
+        "Title": "Gurren Lagann",
+        "AltName": "Tengen Toppa Gurren Lagann",
+        "PremiereDate": 2007,
+        "EndDate": 2007,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "The show's first half was pretty good, though I couldn't help but think of how I enjoyed Voltron more. The main characters were unique and had fun interactions, but the fight scenes were never anything to write home about. Then, after the time jump, it felt like all of the initial charm had been sucked out, and most of the characters I'd grown to care about were gone or significantly different. And to top it all off, the finale was very unsatisfying, not giving any of the main characters a happy ending."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMDUzZjU5YTQtZTUyZi00NGIyLWE3YWEtZGRlOTlhMzhiNzJiXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL75_UX149_.jpg",
+        "Tier": "B",
+        "Title": "Hawkeye",
+        "PremiereDate": 2021,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMjI3ODU0OTQ1MV5BMl5BanBnXkFtZTgwNzI0MTQ2MzE@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "D",
+        "Title": "Heroes",
+        "PremiereDate": 2006,
+        "EndDate": 2010,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/iytgxOXW2ZQTLdoWTWD2WU9Bdu8.jpg",
+        "Tier": "F",
+        "Title": "Inhumans",
+        "PremiereDate": 2017,
+        "EndDate": 2017,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "A plot that's so forgettable I don't even remember what happened while writing this review. Combine that with uninteresting characters and lousy CG; this is definitely not worth wasting your time on."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMWNkODA2OGMtMTFlMC00NGE0LWIxMjUtZTM1OWEyYjBkNGUzXkEyXkFqcGdeQXVyNjI2ODQwOTM@._V1_QL75_UX820_.jpg",
+        "Tier": "C",
+        "Title": "Invader Zim",
+        "PremiereDate": 2001,
+        "EndDate": 2006,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMjI5Mjg1NDcyOV5BMl5BanBnXkFtZTgwMjAxOTQ5MTI@._V1_.jpg",
+        "Tier": "F",
+        "Title": "Iron Fist",
+        "PremiereDate": 2017,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Season 1 was a complete waste of time. The actors were fine, it was the bad writing that killed it. I guess that's what happens when you write a show in less than 6 weeks. Season 2 was a slight improvement, but not enough to justify watching the show."
+    },
+    {
+        "ImageLink": "https://resizing.flixster.com/W2PMiR-Bp6rT_50v7Gmf1o3Ckp0=/206x305/v2/https://resizing.flixster.com/uPbNXJ2D23kM9N3VwGlnyMNIZ0s=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjE3NjAyMC53ZWJw",
+        "Tier": "F",
+        "Title": "Jessica Jones",
+        "PremiereDate": 2015,
+        "EndDate": 2019,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "I have no idea why anyone liked this. It was far too creepy and depressing. Also, David Tenant as Killgrave is too much of a disconnect for me. The Doctor being a mind-controlling piece of trash is a \"no\" from me."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZGQxYzExOGEtYjE2Ni00YzNlLTkyMGEtZTM0NDE3ZTIzODU1XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+        "Tier": "S",
+        "Title": "Justice League",
+        "AltName": "Justice League Unlimited",
+        "PremiereDate": 2001,
+        "EndDate": 2006,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMWU1YTRhZWItNGVlMy00MzYxLWFmM2ItYzlkMmMyZGJlYTljXkEyXkFqcGdeQXVyODA4OTIyMzY@._V1_.jpg",
+        "Tier": "D",
+        "Title": "Justice League Action",
+        "PremiereDate": 2016,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMzgyZjUyZTMtYzlkNC00NWEwLTg1YTQtNzI4MWJlOWM1YjU5XkEyXkFqcGdeQXVyNjgxNzAxNTc@._V1_QL75_UX820_.jpg",
+        "Tier": "K",
+        "Title": "Kill la Kill",
+        "PremiereDate": 2013,
+        "EndDate": 2014,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "As much as I love this show, I cannot in good conscience recommend it. Like most of Studio Trigger's work, this show features unique and memorable characters, a compelling story, and fantastic visuals. However, all of that is tainted by the excessive amounts of \"fanservice\". I hesitate to even call it fanservice, as a lot of the time, it's straight-up barely-covered nudity. This means that this (potentially) A+ Tier show is relegated to the lowest levels of this list so that it will not be a stumbling block for other people struggling with a porn addiction."
+    },
+    {
+        "ImageLink": "https://static.wikia.nocookie.net/kipoandtheageofwonderbeasts/images/6/66/Kipo_season_3_key_art_poster.jpg/revision/latest?cb=20200910180433",
+        "Tier": "A",
+        "Title": "Kipo and the Age of Wonderbeasts",
+        "PremiereDate": 2020,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://media.themoviedb.org/t/p/w500/hJorLxQTYOwrEYAjprC66HKeUcG.jpg",
+        "Tier": "F",
+        "Title": "Koro Sensei's Quest",
+        "PremiereDate": 2016,
+        "EndDate": 2017,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZGZkODdkZGUtMGU2Mi00ZTg1LWI2MjQtMDczNzE2NWVjY2YxXkEyXkFqcGdeQXVyMTQ3MjMyMTYz._V1_QL75_UX820_.jpg",
+        "Tier": "A",
+        "Title": "Little Witch Academia",
+        "PremiereDate": 2017,
+        "EndDate": 2017,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYTQzODUxYzItNzRlNi00ODRkLWE5YjktNWVlYjhhYjAzZmVjXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_QL75_UX820_.jpg",
+        "Tier": "B",
+        "Title": "Log Horizon",
+        "PremiereDate": 2013,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/71ynWsEQIQL._AC_UF894,1000_QL80_.jpg",
+        "Tier": "A",
+        "Title": "Loki",
+        "PremiereDate": 2021,
+        "EndDate": 2023,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTcyMzc1MjI5MF5BMl5BanBnXkFtZTgwMzE4ODY2OTE@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "F",
+        "Title": "Luke Cage",
+        "PremiereDate": 2016,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNDk2MmQyMTAtYjIzMi00N2I1LThhZmQtOTAxNjIzNmFiZGU4XkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg",
+        "Tier": "B",
+        "Title": "Mao Mao: Heroes of Pure Heart",
+        "PremiereDate": 2019,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTkwODYyMjgzOV5BMl5BanBnXkFtZTgwODAzMTE5MjE@._V1_.jpg",
+        "Tier": "D",
+        "Title": "Marvel's Agents of S.H.I.E.L.D.",
+        "PremiereDate": 2013,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Live-Action",
+            "Action",
+            "Adventure",
+            "Drama",
+            "Sci-Fi",
+            "Thriller",
+            "Secret Agents"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19986437_b_v8_ab.jpg",
+        "Tier": "A",
+        "Title": "Masters of the Universe: Revelations",
+        "PremiereDate": 2021,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://pbs.twimg.com/media/GFWqgH1W0AAMKvp?format=jpg&name=large",
+        "Tier": "U",
+        "Title": "Masters of the Universe: Revolution",
+        "PremiereDate": 2024,
+        "EndDate": 2024,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BN2M5MGNjYzktZTg2NC00NDg0LTkzMjMtNzUyMDczZWE2MGJkXkEyXkFqcGdeQXVyMTIzNTI5NTM1._V1_QL75_UX167_.jpg",
+        "Tier": "C",
+        "Title": "Max Steel (2013)",
+        "PremiereDate": 2013,
+        "EndDate": 2015,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYTc5OWNhYjktMThlOS00ODUxLTgwNDQtZjdjYjkyM2IwZTZlXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_.jpg",
+        "Tier": "C",
+        "Title": "Moon Knight",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/cdkyMYdu8ao26XOBvilNzLneUg1.jpg",
+        "Tier": "D",
+        "Title": "Ms. Marvel",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://images.justwatch.com/poster/200831223/s276/season-2.webp",
+        "Tier": "C",
+        "Title": "Once Upon a Time",
+        "PremiereDate": 2011,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOTdjZTBhNjgtNTJiYS00NTIzLWFmMDAtYmIzNzE4NzdlNmViXkEyXkFqcGdeQXVyMTgxMjYxOQ@@._V1_.jpg",
+        "Tier": "S",
+        "Title": "Rapunzel's Tangled Adventure",
+        "AltName": "Tangled: The Series",
+        "PremiereDate": 2017,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Tangled was never my favorite Disney movie, but this show has given me a new appreciation for the characters and the world they inhabit. While this show is aimed at little girls, at its heart lies an intriguing story, loveable characters, and amazing music. With the original movie's cast plus a handful of new additions, and Alan Menken returning as composer, this show is a treat for fans of Tangled, Disney, or musicals."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZTM5NDEwZjAtNjYzMi00YjI4LWEwOTgtY2FiNzFhNmM3YzJlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "C",
+        "Title": "Reincarnated as a Sword",
+        "AltName": "Tensei shitara Ken deshita",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/acb372e8b4c648ebce8117edb54c0b2c.jpe",
+        "Tier": "B",
+        "Title": "Restaurant to Another World",
+        "AltName": "Isekai Shokudou",
+        "PremiereDate": 2017,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOTRiYWQ2ZDktYjVlOS00OTIyLTk0Y2EtZmNkYzNkNjRkNzlhXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
+        "Tier": "S",
+        "Title": "Romantic Killer",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://static.wikia.nocookie.net/rwby/images/f/fe/Volume_7_Cover.jpg/revision/latest?cb=20190706020817",
+        "Tier": "A",
+        "Title": "RWBY",
+        "PremiereDate": 2012,
+        "EndDate": 2024,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNmQzODkzYmEtYjFhZC00N2ViLTg5MzktMTI1N2M0ZDM5OWE2XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_QL75_UX820_.jpg",
+        "Tier": "A",
+        "Title": "RWBY Chibi",
+        "PremiereDate": 2016,
+        "EndDate": 2023,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/710bLqxa1RL._AC_UF894,1000_QL80_.jpg",
+        "Tier": "C",
+        "Title": "RWBY Ice Queendom",
+        "AltName": "RWBY: Hyousetsu Teikoku",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "While it is nice to revisit some scenes from the earlier RWBY seasons, like Ruby's fight outside the Dust store, I don't feel like the original story Ice Queendom is telling adds anything meaningful to the RWBY universe. It's not bad, but it's also nothing special. The best way to describe it is to say that it's a well-written, but somewhat forgettable fanfiction."
+    },
+    {
+        "ImageLink": "https://static.tvtropes.org/pmwiki/pub/images/image_2024_03_29_143749637.png",
+        "Tier": "S",
+        "Title": "Samurai Jack",
+        "PremiereDate": 2001,
+        "EndDate": 2017,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Samurai Jack dared ask the question, \"What if the protagonist didn't say anything?\" And it worked. Extremely well. This show is visually stunning, with memorable characters and riveting action sequences. The only downside is that you have to go beat the video game to see the show's \"true\" ending (or you could just look it up on Youtube)."
+    },
+    {
+        "ImageLink": "https://cdn.marvel.com/content/1x/clover_teaser_printed_1sht_v2_lg.jpg",
+        "Tier": "D",
+        "Title": "She-Hulk: Attorney at Law",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://live.staticflickr.com/1904/45106948642_b4e6f78784_z.jpg",
+        "Tier": "C",
+        "Title": "She-Ra: Princesses of Power",
+        "PremiereDate": 2018,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTdiNTJmMzktZmE2MC00OWUxLWE1MjktMTdhN2Q1OWNlODY1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        "Tier": "C",
+        "Title": "Soul Eater",
+        "PremiereDate": 2008,
+        "EndDate": 2009,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Soul Eater isn't a bad show by any means, it was rather enjoyable at times. The concept of Weapons and Meisters fighting witches is interesting, and the main characters are certainly memorable, but the story is just kind of, I don't know. Forgettable? Run-of-the-mill? It's not a bad story, it's just not anything special, espcially by anime standards. Also, if you have a problem with spiders or snakes you should probably stay away."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZWExMjQ0ZGYtZDFjZS00ODY5LWJlZGQtMDVjNzMxNTY0Mjg4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg",
+        "Tier": "D",
+        "Title": "Soul Eater NOT!",
+        "PremiereDate": 2014,
+        "EndDate": 2014,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "While it is nice to see some of the characters from the original series show up here, this show really lives up to its name. This is NOT Soul Eater. This is about a love triangle between three teenage girls that happens to be set in the Soul Eater universe. So, if that sounds appealing to you, have at it. There are worse ways to spend 6 hours."
+    },
+    {
+        "ImageLink": "https://preview.redd.it/is-spectacular-spider-man-still-worth-watching-even-though-v0-lj7drdau9xba1.jpg?width=1080&crop=smart&auto=webp&s=06f4d14256ed8cecc1c1facc4fd992abe5ee8564",
+        "Tier": "A",
+        "Title": "Spectacular Spider-Man",
+        "PremiereDate": 2008,
+        "EndDate": 2009,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNzg2NTJhMmUtZjU5My00MDg1LWJhNzItNjBiN2U2NTY2OWY0XkEyXkFqcGdeQXVyMjg5NDMwMQ@@._V1_FMjpg_UY2175_.jpg",
+        "Tier": "A",
+        "Title": "Star Wars: Clone Wars",
+        "PremiereDate": 2003,
+        "EndDate": 2005,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Gendy Tartovsky (of Samurai Jack and Primal fame) does Star Wars. What more do you want?"
+    },
+    {
+        "ImageLink": "https://i.etsystatic.com/37268737/r/il/961f35/4469956211/il_fullxfull.4469956211_1545.jpg",
+        "Tier": "A",
+        "Title": "Star Wars: Obi-Wan Kenobi",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://www.lucasfilm.com/app/uploads/REB_IA_24118-poster-1-480x720.jpg",
+        "Tier": "C",
+        "Title": "Star Wars: Rebels",
+        "PremiereDate": 2014,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BODMwYmE1ZGItYWVjNi00ZWUxLWFjYjQtNjdjN2MzNzY0NmRlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "Tier": "D",
+        "Title": "Star Wars: Tales of the Jedi",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZjllZjE1MWEtYTJhZC00MWIyLTliMjEtYzM3ODc4YzQ2MjFlXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg",
+        "Tier": "F",
+        "Title": "Star Wars: The Book of Boba Fett",
+        "PremiereDate": 2021,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/81nNtnWHY3S.jpg",
+        "Tier": "A",
+        "Title": "Star Wars: The Clone Wars",
+        "PremiereDate": 2008,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/518cyoMPU8L._AC_UF894,1000_QL80_.jpg",
+        "Tier": "S",
+        "Title": "Star Wars: The Mandalorian",
+        "PremiereDate": 2019,
+        "EndDate": 0,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Jon Favreau (Iron Man) and Dave Filoni (SW: The Clone Wars) take the term \"space western\" to a whole new level. A lone cowboy roaming the galaxy, getting into shoot-outs, and helping those he comes across, all while protecting a kid with special powers. Granted, the later seasons have started to branch out to follow other characters, but the core of the show is still intact."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNWJiMDA4OTEtOGU0MC00ZDc5LWE5NWItNWVhMTlhNDliMjc4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+        "Tier": "A",
+        "Title": "Star Wars: Visions",
+        "PremiereDate": 2021,
+        "EndDate": 0,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Being an anthology, judging Visions as a whole can be challenging. However, this also means that if you don't like the story or art style of a particular episode, you can just skip it without missing anything. Most of the episodes are well-made and are a fun exploration of different sides of the Star Wars universe that we don't usually see. I particularly enjoyed the episodes \"The Twins,\" \"T0-B1,\" and \"The Spy Dancer.\""
+    },
+    {
+        "ImageLink": "https://static.wikia.nocookie.net/international-entertainment-project/images/4/43/Static_Shock_-_poster_%28English%29.jpeg/revision/latest?cb=20230701115534",
+        "Tier": "A",
+        "Title": "Static Shock",
+        "PremiereDate": 2000,
+        "EndDate": 2004,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMjUxMzE4ZDctODNjMS00MzIwLThjNDktODkwYjc5YWU0MDc0XkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "A",
+        "Title": "Stein;s Gate",
+        "PremiereDate": 2011,
+        "EndDate": 2015,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "This story of a man trying to create a perfect future by altering the past is as compelling as it is filled with twists and turns. Stein;s Gate had me on the edge of my seat the whole time, celebrating victories and mourning defeats along with the protagonist and his band of eclectic friends. And while I was heartbroken that the show ended, I was also happy that it got a movie to tie up its loose ends."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYmJhMDYzYzMtNTVlZS00MzgwLWE3ZjAtN2FhZTBlOGQzZmFmXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg",
+        "Tier": "B",
+        "Title": "Stein;s Gate 0",
+        "PremiereDate": 2018,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYzVmOThmZDktOTI1Ni00YTdhLWEzYzItZTUxYzdiMDZjNzMyXkEyXkFqcGdeQXVyMTU5NDMzOTg2._V1_.jpg",
+        "Tier": "C",
+        "Title": "Sweet Reincarnation",
+        "AltName": "Okashi na Tensei",
+        "PremiereDate": 2023,
+        "EndDate": 2023,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYjY4MDU2YjMtNzY1MC00ODg1LWIwMzYtMWE5YTA3YTI4ZjMxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "C",
+        "Title": "Sword Art Online",
+        "PremiereDate": 2012,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNjQ1NjBhZmQtZTlkOC00YTM2LWE3NjgtNmZjOWJhMjRkMTY1XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+        "Tier": "C",
+        "Title": "Teen Titans",
+        "PremiereDate": 2003,
+        "EndDate": 2006,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/3w7koeOR2x71XYMJDGpygxYtScI.jpg",
+        "Tier": "A",
+        "Title": "The Batman (2004)",
+        "PremiereDate": 2004,
+        "EndDate": 2008,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Western Animation",
+            "Action",
+            "Adventure",
+            "Crime",
+            "Family",
+            "Mystery",
+            "Super Powers",
+            "Based on DC Comics"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://resizing.flixster.com/kIdAqG725LlyIaw_Y9nwFnQyKrQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjI1Njc4OC53ZWJw",
+        "Tier": "D",
+        "Title": "The Defenders",
+        "PremiereDate": 2017,
+        "EndDate": 2017,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/71Ce39r24pS._AC_UF894,1000_QL80_.jpg",
+        "Tier": "B",
+        "Title": "The Falcon and the Winter Soldier",
+        "PremiereDate": 2021,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://resizing.flixster.com/GKQNCrnRAHlxV1QV8duQ9rwEbSI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYTA5YjljODUtNzcwZi00ZTM1LWFhNGQtMzEzZTQ2NTdmZDY4LmpwZw==",
+        "Tier": "A",
+        "Title": "The Ghost & Molly McGee",
+        "PremiereDate": 2021,
+        "EndDate": 2024,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://www.tvtime.com/_next/image?url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fposters%2F311711-3.jpg&w=640&q=75",
+        "Tier": "D",
+        "Title": "The Good Place",
+        "PremiereDate": 2016,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZTY0MmJjOTctZWNlYi00N2UzLThiN2ItYmFjYzJjM2JjMTVlXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
+        "Tier": "B",
+        "Title": "The Grim Adventures of Billy and Mandy",
+        "PremiereDate": 2003,
+        "EndDate": 2007,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BN2NjNWEyNmItYWM3MC00NTE2LWE1ZmYtNWE2OTRjMzlkNmIxXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "D",
+        "Title": "The Legend of Korra",
+        "PremiereDate": 2012,
+        "EndDate": 2014,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Western Animation",
+            "Action",
+            "Adventure",
+            "Family",
+            "Fantasy",
+            "Mythology"
+        ],
+        "Description": "N/A",
+        "Review": "How the mighty have fallen. Korra fails to live up to the standard set by The Last Airbender, not because the characters are badly written or because of the lack of elements and characters from TLA, but because the story isn't cohesive. Not to spoil anything, but seasons 1 and 2 have pretty high stakes, and then seasons 3 and 4 come along with much lowest stakes. Granted, the last two seasons are pretty good, but getting to that point is a rough ride."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMzBkZGM1OTQtYmIyNi00ZjM4LWJlNGItNGM0ZWVhODU3YWVlXkEyXkFqcGdeQXVyNzY3NzAzOTA@._V1_.jpg",
+        "Tier": "C",
+        "Title": "The Orville",
+        "PremiereDate": 2017,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOGQ0MDQyYWMtNjdlYy00ZDAyLWE5YTItMzcyMjllZTA4MTcyXkEyXkFqcGdeQXVyMjEzNTg5Mzk@._V1_.jpg",
+        "Tier": "B",
+        "Title": "The Owl House",
+        "PremiereDate": 2020,
+        "EndDate": 2023,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "While there isn't anything especially unique about this show, Owl House does have a certain charm to it. Whether that's due to the quirky cast of characters, the interesting magic system, or even just the wackiness of the world itself, Owl House is a fun, albeit slightly truncated, show."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTlhMWQyYTAtZjFjMS00M2UzLThiNzMtNTVhN2FkZjAwZWY2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "Tier": "D",
+        "Title": "The Peripheral",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZDYzODRjNTYtNmVmYy00NTJjLTk3NzQtZjQ5Y2Y1YmIzMzZhXkEyXkFqcGdeQXVyMTY4NTMxNTcx._V1_FMjpg_UX1000_.jpg",
+        "Tier": "D",
+        "Title": "The Punisher",
+        "PremiereDate": 2017,
+        "EndDate": 2019,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BODAyYzIyZTYtYTIzZi00ODM4LWE1ZDEtMDE1NWRjYmM2YjA1XkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_FMjpg_UX540_.jpg",
+        "Tier": "C",
+        "Title": "The Santa Clauses",
+        "PremiereDate": 2022,
+        "EndDate": 2023,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://i.ebayimg.com/images/g/W4MAAOSwuKVjB3Gi/s-l1200.jpg",
+        "Tier": "A",
+        "Title": "Trollhunters: Tales of Arcadia",
+        "PremiereDate": 2016,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://i.redd.it/onu598cnowpc1.jpeg",
+        "Tier": "D",
+        "Title": "Ultimate Spider-Man",
+        "PremiereDate": 2012,
+        "EndDate": 2017,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://play-lh.googleusercontent.com/proxy/o97EOdpjnRQHfmr3gb0rV5CbqfwkfIn11nNgYQjoJ0UbwHUmQl4eYe-_EXvr1L8jPYe9bR98RL0NZCxY_IpNP9ImBy7XeFJ93Pu9rP7HmroTijklWu0Uuo7pBkW7N-R6c2xPCrxboINYTE8bWQD4kF93SW-W1Kf6fR-EOQ",
+        "Tier": "C",
+        "Title": "Villainous",
+        "PremiereDate": 2017,
+        "EndDate": 2023,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/71sQ-YFqy4L._AC_UF894,1000_QL80_.jpg",
+        "Tier": "A",
+        "Title": "Voltron: Legendary Defender",
+        "PremiereDate": 2016,
+        "EndDate": 2018,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/91uThdajb1L._AC_UF894,1000_QL80_.jpg",
+        "Tier": "B",
+        "Title": "WandaVision",
+        "PremiereDate": 2021,
+        "EndDate": 2021,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMzRlOWE3NmQtOWJkNy00NWY2LTk0ZTUtMzk3MjZmMTA3NThjXkEyXkFqcGdeQXVyMjIwNTI1MTM@._V1_.jpg",
+        "Tier": "D",
+        "Title": "Wizards: Tales of Arcadia",
+        "PremiereDate": 2020,
+        "EndDate": 2020,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNzk4Nzg3NjMyMV5BMl5BanBnXkFtZTcwMjk3MjU0Mg@@._V1_.jpg",
+        "Tier": "B",
+        "Title": "Wolverine & the X-Men",
+        "PremiereDate": 2008,
+        "EndDate": 2009,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://images.justwatch.com/poster/300726210/s592/x-men-evolution",
+        "Tier": "B",
+        "Title": "X-Men Evolution",
+        "PremiereDate": 2000,
+        "EndDate": 2003,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://static.wikia.nocookie.net/youngjustice/images/7/74/Young_Justice_TV_series.png/revision/latest/scale-to-width-down/1200?cb=20101127030343",
+        "Tier": "B",
+        "Title": "Young Justice",
+        "PremiereDate": 2010,
+        "EndDate": 2023,
+        "WatchStatus": "Completed",
+        "Tags": [
+            "Unsorted"
         ],
         "Description": "N/A",
         "Review": "N/A"
@@ -99,42 +1607,6 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOTYzNWUzODQtYzU5Ni00YWQ0LTg5YmQtOWU0ZWNjZmE3MDczXkEyXkFqcGdeQXVyODA4OTIyMzY@._V1_.jpg",
-        "Tier": "A",
-        "Title": "Animaniacs",
-        "PremiereDate": 1993,
-        "EndDate": 1998,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Western Animation",
-            "Shorts",
-            "Adventure",
-            "Comedy",
-            "Family",
-            "Musical"
-        ],
-        "Description": "Yakko, Wakko, and Dot are the Warner siblings. Their only goal in life is to have fun and cause mischief wherever they go, whether that's around the world, across time, or at home on the Warner Bros lot. Joining them are a whole host of other characters, including Dr. Scratchansniff, Ralph the Security Guard, Pinky and the Brain, Slappy and Skippy, and many others.",
-        "Review": "The Warners' zaniness is in full swing here. Plus, the large cast of supporting characters ensures there's always a nice variety of skits to entertain everyone. Some jokes don't land as well anymore, (especially those referencing then-current celebrities and politicians), but most jokes still hold up over 20 years later. My personal favorite is Rita and Runt, the cat-and-dog duo who are looking for a new home (and singing all the way)."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZjI1NjY0NTItMjM2Yy00NjBmLThkOGEtYzM1YzBhZjMwMjMzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-        "Tier": "F",
-        "Title": "Animaniacs (2020)",
-        "PremiereDate": 2020,
-        "EndDate": 2023,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Western Animation",
-            "Shorts",
-            "Adventure",
-            "Comedy",
-            "Family",
-            "Musical"
-        ],
-        "Description": "The Warner siblings are back at it again! After being locked in the WB water tower for over 20 years, Yakko, Wakko, and Dot are eager to deliver fun and mayhem to a whole new generation. They're not alone, either! Everyone's favorite lab mice are back too, trying once again to take over the world on a nightly basis.",
-        "Review": "This revival fails to do the original justice. While the characters still retain their original zany behavior, a lot of their classic punchlines have been deflated by more modern sensibilities of what is appropriate (the most notable example is the removal of Yakko's famous \"Hello Nurse\" line). Also, the new supporting cast they use to break up the Warners' shorts never brought as much to the table as classic characters like Slappy Squirrel, the mafia pigeons, or even Chicken Boo."
-    },
-    {
         "ImageLink": "https://m.media-amazon.com/images/M/MV5BYmU5OWM5ZTAtNjUzOC00NmUyLTgyOWMtMjlkNjdlMDAzMzU1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
         "Tier": "C",
         "Title": "Arcane",
@@ -155,482 +1627,12 @@
         "Review": "A visually stunning masterpiece set in an interesting world. I wanted to love this show, but unfortunately, I just couldn't get invested in any of the main characters."
     },
     {
-        "ImageLink": "https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=480,height=720,quality=85/catalog/crunchyroll/56ca71acb9f5bd17ec28a3a6bb145da8.jpe",
-        "Tier": "D",
-        "Title": "Armed Girls' Machiavellianism",
-        "AltName": "Busou Shoujo Machiavellianism",
-        "PremiereDate": 2017,
-        "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Anime",
-            "Action",
-            "Comedy",
-            "Ecchi",
-            "Harem",
-            "Martial Arts",
-            "School"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTI0NTMwMDgtYTMzZC00YmJhLTg4NzMtMTc1NjI4MWY4NmQ4XkEyXkFqcGdeQXVyNTY3MTYzOTA@._V1_.jpg",
-        "Tier": "C",
-        "Title": "Arrow",
-        "PremiereDate": 2012,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Live-Action",
-            "Action",
-            "Adventure",
-            "Crime",
-            "Drama",
-            "Mystery",
-            "Sci-Fi",
-            "Super Powers",
-            "Based on DC Comics"
-        ],
-        "Description": "N/A",
-        "Review": "Starting out, Arrow was a great show. Then, about halfway through season 3, the quality decided to go on a roller coaster ride, with many lows and only a few highs. Ultimately, however, Arrow ended on a fantastic final season, which lead directly into the final crossover of the Arrowverse: Crisis on Infinite Earths."
-    },
-    {
-        "ImageLink": "https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=480,height=720,quality=85/catalog/crunchyroll/085af105e7599a59da03ab47750a36e5.jpe",
-        "Tier": "B",
-        "Title": "Ascendance of a Bookworm",
-        "AltName": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen",
-        "PremiereDate": 2019,
-        "EndDate": 0,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Anime",
-            "Adventure",
-            "Comedy",
-            "Drama",
-            "Fantasy",
-            "Isekai"
-        ],
-        "Description": "N/A",
-        "Review": "Finally a modern isekai that doesn't feel like all the other isekais. Myne being physically weak and still striving toward her goals is admirable, and the viewer can't help but root for her to succeed. Overall, a very well written show with a likeable-enough main character and decently fleshed-out supporting characters. It's nowhere near perfect, but it's cute, fun, and relaxing. And sometimes, that's all you need in a show. "
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYzI0OWJlMjItYmE1NS00YzE2LWExNDAtMDM3MDA5MzM5NmExXkEyXkFqcGdeQXVyNzA5MDUyODA@._V1_.jpg",
-        "Tier": "B",
-        "Title": "Assassination Classroom",
-        "AltName": "Ansatsu Kyoushitsu",
-        "PremiereDate": 2015,
-        "EndDate": 2016,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Anime",
-            "Action",
-            "Comedy",
-            "School",
-            "Sci-Fi"
-        ],
-        "Description": "N/A",
-        "Review": "This is by no means a perfect show, but it's a fun show. I mean, the premise of high schoolers trying to kill a superpowered octopus thing while it serves as their teacher is ridiculous. But that ridiculousness is part of its charm. Plus, there are enough twists and turns throughout to keep you guessing."
-    },
-    {
-        "ImageLink": "https://assets.nick.com/uri/mgid:arc:imageassetref:shared.nick.us:61d0d32d-b0ac-4632-ad87-9339381eb1f1?quality=0.7&gen=ntrn&legacyStatusCode=true",
-        "Tier": "S",
-        "Title": "Avatar: The Last Airbender",
-        "PremiereDate": 2005,
-        "EndDate": 2008,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Western Animation",
-            "Action",
-            "Adventure",
-            "Family",
-            "Fantasy",
-            "Mythology"
-        ],
-        "Description": "N/A",
-        "Review": "Drawing heavily from many Eastern cultures, Avatar has plenty of memorable characters, awesome fight scenes, and a good mix of seriousness and comedy. There's a reason Avatar has become a sort of gold standard for not only animation but all storytelling - everything it does, it does brilliantly."
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/eyUeOUefufuBCeih3lOi2NkFD9r.jpg",
-        "Tier": "S",
-        "Title": "Avengers: Earth's Mightiest Heroes",
-        "PremiereDate": 2010,
-        "EndDate": 2012,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Western Animation",
-            "Action",
-            "Adventure",
-            "Family",
-            "Fantasy",
-            "Sci-Fi",
-            "Super Powers",
-            "Based on Marvel Comics"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOWVlM2I2MjctYzk0My00MTEzLWJkZjYtY2JlZTA4MDQ1ZWI1XkEyXkFqcGdeQXVyODA4OTIyMzY@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "A",
-        "Title": "Batman Beyond",
-        "PremiereDate": 1999,
-        "EndDate": 2001,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZmVkNDc3YjQtZDMzOS00MTNjLTljNzUtZDhjYWQxMmVlNjE5XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
-        "Tier": "A",
-        "Title": "Batman: The Animated Series",
-        "AltName": "The New Batman Adventures",
-        "PremiereDate": 1992,
-        "EndDate": 1995,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p191624_b_v13_ab.jpg",
-        "Tier": "B",
-        "Title": "Batman: The Brave and the Bold",
-        "PremiereDate": 2008,
-        "EndDate": 2011,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BY2U3M2NkOGQtNzQ0Ny00NDkyLWIxNTItZTAzODk3OTQ3NDllXkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UX801_.jpg",
-        "Tier": "F",
-        "Title": "Batwoman",
-        "PremiereDate": 2019,
-        "EndDate": 2022,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTJhY2Y0MjQtMTQxYy00ODU5LWI1YzgtOGNkNzViMTI2ZDg3XkEyXkFqcGdeQXVyNjUyMzA0MzY@._V1_FMjpg_UY2340_.jpg",
-        "Tier": "D",
-        "Title": "BNA: Brand New Animal",
-        "PremiereDate": 2020,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/71Z6Rr0iwvL._AC_UF894,1000_QL80_.jpg",
-        "Tier": "A",
-        "Title": "Bocchi the Rock",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNDM1NDg5ZTUtNDU1Ni00YmRjLWEyNjEtNDgxYjRlZTBmMTg4XkEyXkFqcGdeQXVyODcxNTMyMTQ@._V1_.jpg",
-        "Tier": "F",
-        "Title": "Bureau of Magical Things",
-        "PremiereDate": 2018,
-        "EndDate": 2021,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Granted, I am neither a teen nor a girl, so I'm not really the target audience for this one, but I thought the plot was insubstantial and predictable, and the characters were uninteresting."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BY2ZkZTI0MzktYjQyOC00MDQ5LWE4MDItMjE5NTQ3NmM4MGQzXkEyXkFqcGdeQXVyNDQxNjcxNQ@@._V1_.jpg",
-        "Tier": "A",
-        "Title": "Carmen Sandiego",
-        "PremiereDate": 2019,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://fr.web.img2.acsta.net/pictures/17/06/05/13/22/514027.jpg",
-        "Tier": "K",
-        "Title": "Castlevania",
-        "PremiereDate": 2017,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Western Animation",
-            "Action",
-            "Adventure",
-            "Drama",
-            "Fantasy",
-            "Horror",
-            "Based on a Video Game"
-        ],
-        "Description": "N/A",
-        "Review": "I regret watching this so much. The dynamic between Alucard and Trefor was amazing, and James Callis' portrayal of Dracula was top-notch, but none of that could have ever made up for the massive amount of gore and sex in this show. If you absolutely have to watch Castlevania, do yourself a favor and stop after Season 2."
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/iyWWe2SXgj3KvVI9DGdKHe4tWpm.jpg",
-        "Tier": "D",
-        "Title": "Chuck",
-        "PremiereDate": 2007,
-        "EndDate": 2012,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZmJiYmNmOWEtN2RhNi00YTViLWFlNGQtODBlMTM0NzlmMzIzXkEyXkFqcGdeQXVyODk1MjAxNzQ@._V1_FMjpg_UY480_.jpg",
-        "Tier": "F",
-        "Title": "Clone High",
-        "PremiereDate": 2002,
-        "EndDate": 2003,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://m.media-amazon.com/images/M/MV5BZjQ5YzcxNjAtNTZlNS00MzM4LTgxOTEtMjVkMzM5ZjJmYjMxXkEyXkFqcGdeQXVyMTMzOTQyOTk1._V1_FMjpg_UY711_.jpg",
         "Tier": "F",
         "Title": "Clone High (2023)",
         "PremiereDate": 2023,
         "EndDate": 2024,
         "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNzRkOTA4MDQtNDgxMi00OTc0LWFhNDUtNzIxNTQxYmU5ZGRmXkEyXkFqcGdeQXVyMTA3OTEyODI1._V1_QL75_UX820_.jpg",
-        "Tier": "A",
-        "Title": "Cowboy Bebop",
-        "PremiereDate": 1998,
-        "EndDate": 1999,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTQ0MGI4NTgtZTlkNy00YTU5LThjM2ItNDczMGFlZWY2ZWM3XkEyXkFqcGdeQXVyMTM3NDc1OTM2._V1_.jpg",
-        "Tier": "D",
-        "Title": "Cyberpunk Edgerunners",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Studio Trigger always puts out fantastic-looking shows, but I couldn't get into it this time. Nothing is wrong with the show, but after I had gotten through a couple of episodes, I lost interest and stopped watching."
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/amQbWPfb6HYS67JpWhKdXO0NmYT.jpg",
-        "Tier": "B",
-        "Title": "Danny Phantom",
-        "PremiereDate": 2003,
-        "EndDate": 2007,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/2qfaHJaodEbMmj9GXMvj84mbpy3.jpg",
-        "Tier": "C",
-        "Title": "Daredevil",
-        "PremiereDate": 2015,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://static.tvtropes.org/pmwiki/pub/images/lots2s.png",
-        "Tier": "C",
-        "Title": "DC's Legends of Tomorrow",
-        "PremiereDate": 2016,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNjRiNmNjMmMtN2U2Yi00ODgxLTk3OTMtMmI1MTI1NjYyZTEzXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "B",
-        "Title": "Death Note",
-        "PremiereDate": 2006,
-        "EndDate": 2007,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Anime",
-            "Crime",
-            "Drama",
-            "Fantasy",
-            "Mystery",
-            "Thriller",
-            "Psychological"
-        ],
-        "Description": "N/A",
-        "Review": "This show starts very strong, featuring a war between Light and L that had me on the edge of my seat the whole time. The push-and-pull dynamic between those two is masterfully done. However, about halfway through the show, something happens that, without spoiling anything, makes the show feel less suspenseful. The second half of the show is still good, but it never reaches the same high as the first half."
-    },
-    {
-        "ImageLink": "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/08/delicious-in-dungeon-tv-series-poster.jpg?q=50&fit=crop&w=480&dpr=1.5",
-        "Tier": "U",
-        "Title": "Delicious in Dungeon",
-        "PremiereDate": 2024,
-        "EndDate": 0,
-        "WatchStatus": "Watching",
-        "Tags": [
-            "Anime",
-            "Comedy",
-            "Fantasy",
-            "Gourmet"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://i.ebayimg.com/images/g/UJAAAOSwD39aZ5OM/s-l1600.jpg",
-        "Tier": "B",
-        "Title": "Doctor Who (10th Doctor)",
-        "PremiereDate": 2006,
-        "EndDate": 2008,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://i.pinimg.com/564x/9f/c4/96/9fc496481f78975c58e3ca49b9554744.jpg",
-        "Tier": "A",
-        "Title": "Doctor Who (11th Doctor)",
-        "PremiereDate": 2010,
-        "EndDate": 2012,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/61EZ9voQnAL.jpg",
-        "Tier": "B",
-        "Title": "Doctor Who (12th Doctor)",
-        "PremiereDate": 2014,
-        "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://cdn.europosters.eu/image/750/posters/doctor-who-13th-doctor-i58007.jpg",
-        "Tier": "F",
-        "Title": "Doctor Who (13th Doctor)",
-        "PremiereDate": 2018,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://tinyobsessions.files.wordpress.com/2014/03/tumblr_n320noaiev1sw4g05o1_500.jpg",
-        "Tier": "C",
-        "Title": "Doctor Who (9th Doctor)",
-        "PremiereDate": 2005,
-        "EndDate": 2005,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNjY1NDE5YWQtMDMyNS00M2M2LWE3MWItMjA5Y2UxOWVkNmM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "K",
-        "Title": "Doom Patrol",
-        "PremiereDate": 2019,
-        "EndDate": 2023,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZGQ4ZjAxZTUtZGVjZS00MzA2LWI5NGYtZWQ0NGY5NWNmMWQ3XkEyXkFqcGdeQXVyMzg1OTc1ODk@._V1_.jpg",
-        "Tier": "F",
-        "Title": "Dragon Age: Absolution",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/6oaEH8CNlMDiiQHUSeirza96q0g.jpg",
-        "Tier": "B",
-        "Title": "Dragon Pilot: Hisone and Masotan",
-        "PremiereDate": 2018,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],
@@ -659,255 +1661,12 @@
         "Review": "While certain aspects of this show haven't aged the best, at its heart, DuckTales is still a fun show that manages to deliver plenty of laughs and good messages for kids. Plus, it comes with a killer theme song."
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTA2NTc5MzQwNV5BMl5BanBnXkFtZTgwOTY2ODI2MjI@._V1_.jpg",
-        "Tier": "S",
-        "Title": "DuckTales (2017)",
-        "PremiereDate": 2017,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Western Animation",
-            "Action",
-            "Adventure",
-            "Comedy",
-            "Family",
-            "Fantasy",
-            "Mystery",
-            "Sci-Fi",
-            "Disney"
-        ],
-        "Description": "N/A",
-        "Review": "A reboot that manages to surpass the original, in my opinion. Scrooge is the same stingy adventuring billionaire as always, but the rest of the cast has received updated, more fleshed-out personalities that only enhance the overall show. Plus, the theme song's still here, amazing as ever."
-    },
-    {
-        "ImageLink": "https://resizing.flixster.com/xQk5Lmt4PuxZ0bvZgAD1NkPMons=/206x305/v2/https://resizing.flixster.com/m3WV9N8F2Zfm6QcvqsPBXiE3SEM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjg3NjAyMC53ZWJw",
-        "Tier": "C",
-        "Title": "Eden (ONA)",
-        "PremiereDate": 2021,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BM2IxZjZkNGQtMDhiMi00MmViLWFiYzQtZGFiNjJiYWIzZDVmXkEyXkFqcGdeQXVyMjI5MTc5MA@@._V1_.jpg",
-        "Tier": "D",
-        "Title": "Elena of Avalor",
-        "PremiereDate": 2016,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://images.justwatch.com/poster/150591730/s718/eureka.jpg",
         "Tier": "U",
         "Title": "Eureka",
         "PremiereDate": 2006,
         "EndDate": 2012,
         "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMzZjNmRhNWQtNTAyYy00Yjk2LWE0NzUtMmYyNTU0YTE5NjJiXkEyXkFqcGdeQXVyNjI4OTE5OTM@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "B",
-        "Title": "Fairy Tail",
-        "PremiereDate": 2009,
-        "EndDate": 2019,
-        "WatchStatus": "Watching",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTAwZjI1ZWUtZjEyOS00ZTAwLWEzYmItMjQ3OWYyYmI2ZTI4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
-        "Tier": "B",
-        "Title": "Fantastic Four: World's Greatest Heroes",
-        "PremiereDate": 2006,
-        "EndDate": 2010,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://cdn11.bigcommerce.com/s-j3ptcnmq25/images/stencil/1280x1280/products/2991/4839/796835e3-7251-46e9-a7b8-6c7d5daf2607__71579__90777.1627581107.jpg?c=2",
-        "Tier": "K",
-        "Title": "Food Wars!",
-        "AltName": "Shokugeki no Soma",
-        "PremiereDate": 2015,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "This show perfected the art of food porn - unfortunately, it came awful close to showing the other kind, too. Food Wars consistently served up deliciously gorgeous imagery of food, delivered a fun, often wacky story, and featured many memorable characters. However, the excessive amount of fanservice scenes, dubbed \"foodgasms\" by the community, makes this show difficult to recommend."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMjVjZGU5ZTktYTZiNC00N2Q1LThiZjMtMDVmZDljN2I3ZWIwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-        "Tier": "S",
-        "Title": "Friren: After Journey's End",
-        "PremiereDate": 2023,
-        "EndDate": 2024,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/04/game-of-thrones-franchise-poster.jpg",
-        "Tier": "F",
-        "Title": "Game of Thrones",
-        "PremiereDate": 2011,
-        "EndDate": 2019,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "Based on the \"Song of Ice and Fire\" series by George R.R. Martin, this dark fantasy show follows a large cast of characters as they fight for control of the Iron Throne, and the right to rule all of Westeros. And all the while, an ancient evil stirs in the frigid north.",
-        "Review": "Between all the sex and gore, I'm not sure what sickens me more. In the first episode alone, there's a bloody battlefield, attempted child murder, and multiple sex scenes (one between siblings). Nothing in this world, or Tamriel could have convinced me to continue watching this show."
-    },
-    {
-        "ImageLink": "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:600/h:889/q:75/https://bleedingcool.com/wp-content/uploads/2021/10/genlock200.jpg",
-        "Tier": "D",
-        "Title": "gen:LOCK",
-        "PremiereDate": 2018,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "I genuinely enjoyed Season 1; it made me want to rewatch Voltron, but it was enjoyable. Seeing the relationships between the Gen Lock team develop as they faced Nemesis was definitely a highlight. There was a shift, however, for Season 2, and it was not a good shift. The story got weirder, subject matter got darker, and some sex scenes were added. The shift probably occured because the season initially aired on HBO, but whatever the reason, I'm not a fan."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYjliNTkwYjEtMmU3Mi00NDRlLWFjY2EtNWI2NjlkMjI4ODkxXkEyXkFqcGdeQXVyMTI1OTg1MTQ2._V1_FMjpg_UX1000_.jpg",
-        "Tier": "B",
-        "Title": "Glitch Techs",
-        "PremiereDate": 2020,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://images.ctfassets.net/4cd45et68cgf/3ylo8VbVSt5bvIUTucAipp/266f879dac6e69c059b26525460bfd4f/en-US_gnw_main_group_vertical_27x40_rgb_pre_1.jpg",
-        "Tier": "D",
-        "Title": "Good Night World",
-        "PremiereDate": 2023,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://static.dc.com/dc/files/default_images/TVPage_Thumb_Gotham_6345b806b1e5b2.56683543.jpg",
-        "Tier": "F",
-        "Title": "Gotham",
-        "PremiereDate": 2014,
-        "EndDate": 2019,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTEzNDc3MDQ2NzNeQTJeQWpwZ15BbWU4MDYzMzUwMDIx._V1_FMjpg_UX1000_.jpg",
-        "Tier": "A",
-        "Title": "Gravity Falls",
-        "PremiereDate": 2012,
-        "EndDate": 2016,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://static.tvtropes.org/pmwiki/pub/images/gltas2.png",
-        "Tier": "B",
-        "Title": "Green Lantern: The Animated Series",
-        "PremiereDate": 2011,
-        "EndDate": 2013,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNzVjM2E2OTktYzBiMy00NzJjLWFlNTQtYWMzMzYwNjM0Y2I2XkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_.jpg",
-        "Tier": "C",
-        "Title": "Gudatama: An Eggcellent Adventure",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYTdjNDljNGUtNWFlYS00MTA4LThhZmEtMzA5ZGY0OGEzMjE1XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
-        "Tier": "D",
-        "Title": "Gurren Lagann",
-        "PremiereDate": 2007,
-        "EndDate": 2007,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "The show's first half was pretty good, though I couldn't help but think of how I enjoyed Voltron more. The main characters were unique and had fun interactions, but the fight scenes were never anything to write home about. Then, after the time jump, it felt like all of the initial charm had been sucked out, and most of the characters I'd grown to care about were gone or significantly different. And to top it all off, the finale was very unsatisfying, not giving any of the main characters a happy ending."
-    },
-    {
-        "ImageLink": "https://resizing.flixster.com/N9ki7dkbiG4ZXtDucQIvmfadT7M=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNDdiZDk0NzUtZmU4ZC00MWU0LWI5N2EtZWZhMmRhMzhmN2RkLmpwZw==",
-        "Tier": "D",
-        "Title": "Harley Quinn",
-        "PremiereDate": 2019,
-        "EndDate": 0,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMDUzZjU5YTQtZTUyZi00NGIyLWE3YWEtZGRlOTlhMzhiNzJiXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_QL75_UX149_.jpg",
-        "Tier": "B",
-        "Title": "Hawkeye",
-        "PremiereDate": 2021,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],
@@ -928,241 +1687,6 @@
         "Review": "Who knew a series about demons could be so… positively uplifting? For all the cursing, violence, degeneracy, and truly heretical ideas, Charlie's message of hope and redemption speaks to my own beliefs about the salvation of humanity. And it has some really catchy songs to boot."
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/I/71+jeWobJ9L._AC_UF894,1000_QL80_.jpg",
-        "Tier": "K",
-        "Title": "Helluva Boss",
-        "PremiereDate": 2019,
-        "EndDate": 0,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMjI3ODU0OTQ1MV5BMl5BanBnXkFtZTgwNzI0MTQ2MzE@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "D",
-        "Title": "Heroes",
-        "PremiereDate": 2006,
-        "EndDate": 2010,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://resizing.flixster.com/QrT-Krzry3Ikh6cH4u9bHCYH_6w=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNGZmZmJkN2YtZDA4YS00ZjkzLWE3OTMtNTgyNDE5NWM3YjhmLmpwZw==",
-        "Tier": "F",
-        "Title": "House of the Dragon",
-        "PremiereDate": 2022,
-        "EndDate": 0,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "Set over 200 years before Game of Thrones, this show aims to portray the events that led to the fall of House Targaryen: a brutal war known as the \"Dance of Dragons.\"",
-        "Review": "I'll be the first to admit I should have known I'd hate this show. But I was enticed by the prospect of seeing Matt Smith (of Doctor Who fame) again, plus one of the actresses was cute. However, it didn't take long for me to remember that this was a Game of Thrones spin-off. With rampant gore, sex, and a cast of self-centered characters continuously back-stabbing each other, I wish I'd listened to common sense."
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/iytgxOXW2ZQTLdoWTWD2WU9Bdu8.jpg",
-        "Tier": "F",
-        "Title": "Inhumans",
-        "PremiereDate": 2017,
-        "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "A plot that's so forgettable I don't even remember what happened while writing this review. Combine that with uninteresting characters and lousy CG; this is definitely not worth wasting your time on."
-    },
-    {
-        "ImageLink": "https://play-lh.googleusercontent.com/eIfEfv5-AHdpHrYovEKcjJ5Eo1Y0sbL3drjI2GT34zQe7pkjuj3-6QhoZ8QRCRfV82Y=w600-h300-pc0xffffff-pd",
-        "Tier": "D",
-        "Title": "Into the Badlands",
-        "PremiereDate": 2015,
-        "EndDate": 2019,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMWNkODA2OGMtMTFlMC00NGE0LWIxMjUtZTM1OWEyYjBkNGUzXkEyXkFqcGdeQXVyNjI2ODQwOTM@._V1_QL75_UX820_.jpg",
-        "Tier": "C",
-        "Title": "Invader Zim",
-        "PremiereDate": 2001,
-        "EndDate": 2006,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://ew.com/thmb/-Jda_GBzHMebV6KFDV_QYr-eeXA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/INV_1500x2250px-ffd010db0da74cfcbd4bb5eab59be814.jpg",
-        "Tier": "D",
-        "Title": "Invincible",
-        "PremiereDate": 2021,
-        "EndDate": 0,
-        "WatchStatus": "Watching",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Even if this wasn't automatically relegated to Z Tier based on the excessive amount of gore, this show would not have ranked very highly. The \"what if Superman was evil\" story has been done so many times, across various media, that it would have taken something truly special to make this one stand out. Unfortunately, Invincible contains no such element. The casting of J.K. Simmons as Omni-Man was brilliant, but aside from that, there is nothing truly groundbreaking or unique here to keep me invested."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMjI5Mjg1NDcyOV5BMl5BanBnXkFtZTgwMjAxOTQ5MTI@._V1_.jpg",
-        "Tier": "F",
-        "Title": "Iron Fist",
-        "PremiereDate": 2017,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Season 1 was a complete waste of time. The actors were fine, it was the bad writing that killed it. I guess that's what happens when you write a show in less than 6 weeks. Season 2 was a slight improvement, but not enough to justify watching the show."
-    },
-    {
-        "ImageLink": "https://resizing.flixster.com/W2PMiR-Bp6rT_50v7Gmf1o3Ckp0=/206x305/v2/https://resizing.flixster.com/uPbNXJ2D23kM9N3VwGlnyMNIZ0s=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjE3NjAyMC53ZWJw",
-        "Tier": "F",
-        "Title": "Jessica Jones",
-        "PremiereDate": 2015,
-        "EndDate": 2019,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "I have no idea why anyone liked this. It was far too creepy and depressing. Also, David Tenant as Killgrave is too much of a disconnect for me. The Doctor being a mind-controlling piece of trash is a \"no\" from me."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZGQxYzExOGEtYjE2Ni00YzNlLTkyMGEtZTM0NDE3ZTIzODU1XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
-        "Tier": "S",
-        "Title": "Justice League",
-        "AltName": "Justice League Unlimited",
-        "PremiereDate": 2001,
-        "EndDate": 2006,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMWU1YTRhZWItNGVlMy00MzYxLWFmM2ItYzlkMmMyZGJlYTljXkEyXkFqcGdeQXVyODA4OTIyMzY@._V1_.jpg",
-        "Tier": "D",
-        "Title": "Justice League Action",
-        "PremiereDate": 2016,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMzgyZjUyZTMtYzlkNC00NWEwLTg1YTQtNzI4MWJlOWM1YjU5XkEyXkFqcGdeQXVyNjgxNzAxNTc@._V1_QL75_UX820_.jpg",
-        "Tier": "K",
-        "Title": "Kill la Kill",
-        "PremiereDate": 2013,
-        "EndDate": 2014,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "As much as I love this show, I cannot in good conscience recommend it. Like most of Studio Trigger's work, this show features unique and memorable characters, a compelling story, and fantastic visuals. However, all of that is tainted by the excessive amounts of \"fanservice\". I hesitate to even call it fanservice, as a lot of the time, it's straight-up barely-covered nudity. This means that this (potentially) A+ Tier show is relegated to the lowest levels of this list so that it will not be a stumbling block for other people struggling with a porn addiction."
-    },
-    {
-        "ImageLink": "https://static.wikia.nocookie.net/kipoandtheageofwonderbeasts/images/6/66/Kipo_season_3_key_art_poster.jpg/revision/latest?cb=20200910180433",
-        "Tier": "A",
-        "Title": "Kipo and the Age of Wonderbeasts",
-        "PremiereDate": 2020,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://media.themoviedb.org/t/p/w500/hJorLxQTYOwrEYAjprC66HKeUcG.jpg",
-        "Tier": "F",
-        "Title": "Koro Sensei's Quest",
-        "PremiereDate": 2016,
-        "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZGZkODdkZGUtMGU2Mi00ZTg1LWI2MjQtMDczNzE2NWVjY2YxXkEyXkFqcGdeQXVyMTQ3MjMyMTYz._V1_QL75_UX820_.jpg",
-        "Tier": "A",
-        "Title": "Little Witch Academia",
-        "PremiereDate": 2017,
-        "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://variety.com/wp-content/uploads/2020/01/lockekey_vertical_teaser_rgb_en-us.jpg",
-        "Tier": "D",
-        "Title": "Locke & Key",
-        "PremiereDate": 2020,
-        "EndDate": 2022,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYTQzODUxYzItNzRlNi00ODRkLWE5YjktNWVlYjhhYjAzZmVjXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_QL75_UX820_.jpg",
-        "Tier": "B",
-        "Title": "Log Horizon",
-        "PremiereDate": 2013,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/71ynWsEQIQL._AC_UF894,1000_QL80_.jpg",
-        "Tier": "A",
-        "Title": "Loki",
-        "PremiereDate": 2021,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://m.media-amazon.com/images/M/MV5BYTNiYTNkNTAtYzE3ZS00ZDQ1LWEwZTYtZjI1NzYzMWJjY2U4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
         "Tier": "U",
         "Title": "Love, Death, and Robots",
@@ -1176,148 +1700,12 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTcyMzc1MjI5MF5BMl5BanBnXkFtZTgwMzE4ODY2OTE@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "F",
-        "Title": "Luke Cage",
-        "PremiereDate": 2016,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZGIxNDUzMDktYTg1ZC00OGRiLTliNWUtZmY4NTE0MDU0YWU4XkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_.jpg",
-        "Tier": "F",
-        "Title": "Manifest",
-        "PremiereDate": 2018,
-        "EndDate": 2023,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNDk2MmQyMTAtYjIzMi00N2I1LThhZmQtOTAxNjIzNmFiZGU4XkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg",
-        "Tier": "B",
-        "Title": "Mao Mao: Heroes of Pure Heart",
-        "PremiereDate": 2019,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTkwODYyMjgzOV5BMl5BanBnXkFtZTgwODAzMTE5MjE@._V1_.jpg",
-        "Tier": "D",
-        "Title": "Marvel's Agents of S.H.I.E.L.D.",
-        "PremiereDate": 2013,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Live-Action",
-            "Action",
-            "Adventure",
-            "Drama",
-            "Sci-Fi",
-            "Thriller",
-            "Secret Agents"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19986437_b_v8_ab.jpg",
-        "Tier": "A",
-        "Title": "Masters of the Universe: Revelations",
-        "PremiereDate": 2021,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://pbs.twimg.com/media/GFWqgH1W0AAMKvp?format=jpg&name=large",
-        "Tier": "U",
-        "Title": "Masters of the Universe: Revolution",
-        "PremiereDate": 2024,
-        "EndDate": 2024,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BN2M5MGNjYzktZTg2NC00NDg0LTkzMjMtNzUyMDczZWE2MGJkXkEyXkFqcGdeQXVyMTIzNTI5NTM1._V1_QL75_UX167_.jpg",
-        "Tier": "C",
-        "Title": "Max Steel (2013)",
-        "PremiereDate": 2013,
-        "EndDate": 2015,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://m.media-amazon.com/images/M/MV5BZWExMThlOTUtYTA4ZC00NmEzLWE0NDktNmNjZGE3MDdkOTRhXkEyXkFqcGdeQXVyOTE4NzcwNzI@._V1_FMjpg_UX1000_.jpg",
         "Tier": "C",
         "Title": "Miraculous: Tales of Ladybug and Cat Noir",
         "PremiereDate": 2015,
         "EndDate": 0,
         "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_Cb7nZCndZvHqEQ-d_AJz6tOOhDTjmZJjEGqtIzJpSyCT5hH",
-        "Tier": "D",
-        "Title": "Miss Kobayashi's Dragon Maid",
-        "PremiereDate": 2017,
-        "EndDate": 2022,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "The first season was cute, and while it bugged me how horny some of the characters were, I could get past it because the relationships were still pretty wholesome. However, with season 2, it felt like the horniness was turned up a couple of notches, and the new dragon got on my nerves, to the point of not wanting to continue the show."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYTc5OWNhYjktMThlOS00ODUxLTgwNDQtZjdjYjkyM2IwZTZlXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_.jpg",
-        "Tier": "C",
-        "Title": "Moon Knight",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/cdkyMYdu8ao26XOBvilNzLneUg1.jpg",
-        "Tier": "D",
-        "Title": "Ms. Marvel",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],
@@ -1354,6 +1742,7 @@
         "ImageLink": "https://fr.web.img3.acsta.net/c_310_420/pictures/21/02/16/12/45/5319199.jpg",
         "Tier": "A",
         "Title": "My Hero Academia",
+        "AltName": "Boku no Hero Academia",
         "PremiereDate": 2016,
         "EndDate": 0,
         "WatchStatus": "Hold",
@@ -1383,19 +1772,6 @@
         "PremiereDate": 2015,
         "EndDate": 0,
         "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://images.justwatch.com/poster/200831223/s276/season-2.webp",
-        "Tier": "C",
-        "Title": "Once Upon a Time",
-        "PremiereDate": 2011,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],
@@ -1455,124 +1831,6 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOTdjZTBhNjgtNTJiYS00NTIzLWFmMDAtYmIzNzE4NzdlNmViXkEyXkFqcGdeQXVyMTgxMjYxOQ@@._V1_.jpg",
-        "Tier": "S",
-        "Title": "Rapunzel's Tangled Adventure",
-        "AltName": "Tangled: The Series",
-        "PremiereDate": 2017,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Tangled was never my favorite Disney movie, but this show has given me a new appreciation for the characters and the world they inhabit. While this show is aimed at little girls, at its heart lies an intriguing story, loveable characters, and amazing music. With the original movie's cast plus a handful of new additions, and Alan Menken returning as composer, this show is a treat for fans of Tangled, Disney, or musicals."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZTM5NDEwZjAtNjYzMi00YjI4LWEwOTgtY2FiNzFhNmM3YzJlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "C",
-        "Title": "Reincarnated as a Sword",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/acb372e8b4c648ebce8117edb54c0b2c.jpe",
-        "Tier": "B",
-        "Title": "Restaurant to Another World",
-        "PremiereDate": 2017,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOTRiYWQ2ZDktYjVlOS00OTIyLTk0Y2EtZmNkYzNkNjRkNzlhXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
-        "Tier": "S",
-        "Title": "Romantic Killer",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://static.wikia.nocookie.net/rwby/images/f/fe/Volume_7_Cover.jpg/revision/latest?cb=20190706020817",
-        "Tier": "A",
-        "Title": "RWBY",
-        "PremiereDate": 2012,
-        "EndDate": 2024,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNmQzODkzYmEtYjFhZC00N2ViLTg5MzktMTI1N2M0ZDM5OWE2XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_QL75_UX820_.jpg",
-        "Tier": "A",
-        "Title": "RWBY Chibi",
-        "PremiereDate": 2016,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/710bLqxa1RL._AC_UF894,1000_QL80_.jpg",
-        "Tier": "C",
-        "Title": "RWBY Ice Queendom",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "While it is nice to revisit some scenes from the earlier RWBY seasons, like Ruby's fight outside the Dust store, I don't feel like the original story Ice Queendom is telling adds anything meaningful to the RWBY universe. It's not bad, but it's also nothing special. The best way to describe it is to say that it's a well-written, but somewhat forgettable fanfiction."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYTZhYjIxMTUtMThhMC00NjA4LTg4OTQtZDE1ODAyNGUwZWMzXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "B",
-        "Title": "Sailor Moon",
-        "PremiereDate": 1992,
-        "EndDate": 1997,
-        "WatchStatus": "Watching",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://static.tvtropes.org/pmwiki/pub/images/image_2024_03_29_143749637.png",
-        "Tier": "S",
-        "Title": "Samurai Jack",
-        "PremiereDate": 2001,
-        "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Samurai Jack dared ask the question, \"What if the protagonist didn't say anything?\" And it worked. Extremely well. This show is visually stunning, with memorable characters and riveting action sequences. The only downside is that you have to go beat the video game to see the show's \"true\" ending (or you could just look it up on Youtube)."
-    },
-    {
         "ImageLink": "https://m.media-amazon.com/images/M/MV5BOGQ3ZjhhYzEtNjczZi00YTlhLThlNzctNWU4NTBhMzYxNzg4XkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_.jpg",
         "Tier": "B",
         "Title": "School Spirits",
@@ -1586,90 +1844,12 @@
         "Review": "NOTE: Currently the show ends on a huge cliffhanger, but it has been renewed, so hopefully season 2 comes soon. The premise of a ghost stuck at her high school trying to solve her own murder was so intriguing, and this show really delivered. While I was able to predict some of the twists and turns, there were still plenty of curveballs that had me constantly guessing as to what would happen next. Also, the main cast of characters, both ghost and non-ghost, all have compelling stories to tell and secrets to uncover."
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BM2FlYzVmNWQtNzE4ZS00OTMwLTlhYTUtZDY0YTEyZTRlZDlkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-        "Tier": "F",
-        "Title": "Secret Invasion",
-        "PremiereDate": 2023,
-        "EndDate": 2023,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Such a complete waste of potential. It could have been a great spy-thriller featuring Nick Fury singlehandedly building a team of trusted agents to root out Skrulls hidden throughout the world's governments. If you want a good adaptation of Secret Invasion, go watch Avengers: Earth's Mightiest Heroes."
-    },
-    {
-        "ImageLink": "https://cdn.marvel.com/content/1x/clover_teaser_printed_1sht_v2_lg.jpg",
-        "Tier": "D",
-        "Title": "She-Hulk: Attorney at Law",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://live.staticflickr.com/1904/45106948642_b4e6f78784_z.jpg",
-        "Tier": "C",
-        "Title": "She-Ra: Princesses of Power",
-        "PremiereDate": 2018,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://cdn.movieguide.org/wp-content/uploads/2023/07/sonic_prime.jpg",
         "Tier": "D",
         "Title": "Sonic Prime",
         "PremiereDate": 2022,
         "EndDate": 2024,
         "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTdiNTJmMzktZmE2MC00OWUxLWE1MjktMTdhN2Q1OWNlODY1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
-        "Tier": "C",
-        "Title": "Soul Eater",
-        "PremiereDate": 2008,
-        "EndDate": 2009,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Soul Eater isn't a bad show by any means, it was rather enjoyable at times. The concept of Weapons and Meisters fighting witches is interesting, and the main characters are certainly memorable, but the story is just kind of, I don't know. Forgettable? Run-of-the-mill? It's not a bad story, it's just not anything special, espcially by anime standards. Also, if you have a problem with spiders or snakes you should probably stay away."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZWExMjQ0ZGYtZDFjZS00ODY5LWJlZGQtMDVjNzMxNTY0Mjg4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg",
-        "Tier": "D",
-        "Title": "Soul Eater NOT!",
-        "PremiereDate": 2014,
-        "EndDate": 2014,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "While it is nice to see some of the characters from the original series show up here, this show really lives up to its name. This is NOT Soul Eater. This is about a love triangle between three teenage girls that happens to be set in the Soul Eater universe. So, if that sounds appealing to you, have at it. There are worse ways to spend 6 hours."
-    },
-    {
-        "ImageLink": "https://preview.redd.it/is-spectacular-spider-man-still-worth-watching-even-though-v0-lj7drdau9xba1.jpg?width=1080&crop=smart&auto=webp&s=06f4d14256ed8cecc1c1facc4fd992abe5ee8564",
-        "Tier": "A",
-        "Title": "Spectacular Spider-Man",
-        "PremiereDate": 2008,
-        "EndDate": 2009,
-        "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],
@@ -1690,19 +1870,6 @@
         "Review": "One of the most wholesome, lighthearted, and cute shows I've ever seen. Anya is simply adorable, and the interactions between all the main characters are so much fun to watch. Even the more serious episodes find time to make the viewer smile."
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYmUxYWJkZGQtY2FmYS00YzM2LWJiMGQtODY5YTdjYmVkM2Y5XkEyXkFqcGdeQXVyNzQzNTI4MTM@._V1_.jpg",
-        "Tier": "C",
-        "Title": "Star vs the Forces of Evil",
-        "PremiereDate": 2012,
-        "EndDate": 2019,
-        "WatchStatus": "Watching",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0A59BD8BD8CD4E1362D5C811B3FF727D27F13C2371EA65549A6F01C5E91A1F2B/scale?width=506&amp;aspectRatio=2.00&amp;format=webp",
         "Tier": "B",
         "Title": "Star Wars: Andor",
@@ -1716,168 +1883,12 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNzg2NTJhMmUtZjU5My00MDg1LWJhNzItNjBiN2U2NTY2OWY0XkEyXkFqcGdeQXVyMjg5NDMwMQ@@._V1_FMjpg_UY2175_.jpg",
-        "Tier": "A",
-        "Title": "Star Wars: Clone Wars",
-        "PremiereDate": 2003,
-        "EndDate": 2005,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Gendy Tartovsky (of Samurai Jack and Primal fame) does Star Wars. What more do you want?"
-    },
-    {
-        "ImageLink": "https://i.etsystatic.com/37268737/r/il/961f35/4469956211/il_fullxfull.4469956211_1545.jpg",
-        "Tier": "A",
-        "Title": "Star Wars: Obi-Wan Kenobi",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://www.lucasfilm.com/app/uploads/REB_IA_24118-poster-1-480x720.jpg",
-        "Tier": "C",
-        "Title": "Star Wars: Rebels",
-        "PremiereDate": 2014,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BODMwYmE1ZGItYWVjNi00ZWUxLWFjYjQtNjdjN2MzNzY0NmRlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-        "Tier": "D",
-        "Title": "Star Wars: Tales of the Jedi",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://www.starwarsnewsnet.com/wp-content/uploads/2021/05/Bad-Batch.jpeg",
-        "Tier": "B",
-        "Title": "Star Wars: The Bad Batch",
-        "PremiereDate": 2021,
-        "EndDate": 2024,
-        "WatchStatus": "Watching",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZjllZjE1MWEtYTJhZC00MWIyLTliMjEtYzM3ODc4YzQ2MjFlXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg",
-        "Tier": "F",
-        "Title": "Star Wars: The Book of Boba Fett",
-        "PremiereDate": 2021,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/81nNtnWHY3S.jpg",
-        "Tier": "A",
-        "Title": "Star Wars: The Clone Wars",
-        "PremiereDate": 2008,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/518cyoMPU8L._AC_UF894,1000_QL80_.jpg",
-        "Tier": "S",
-        "Title": "Star Wars: The Mandalorian",
-        "PremiereDate": 2019,
-        "EndDate": 0,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Jon Favreau (Iron Man) and Dave Filoni (SW: The Clone Wars) take the term \"space western\" to a whole new level. A lone cowboy roaming the galaxy, getting into shoot-outs, and helping those he comes across, all while protecting a kid with special powers. Granted, the later seasons have started to branch out to follow other characters, but the core of the show is still intact."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNWJiMDA4OTEtOGU0MC00ZDc5LWE5NWItNWVhMTlhNDliMjc4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
-        "Tier": "A",
-        "Title": "Star Wars: Visions",
-        "PremiereDate": 2021,
-        "EndDate": 0,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Being an anthology, judging Visions as a whole can be challenging. However, this also means that if you don't like the story or art style of a particular episode, you can just skip it without missing anything. Most of the episodes are well-made and are a fun exploration of different sides of the Star Wars universe that we don't usually see. I particularly enjoyed the episodes \"The Twins,\" \"T0-B1,\" and \"The Spy Dancer.\""
-    },
-    {
         "ImageLink": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4dbddb04-9adc-4ac5-aeef-624aa19419d0/ddmlb25-c419dee6-0b21-49a5-93b5-148fd556beef.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRkYmRkYjA0LTlhZGMtNGFjNS1hZWVmLTYyNGFhMTk0MTlkMFwvZGRtbGIyNS1jNDE5ZGVlNi0wYjIxLTQ5YTUtOTNiNS0xNDhmZDU1NmJlZWYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bAD-8bh8AeLv6UXiSJZxlmvPJtw0CAjqF_3n71_FYsk",
         "Tier": "C",
         "Title": "Stargirl",
         "PremiereDate": 2020,
         "EndDate": 2022,
         "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://static.wikia.nocookie.net/international-entertainment-project/images/4/43/Static_Shock_-_poster_%28English%29.jpeg/revision/latest?cb=20230701115534",
-        "Tier": "A",
-        "Title": "Static Shock",
-        "PremiereDate": 2000,
-        "EndDate": 2004,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMjUxMzE4ZDctODNjMS00MzIwLThjNDktODkwYjc5YWU0MDc0XkEyXkFqcGdeQXVyNjc3OTE4Nzk@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "A",
-        "Title": "Stein;s Gate",
-        "PremiereDate": 2011,
-        "EndDate": 2015,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "This story of a man trying to create a perfect future by altering the past is as compelling as it is filled with twists and turns. Stein;s Gate had me on the edge of my seat the whole time, celebrating victories and mourning defeats along with the protagonist and his band of eclectic friends. And while I was heartbroken that the show ended, I was also happy that it got a movie to tie up its loose ends."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYmJhMDYzYzMtNTVlZS00MzgwLWE3ZjAtN2FhZTBlOGQzZmFmXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg",
-        "Tier": "B",
-        "Title": "Stein;s Gate 0",
-        "PremiereDate": 2018,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],
@@ -1898,51 +1909,12 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://static.displate.com/857x1200/displate/2022-03-21/0a21d0d9ba35839684345d14b8600909_b51ff28c66ff1ac3791711560f3c9a97.jpg",
-        "Tier": "F",
-        "Title": "Supergirl",
-        "PremiereDate": 2015,
-        "EndDate": 2021,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "There was so much potential in this show. Melissa Benoist was a great Supergirl, and she had a well-rounded supporting cast. However, two things really hurt the show: one, they either couldn't or wouldn't use most of Superman's rogues gallery, which means they had to make do with the bottom of the barrel. Issue two, the writers seemed more interested in using the show as a political platform, which caused the plot to feel tacked on, especially in later seasons."
-    },
-    {
         "ImageLink": "https://m.media-amazon.com/images/I/811-rwR0FuL._AC_UF1000,1000_QL80_.jpg",
         "Tier": "C",
         "Title": "Superman & Lois",
         "PremiereDate": 2021,
         "EndDate": 0,
         "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYzVmOThmZDktOTI1Ni00YTdhLWEzYzItZTUxYzdiMDZjNzMyXkEyXkFqcGdeQXVyMTU5NDMzOTg2._V1_.jpg",
-        "Tier": "C",
-        "Title": "Sweet Reincarnation",
-        "PremiereDate": 2023,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYjY4MDU2YjMtNzY1MC00ODg1LWIwMzYtMWE5YTA3YTI4ZjMxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "C",
-        "Title": "Sword Art Online",
-        "PremiereDate": 2012,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],
@@ -1963,17 +1935,363 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNjQ1NjBhZmQtZTlkOC00YTM2LWE3NjgtNmZjOWJhMjRkMTY1XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
-        "Tier": "C",
-        "Title": "Teen Titans",
-        "PremiereDate": 2003,
-        "EndDate": 2006,
-        "WatchStatus": "Complete",
+        "ImageLink": "https://www.tvguide.com/a/img/catalog/provider/1/1/1-12092391089.jpg",
+        "Tier": "U",
+        "Title": "That Time I Got Reincarnated as a Slime",
+        "AltName": "Tensei shitara Slime Datta Ken",
+        "PremiereDate": 2018,
+        "EndDate": 0,
+        "WatchStatus": "Hold",
         "Tags": [
             "Unsorted"
         ],
         "Description": "N/A",
         "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/71uyYeRxkkL._AC_UF894,1000_QL80_.jpg",
+        "Tier": "S",
+        "Title": "The Dragon Prince",
+        "PremiereDate": 2018,
+        "EndDate": 0,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Co-created by Aaron Ehasz (writer/co-producer of Avatar: TLA) and Justin Richmond (co-director of Uncharted 3), this show delivers a magical world filled with intrigue, action, romance, and heart. Though the animation does take a little getting used to, Dragon Prince is a great fantasy show for people of all ages."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/91P38ikXjDL._AC_UF894,1000_QL80_.jpg",
+        "Tier": "U",
+        "Title": "The Flash",
+        "PremiereDate": 1990,
+        "EndDate": 1991,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/81dKT3zD3PL.jpg",
+        "Tier": "D",
+        "Title": "The Lord of the Rings: Rings of Power",
+        "PremiereDate": 2022,
+        "EndDate": 0,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BN2YzM2ZhOWMtYmEwMS00YzAyLWFiNjAtZTRmZGNhMDFmNjk5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        "Tier": "B",
+        "Title": "The Tick",
+        "PremiereDate": 1994,
+        "EndDate": 1997,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/6SIDIB59JYsQ8EfUgM0IaFfwXtS.jpg",
+        "Tier": "B",
+        "Title": "Upload",
+        "PremiereDate": 2020,
+        "EndDate": 0,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "Tier": "B",
+        "Title": "Wednesday",
+        "PremiereDate": 2022,
+        "EndDate": 0,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
+        "Tier": "B",
+        "Title": "What if...?",
+        "PremiereDate": 2021,
+        "EndDate": 0,
+        "WatchStatus": "Hold",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Like other anthology shows, most episodes are self-contained, though What if...? does break this rule occasionally, having certain characters and plot threads returning in later episodes. There are some really good episodes here, and while the rest aren't perfect, they're enjoyable enough for what they are: familiar MCU characters in unfamiliar circumstances."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZDkxMTdmMDgtZmQ1NC00NzZlLWIxMjgtMjkyMTFlZjI3OWZiXkEyXkFqcGdeQXVyMjQ0OTA1Nzc@._V1_.jpg",
+        "Tier": "F",
+        "Title": "A Certain Magical Index",
+        "AltName": "Toaru Majutsu no Index",
+        "PremiereDate": 2008,
+        "EndDate": 2019,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Anime",
+            "Action",
+            "Comedy",
+            "Drama",
+            "Fantasy",
+            "Sci-Fi",
+            "Super Powers"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/dZt1dqw0K4JGhwcqTh8yExHYK9w.jpg",
+        "Tier": "C",
+        "Title": "A Certain Scientific Railgun",
+        "AltName": "Toaru Kagaku no Railgun",
+        "PremiereDate": 2009,
+        "EndDate": 2020,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Anime",
+            "Action",
+            "Comedy",
+            "Drama",
+            "Fantasy",
+            "Sci-Fi",
+            "Super Powers"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZjI1NjY0NTItMjM2Yy00NjBmLThkOGEtYzM1YzBhZjMwMjMzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "Tier": "F",
+        "Title": "Animaniacs (2020)",
+        "PremiereDate": 2020,
+        "EndDate": 2023,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Western Animation",
+            "Shorts",
+            "Adventure",
+            "Comedy",
+            "Family",
+            "Musical"
+        ],
+        "Description": "The Warner siblings are back at it again! After being locked in the WB water tower for over 20 years, Yakko, Wakko, and Dot are eager to deliver fun and mayhem to a whole new generation. They're not alone, either! Everyone's favorite lab mice are back too, trying once again to take over the world on a nightly basis.",
+        "Review": "This revival fails to do the original justice. While the characters still retain their original zany behavior, a lot of their classic punchlines have been deflated by more modern sensibilities of what is appropriate (the most notable example is the removal of Yakko's famous \"Hello Nurse\" line). Also, the new supporting cast they use to break up the Warners' shorts never brought as much to the table as classic characters like Slappy Squirrel, the mafia pigeons, or even Chicken Boo."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BY2U3M2NkOGQtNzQ0Ny00NDkyLWIxNTItZTAzODk3OTQ3NDllXkEyXkFqcGdeQXVyMTY3MDE5MDY1._V1_FMjpg_UX801_.jpg",
+        "Tier": "F",
+        "Title": "Batwoman",
+        "PremiereDate": 2019,
+        "EndDate": 2022,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNDM1NDg5ZTUtNDU1Ni00YmRjLWEyNjEtNDgxYjRlZTBmMTg4XkEyXkFqcGdeQXVyODcxNTMyMTQ@._V1_.jpg",
+        "Tier": "F",
+        "Title": "Bureau of Magical Things",
+        "PremiereDate": 2018,
+        "EndDate": 2021,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Granted, I am neither a teen nor a girl, so I'm not really the target audience for this one, but I thought the plot was insubstantial and predictable, and the characters were uninteresting."
+    },
+    {
+        "ImageLink": "https://image.tmdb.org/t/p/original/iyWWe2SXgj3KvVI9DGdKHe4tWpm.jpg",
+        "Tier": "D",
+        "Title": "Chuck",
+        "PremiereDate": 2007,
+        "EndDate": 2012,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTQ0MGI4NTgtZTlkNy00YTU5LThjM2ItNDczMGFlZWY2ZWM3XkEyXkFqcGdeQXVyMTM3NDc1OTM2._V1_.jpg",
+        "Tier": "D",
+        "Title": "Cyberpunk Edgerunners",
+        "PremiereDate": 2022,
+        "EndDate": 2022,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Studio Trigger always puts out fantastic-looking shows, but I couldn't get into it this time. Nothing is wrong with the show, but after I had gotten through a couple of episodes, I lost interest and stopped watching."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNjY1NDE5YWQtMDMyNS00M2M2LWE3MWItMjA5Y2UxOWVkNmM0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "K",
+        "Title": "Doom Patrol",
+        "PremiereDate": 2019,
+        "EndDate": 2023,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/04/game-of-thrones-franchise-poster.jpg",
+        "Tier": "F",
+        "Title": "Game of Thrones",
+        "PremiereDate": 2011,
+        "EndDate": 2019,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "Based on the \"Song of Ice and Fire\" series by George R.R. Martin, this dark fantasy show follows a large cast of characters as they fight for control of the Iron Throne, and the right to rule all of Westeros. And all the while, an ancient evil stirs in the frigid north.",
+        "Review": "Between all the sex and gore, I'm not sure what sickens me more. In the first episode alone, there's a bloody battlefield, attempted child murder, and multiple sex scenes (one between siblings). Nothing in this world, or Tamriel could have convinced me to continue watching this show."
+    },
+    {
+        "ImageLink": "https://resizing.flixster.com/N9ki7dkbiG4ZXtDucQIvmfadT7M=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNDdiZDk0NzUtZmU4ZC00MWU0LWI5N2EtZWZhMmRhMzhmN2RkLmpwZw==",
+        "Tier": "D",
+        "Title": "Harley Quinn",
+        "PremiereDate": 2019,
+        "EndDate": 0,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/I/71+jeWobJ9L._AC_UF894,1000_QL80_.jpg",
+        "Tier": "K",
+        "Title": "Helluva Boss",
+        "PremiereDate": 2019,
+        "EndDate": 0,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://resizing.flixster.com/QrT-Krzry3Ikh6cH4u9bHCYH_6w=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNGZmZmJkN2YtZDA4YS00ZjkzLWE3OTMtNTgyNDE5NWM3YjhmLmpwZw==",
+        "Tier": "F",
+        "Title": "House of the Dragon",
+        "PremiereDate": 2022,
+        "EndDate": 0,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "Set over 200 years before Game of Thrones, this show aims to portray the events that led to the fall of House Targaryen: a brutal war known as the \"Dance of Dragons.\"",
+        "Review": "I'll be the first to admit I should have known I'd hate this show. But I was enticed by the prospect of seeing Matt Smith (of Doctor Who fame) again, plus one of the actresses was cute. However, it didn't take long for me to remember that this was a Game of Thrones spin-off. With rampant gore, sex, and a cast of self-centered characters continuously back-stabbing each other, I wish I'd listened to common sense."
+    },
+    {
+        "ImageLink": "https://play-lh.googleusercontent.com/eIfEfv5-AHdpHrYovEKcjJ5Eo1Y0sbL3drjI2GT34zQe7pkjuj3-6QhoZ8QRCRfV82Y=w600-h300-pc0xffffff-pd",
+        "Tier": "D",
+        "Title": "Into the Badlands",
+        "PremiereDate": 2015,
+        "EndDate": 2019,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://variety.com/wp-content/uploads/2020/01/lockekey_vertical_teaser_rgb_en-us.jpg",
+        "Tier": "D",
+        "Title": "Locke & Key",
+        "PremiereDate": 2020,
+        "EndDate": 2022,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZGIxNDUzMDktYTg1ZC00OGRiLTliNWUtZmY4NTE0MDU0YWU4XkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_.jpg",
+        "Tier": "F",
+        "Title": "Manifest",
+        "PremiereDate": 2018,
+        "EndDate": 2023,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh_Cb7nZCndZvHqEQ-d_AJz6tOOhDTjmZJjEGqtIzJpSyCT5hH",
+        "Tier": "D",
+        "Title": "Miss Kobayashi's Dragon Maid",
+        "AltName": "Kobayashi-san Chi no Maid Dragon",
+        "PremiereDate": 2017,
+        "EndDate": 2022,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "The first season was cute, and while it bugged me how horny some of the characters were, I could get past it because the relationships were still pretty wholesome. However, with season 2, it felt like the horniness was turned up a couple of notches, and the new dragon got on my nerves, to the point of not wanting to continue the show."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BM2FlYzVmNWQtNzE4ZS00OTMwLTlhYTUtZDY0YTEyZTRlZDlkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "Tier": "F",
+        "Title": "Secret Invasion",
+        "PremiereDate": 2023,
+        "EndDate": 2023,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Such a complete waste of potential. It could have been a great spy-thriller featuring Nick Fury singlehandedly building a team of trusted agents to root out Skrulls hidden throughout the world's governments. If you want a good adaptation of Secret Invasion, go watch Avengers: Earth's Mightiest Heroes."
+    },
+    {
+        "ImageLink": "https://static.displate.com/857x1200/displate/2022-03-21/0a21d0d9ba35839684345d14b8600909_b51ff28c66ff1ac3791711560f3c9a97.jpg",
+        "Tier": "F",
+        "Title": "Supergirl",
+        "PremiereDate": 2015,
+        "EndDate": 2021,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "There was so much potential in this show. Melissa Benoist was a great Supergirl, and she had a well-rounded supporting cast. However, two things really hurt the show: one, they either couldn't or wouldn't use most of Superman's rogues gallery, which means they had to make do with the bottom of the barrel. Issue two, the writers seemed more interested in using the show as a political platform, which caused the plot to feel tacked on, especially in later seasons."
     },
     {
         "ImageLink": "https://cdn.kinocheck.com/i/a41o0yml3s.jpg",
@@ -1987,20 +2305,6 @@
         ],
         "Description": "N/A",
         "Review": "The fans wanted another season of the 2003 Teen Titans show but instead got a pale, hollow reflection. It is nice to hear the original cast members reprise their roles, but the characters have become extremely simplified versions of their old selves. Teen Titans GO! can be an enjoyable show, but if you're looking for a continuation of the original, you'd be best to keep searching."
-    },
-    {
-        "ImageLink": "https://www.tvguide.com/a/img/catalog/provider/1/1/1-12092391089.jpg",
-        "Tier": "U",
-        "Title": "That Time I Got Reincarnated as a Slime",
-        "AltName": "Tensei shitara Slime Datta Ken",
-        "PremiereDate": 2018,
-        "EndDate": 0,
-        "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
     },
     {
         "ImageLink": "https://rantingpenguincom.files.wordpress.com/2018/09/magus.jpg",
@@ -2023,26 +2327,6 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://image.tmdb.org/t/p/original/3w7koeOR2x71XYMJDGpygxYtScI.jpg",
-        "Tier": "A",
-        "Title": "The Batman (2004)",
-        "PremiereDate": 2004,
-        "EndDate": 2008,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Western Animation",
-            "Action",
-            "Adventure",
-            "Crime",
-            "Family",
-            "Mystery",
-            "Super Powers",
-            "Based on DC Comics"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://cdn.europosters.eu/image/750/posters/the-boys-homelander-stencil-i101102.jpg",
         "Tier": "F",
         "Title": "The Boys",
@@ -2056,22 +2340,10 @@
         "Review": "Clearly inspired by Watchmen, this show is also trying to be the next Game of Thrones and has enough violence, gore, and sex to make HBO a little jealous. The story is well-written, and I actually really like the actors, but I cannot recommend this show. I only watched it as long as I did because Erin Moriarty (Starlight's actress) is pretty, but even then, it was not worth it. I should have called it quits after the first five minutes of episode 1."
     },
     {
-        "ImageLink": "https://resizing.flixster.com/kIdAqG725LlyIaw_Y9nwFnQyKrQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjI1Njc4OC53ZWJw",
-        "Tier": "D",
-        "Title": "The Defenders",
-        "PremiereDate": 2017,
-        "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://m.media-amazon.com/images/M/MV5BMjU3ZTA1NDYtZTBkYy00MDI1LWJmNTUtMWQxNmU5MjNmMzI2XkEyXkFqcGdeQXVyNjMxMTE5NTY@._V1_QL75_UX139_.jpg",
         "Tier": "F",
         "Title": "The Demon Sword Master of Excalibur Academy",
+        "AltName": "Seiken Gakuin no Makentsukai",
         "PremiereDate": 2023,
         "EndDate": 2023,
         "WatchStatus": "Quit",
@@ -2085,48 +2357,10 @@
         "ImageLink": "https://m.media-amazon.com/images/M/MV5BYjkxZjllNDAtNWFiYi00OTRkLThjZjktZDQxM2RmOWU5YzQzXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg",
         "Tier": "F",
         "Title": "The Devil is a Part-Timer",
+        "AltName": "Hataraku Maou-sama!",
         "PremiereDate": 2013,
         "EndDate": 2023,
         "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/71uyYeRxkkL._AC_UF894,1000_QL80_.jpg",
-        "Tier": "S",
-        "Title": "The Dragon Prince",
-        "PremiereDate": 2018,
-        "EndDate": 0,
-        "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Co-created by Aaron Ehasz (writer/co-producer of Avatar: TLA) and Justin Richmond (co-director of Uncharted 3), this show delivers a magical world filled with intrigue, action, romance, and heart. Though the animation does take a little getting used to, Dragon Prince is a great fantasy show for people of all ages."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/71Ce39r24pS._AC_UF894,1000_QL80_.jpg",
-        "Tier": "B",
-        "Title": "The Falcon and the Winter Soldier",
-        "PremiereDate": 2021,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/91P38ikXjDL._AC_UF894,1000_QL80_.jpg",
-        "Tier": "U",
-        "Title": "The Flash",
-        "PremiereDate": 1990,
-        "EndDate": 1991,
-        "WatchStatus": "Hold",
         "Tags": [
             "Unsorted"
         ],
@@ -2147,76 +2381,6 @@
         "Review": "Season 1 was utter perfection. Season 2 was still great, but it didn't reach the same level as its predecessor. Seasons 3-5 were a mixed bag, there were great moments, but there were also many questionable choices. After that, the writing went downhill very quickly, to the point that I couldn't even finish watching season 8 because it had gotten that bad."
     },
     {
-        "ImageLink": "https://resizing.flixster.com/GKQNCrnRAHlxV1QV8duQ9rwEbSI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYTA5YjljODUtNzcwZi00ZTM1LWFhNGQtMzEzZTQ2NTdmZDY4LmpwZw==",
-        "Tier": "A",
-        "Title": "The Ghost & Molly McGee",
-        "PremiereDate": 2021,
-        "EndDate": 2024,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://www.tvtime.com/_next/image?url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fposters%2F311711-3.jpg&w=640&q=75",
-        "Tier": "D",
-        "Title": "The Good Place",
-        "PremiereDate": 2016,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZTY0MmJjOTctZWNlYi00N2UzLThiN2ItYmFjYzJjM2JjMTVlXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg",
-        "Tier": "B",
-        "Title": "The Grim Adventures of Billy and Mandy",
-        "PremiereDate": 2003,
-        "EndDate": 2007,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BN2NjNWEyNmItYWM3MC00NTE2LWE1ZmYtNWE2OTRjMzlkNmIxXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_FMjpg_UX1000_.jpg",
-        "Tier": "D",
-        "Title": "The Legend of Korra",
-        "PremiereDate": 2012,
-        "EndDate": 2014,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Western Animation",
-            "Action",
-            "Adventure",
-            "Family",
-            "Fantasy",
-            "Mythology"
-        ],
-        "Description": "N/A",
-        "Review": "How the mighty have fallen. Korra fails to live up to the standard set by The Last Airbender, not because the characters are badly written or because of the lack of elements and characters from TLA, but because the story isn't cohesive. Not to spoil anything, but seasons 1 and 2 have pretty high stakes, and then seasons 3 and 4 come along with much lowest stakes. Granted, the last two seasons are pretty good, but getting to that point is a rough ride."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/81dKT3zD3PL.jpg",
-        "Tier": "D",
-        "Title": "The Lord of the Rings: Rings of Power",
-        "PremiereDate": 2022,
-        "EndDate": 0,
-        "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://m.media-amazon.com/images/I/91d053F2aKL._AC_UF894,1000_QL80_.jpg",
         "Tier": "F",
         "Title": "The Office",
@@ -2228,84 +2392,6 @@
         ],
         "Description": "N/A",
         "Review": "I don't usually do sitcoms anyway, but this show has not aged well. At all. I couldn't even get through a single episode without nearly dying of cringe. The only way you're getting through this show is with heavy doses of nostalgia - or brain damage."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMzBkZGM1OTQtYmIyNi00ZjM4LWJlNGItNGM0ZWVhODU3YWVlXkEyXkFqcGdeQXVyNzY3NzAzOTA@._V1_.jpg",
-        "Tier": "C",
-        "Title": "The Orville",
-        "PremiereDate": 2017,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOGQ0MDQyYWMtNjdlYy00ZDAyLWE5YTItMzcyMjllZTA4MTcyXkEyXkFqcGdeQXVyMjEzNTg5Mzk@._V1_.jpg",
-        "Tier": "B",
-        "Title": "The Owl House",
-        "PremiereDate": 2020,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "While there isn't anything especially unique about this show, Owl House does have a certain charm to it. Whether that's due to the quirky cast of characters, the interesting magic system, or even just the wackiness of the world itself, Owl House is a fun, albeit slightly truncated, show."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNTlhMWQyYTAtZjFjMS00M2UzLThiNzMtNTVhN2FkZjAwZWY2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
-        "Tier": "D",
-        "Title": "The Peripheral",
-        "PremiereDate": 2022,
-        "EndDate": 2022,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BZDYzODRjNTYtNmVmYy00NTJjLTk3NzQtZjQ5Y2Y1YmIzMzZhXkEyXkFqcGdeQXVyMTY4NTMxNTcx._V1_FMjpg_UX1000_.jpg",
-        "Tier": "D",
-        "Title": "The Punisher",
-        "PremiereDate": 2017,
-        "EndDate": 2019,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BODAyYzIyZTYtYTIzZi00ODM4LWE1ZDEtMDE1NWRjYmM2YjA1XkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_FMjpg_UX540_.jpg",
-        "Tier": "C",
-        "Title": "The Santa Clauses",
-        "PremiereDate": 2022,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BN2YzM2ZhOWMtYmEwMS00YzAyLWFiNjAtZTRmZGNhMDFmNjk5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
-        "Tier": "B",
-        "Title": "The Tick",
-        "PremiereDate": 1994,
-        "EndDate": 1997,
-        "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
     },
     {
         "ImageLink": "https://m.media-amazon.com/images/M/MV5BMTk5Nzc0Mzc5MV5BMl5BanBnXkFtZTgwNzE5NzI1NzM@._V1_.jpg",
@@ -2347,9 +2433,106 @@
         "Review": "It felt like the writers didn't know what they were doing at any point during Titans' 4 seasons. Powers were underutilized, character motivations and backstories changed every season, and most storylines felt too rushed or overly prolonged. Props to the actors, though; they all did great jobs. Also, WHY DID IT TAKE 3 WHOLE SEASONS TO GET NIGHTWING!?"
     },
     {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOTNjMDkwMzktMmQwYS00ZDkzLWE2YzQtZWUzZGIxYTVhY2M0XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_QL75_UX820_.jpg",
+        "Tier": "K",
+        "Title": "Westworld",
+        "PremiereDate": 2016,
+        "EndDate": 2022,
+        "WatchStatus": "Quit",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/08/delicious-in-dungeon-tv-series-poster.jpg?q=50&fit=crop&w=480&dpr=1.5",
+        "Tier": "U",
+        "Title": "Delicious in Dungeon",
+        "AltName": "Dungeon Meshi",
+        "PremiereDate": 2024,
+        "EndDate": 0,
+        "WatchStatus": "Watching",
+        "Tags": [
+            "Anime",
+            "Comedy",
+            "Fantasy",
+            "Gourmet"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMzZjNmRhNWQtNTAyYy00Yjk2LWE0NzUtMmYyNTU0YTE5NjJiXkEyXkFqcGdeQXVyNjI4OTE5OTM@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "B",
+        "Title": "Fairy Tail",
+        "PremiereDate": 2009,
+        "EndDate": 2019,
+        "WatchStatus": "Watching",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://ew.com/thmb/-Jda_GBzHMebV6KFDV_QYr-eeXA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/INV_1500x2250px-ffd010db0da74cfcbd4bb5eab59be814.jpg",
+        "Tier": "D",
+        "Title": "Invincible",
+        "PremiereDate": 2021,
+        "EndDate": 0,
+        "WatchStatus": "Watching",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "Even if this wasn't automatically relegated to Z Tier based on the excessive amount of gore, this show would not have ranked very highly. The \"what if Superman was evil\" story has been done so many times, across various media, that it would have taken something truly special to make this one stand out. Unfortunately, Invincible contains no such element. The casting of J.K. Simmons as Omni-Man was brilliant, but aside from that, there is nothing truly groundbreaking or unique here to keep me invested."
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYTZhYjIxMTUtMThhMC00NjA4LTg4OTQtZDE1ODAyNGUwZWMzXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "Tier": "B",
+        "Title": "Sailor Moon",
+        "AltName": "Bishoujo Senshi Sailor Moon",
+        "PremiereDate": 1992,
+        "EndDate": 1997,
+        "WatchStatus": "Watching",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://m.media-amazon.com/images/M/MV5BYmUxYWJkZGQtY2FmYS00YzM2LWJiMGQtODY5YTdjYmVkM2Y5XkEyXkFqcGdeQXVyNzQzNTI4MTM@._V1_.jpg",
+        "Tier": "C",
+        "Title": "Star vs the Forces of Evil",
+        "PremiereDate": 2012,
+        "EndDate": 2019,
+        "WatchStatus": "Watching",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
+        "ImageLink": "https://www.starwarsnewsnet.com/wp-content/uploads/2021/05/Bad-Batch.jpeg",
+        "Tier": "B",
+        "Title": "Star Wars: The Bad Batch",
+        "PremiereDate": 2021,
+        "EndDate": 2024,
+        "WatchStatus": "Watching",
+        "Tags": [
+            "Unsorted"
+        ],
+        "Description": "N/A",
+        "Review": "N/A"
+    },
+    {
         "ImageLink": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/7d402dc6bb4c01fe11f62832252d03fc.jpe",
         "Tier": "U",
         "Title": "Tomo-chan Is a Girl!",
+        "AltName": "Tomo-chan wa Onnanoko!",
         "PremiereDate": 2023,
         "EndDate": 2023,
         "WatchStatus": "Watching",
@@ -2373,181 +2556,12 @@
         "Review": "N/A"
     },
     {
-        "ImageLink": "https://i.ebayimg.com/images/g/W4MAAOSwuKVjB3Gi/s-l1200.jpg",
-        "Tier": "A",
-        "Title": "Trollhunters: Tales of Arcadia",
-        "PremiereDate": 2016,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://i.redd.it/onu598cnowpc1.jpeg",
-        "Tier": "D",
-        "Title": "Ultimate Spider-Man",
-        "PremiereDate": 2012,
-        "EndDate": 2017,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/6SIDIB59JYsQ8EfUgM0IaFfwXtS.jpg",
-        "Tier": "B",
-        "Title": "Upload",
-        "PremiereDate": 2020,
-        "EndDate": 0,
-        "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://play-lh.googleusercontent.com/proxy/o97EOdpjnRQHfmr3gb0rV5CbqfwkfIn11nNgYQjoJ0UbwHUmQl4eYe-_EXvr1L8jPYe9bR98RL0NZCxY_IpNP9ImBy7XeFJ93Pu9rP7HmroTijklWu0Uuo7pBkW7N-R6c2xPCrxboINYTE8bWQD4kF93SW-W1Kf6fR-EOQ",
-        "Tier": "C",
-        "Title": "Villainous",
-        "PremiereDate": 2017,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/71sQ-YFqy4L._AC_UF894,1000_QL80_.jpg",
-        "Tier": "A",
-        "Title": "Voltron: Legendary Defender",
-        "PremiereDate": 2016,
-        "EndDate": 2018,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/I/91uThdajb1L._AC_UF894,1000_QL80_.jpg",
-        "Tier": "B",
-        "Title": "WandaVision",
-        "PremiereDate": 2021,
-        "EndDate": 2021,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
         "ImageLink": "https://resizing.flixster.com/SEv_NLAcxMTI6eMLCrg44pbaESU=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10089022_b_v9_ab.jpg",
         "Tier": "C",
         "Title": "Wander Over Yonder",
         "PremiereDate": 2013,
         "EndDate": 2016,
         "WatchStatus": "Watching",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-        "Tier": "B",
-        "Title": "Wednesday",
-        "PremiereDate": 2022,
-        "EndDate": 0,
-        "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BOTNjMDkwMzktMmQwYS00ZDkzLWE2YzQtZWUzZGIxYTVhY2M0XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_QL75_UX820_.jpg",
-        "Tier": "K",
-        "Title": "Westworld",
-        "PremiereDate": 2016,
-        "EndDate": 2022,
-        "WatchStatus": "Quit",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://image.tmdb.org/t/p/original/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
-        "Tier": "B",
-        "Title": "What if...?",
-        "PremiereDate": 2021,
-        "EndDate": 0,
-        "WatchStatus": "Hold",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "Like other anthology shows, most episodes are self-contained, though What if...? does break this rule occasionally, having certain characters and plot threads returning in later episodes. There are some really good episodes here, and while the rest aren't perfect, they're enjoyable enough for what they are: familiar MCU characters in unfamiliar circumstances."
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BMzRlOWE3NmQtOWJkNy00NWY2LTk0ZTUtMzk3MjZmMTA3NThjXkEyXkFqcGdeQXVyMjIwNTI1MTM@._V1_.jpg",
-        "Tier": "D",
-        "Title": "Wizards: Tales of Arcadia",
-        "PremiereDate": 2020,
-        "EndDate": 2020,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://m.media-amazon.com/images/M/MV5BNzk4Nzg3NjMyMV5BMl5BanBnXkFtZTcwMjk3MjU0Mg@@._V1_.jpg",
-        "Tier": "B",
-        "Title": "Wolverine & the X-Men",
-        "PremiereDate": 2008,
-        "EndDate": 2009,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://images.justwatch.com/poster/300726210/s592/x-men-evolution",
-        "Tier": "B",
-        "Title": "X-Men Evolution",
-        "PremiereDate": 2000,
-        "EndDate": 2003,
-        "WatchStatus": "Complete",
-        "Tags": [
-            "Unsorted"
-        ],
-        "Description": "N/A",
-        "Review": "N/A"
-    },
-    {
-        "ImageLink": "https://static.wikia.nocookie.net/youngjustice/images/7/74/Young_Justice_TV_series.png/revision/latest/scale-to-width-down/1200?cb=20101127030343",
-        "Tier": "B",
-        "Title": "Young Justice",
-        "PremiereDate": 2010,
-        "EndDate": 2023,
-        "WatchStatus": "Complete",
         "Tags": [
             "Unsorted"
         ],

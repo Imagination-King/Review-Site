@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from "react";
+import { useState } from "react";
 import ShowCard from "./ShowCard";
 import {
   Box,
@@ -17,6 +17,7 @@ import {
   UnfoldMoreRounded,
 } from "@mui/icons-material";
 import useFetchShowData from "./useFetchShowData";
+import useSort from "./useSort";
 import PropTypes from "prop-types";
 
 function TierList({ mode }) {
@@ -76,62 +77,7 @@ function TierList({ mode }) {
       [key]: isExpanded,
     }));
   };
-
-  const sortByTier = useCallback(() => {
-    const tierSplit = { ...tierData };
-
-    for (const tier in tierSplit) {
-      tierSplit[tier].sort((a, b) => {
-        const titleA = a.Title.replace(/^The\s+/i, "");
-        const titleB = b.Title.replace(/^The\s+/i, "");
-        return titleA.localeCompare(titleB);
-      });
-    }
-    return tierSplit;
-  }, [tierData]);
-
-  const sortByTitle = useCallback(() => {
-    const alphaSplit = {
-      "#-F": [],
-      "G-M": [],
-      "N-R": [],
-      "S-Z": [],
-    };
-
-    Object.values(tierData)
-      .flat()
-      .forEach((show) => {
-        const title = show.Title.replace(/^The\s+/i, "");
-        const firstLetter = title.charAt(0).toUpperCase();
-
-        if (firstLetter >= "0" && firstLetter <= "F") {
-          alphaSplit["#-F"].push(show);
-        } else if (firstLetter >= "G" && firstLetter <= "M") {
-          alphaSplit["G-M"].push(show);
-        } else if (firstLetter >= "N" && firstLetter <= "R") {
-          alphaSplit["N-R"].push(show);
-        } else if (firstLetter >= "S" && firstLetter <= "Z") {
-          alphaSplit["S-Z"].push(show);
-        }
-      });
-
-    for (const key in alphaSplit) {
-      alphaSplit[key].sort((a, b) => {
-        const titleA = a.Title.replace(/^The\s+/i, "");
-        const titleB = b.Title.replace(/^The\s+/i, "");
-        return titleA.localeCompare(titleB);
-      });
-    }
-    return alphaSplit;
-  }, [tierData]);
-
-  const sortedData = useMemo(() => {
-    if (sortMode === "title") {
-      return sortByTitle();
-    } else {
-      return sortByTier();
-    }
-  }, [sortMode, sortByTitle, sortByTier]);
+const sortedData = useSort(sortMode, tierData);
 
   if (error) {
     return (
@@ -179,7 +125,7 @@ function TierList({ mode }) {
           >
             <MenuItem onClick={() => handleSortClose("tier")}>Tier</MenuItem>
             <MenuItem onClick={() => handleSortClose("title")}>Title</MenuItem>
-            {/*<MenuItem onClick={() => handleSortClose("watch status")}>Watch Status</MenuItem>*/}
+            <MenuItem onClick={() => handleSortClose("watch-status")}>Watch Status</MenuItem>
           </Menu>
         </Box>
         <Box sx={{ display: "flex", flexDirection: "row" }}>
@@ -271,6 +217,48 @@ function TierList({ mode }) {
                   //prevents uncaught reference errors from map function
                   sortedData[group].length > 0 ? (
                     sortedData[group].map((show) => (
+                      <ShowCard key={show.Title} show={show} mode={mode} />
+                    ))
+                  ) : (
+                    <Typography>No shows in this range</Typography>
+                  )
+                }
+              </AccordionDetails>
+            </Accordion>
+          ));
+        } else if (sortMode === "watch-status") {
+          return Object.keys(sortedData).map((status) => (
+            <Accordion
+              key={status}
+              expanded={tierExpanded[status] || false}
+              onChange={handleAccordionChange(status)}
+            >
+              <AccordionSummary
+                expandIcon={<ExpandMoreRounded />}
+                aria-controls={`panel-${status}-content`}
+                id={`panel-${status}-header`}
+                variant="h4"
+                component="h2"
+                sx={{
+                  justifyContent: "center",
+                  "& .MuiAccordionSummary-content": {
+                    justifyContent: "center",
+                  },
+                }}
+              >
+                <strong>{status}</strong>
+              </AccordionSummary>
+              <AccordionDetails
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  flexWrap: "wrap",
+                }}
+              >
+                {
+                  //prevents uncaught reference errors from map function
+                  sortedData[status].length > 0 ? (
+                    sortedData[status].map((show) => (
                       <ShowCard key={show.Title} show={show} mode={mode} />
                     ))
                   ) : (
