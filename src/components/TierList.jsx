@@ -1,26 +1,25 @@
-import { useState } from "react";
-import ShowCard from "./ShowCard";
+import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
 import {
-  Box,
-  Typography,
-  Button,
-  Menu,
-  MenuItem,
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-} from "@mui/material";
+  Route,
+  Routes,
+  Link,
+  createRoutesFromElements,
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import { Box, Button, Menu, MenuItem } from "@mui/material";
 import {
-  ExpandMoreRounded,
   SortRounded,
   UnfoldLessRounded,
   UnfoldMoreRounded,
 } from "@mui/icons-material";
 import useFetchShowData from "./useFetchShowData";
-import useSort from "./useSort";
 import PropTypes from "prop-types";
+import SortedByTier from "./SortedByTier";
+import SortedByTitle from "./SortedByTitle";
 
-function TierList({ mode }) {
+function TierList() {
   const [tierExpanded, setTierExpanded] = useState({});
   const [anchorEl, setAnchorEl] = useState(null);
   const [sortMode, setSortMode] = useState("tier");
@@ -32,7 +31,11 @@ function TierList({ mode }) {
   const useLocalFile = false;
   const LOCAL_JSON_URL = "/tvShowsGraded.json";
 
-  const { tierData, tiersDefined, error} = useFetchShowData(JSON_URL, LOCAL_JSON_URL, useLocalFile);
+  const { tierData, tiersDefined, error } = useFetchShowData(
+    JSON_URL,
+    LOCAL_JSON_URL,
+    useLocalFile
+  );
 
   //sort menu logic
   const open = Boolean(anchorEl);
@@ -47,9 +50,26 @@ function TierList({ mode }) {
     }
   };
 
+  //tracks accordion open/close state for expand+collapse button logic
+  const handleAccordionChange = (key) => (event, isExpanded) => {
+    setTierExpanded((prevExpanded) => ({
+      ...prevExpanded,
+      [key]: isExpanded,
+    }));
+  };
+
   //epand+collapse button logic
   const handleExpandAll = () => {
-    Object.keys(tierData).forEach((key, index) => {
+    let keys = [];
+    if (sortMode === "tier") {
+      keys = tiersDefined.map((tier) => tier.key);
+    } else if (sortMode === "title") {
+      keys = Object.keys(tierData);
+    } else if (sortMode === "watch-status") {
+      keys = ["Watching", "Completed", "Hold", "Quit"];
+    } //additional sort options would go here
+
+    keys.forEach((key, index) => {
       setTimeout(() => {
         setTierExpanded((prevExpanded) => ({
           ...prevExpanded,
@@ -60,7 +80,16 @@ function TierList({ mode }) {
   };
 
   const handleCollapseAll = () => {
-    Object.keys(tierData).forEach((key, index) => {
+    let keys = [];
+    if (sortMode === "tier") {
+      keys = tiersDefined.map((tier) => tier.key);
+    } else if (sortMode === "title") {
+      keys = Object.keys(tierData);
+    } else if (sortMode === "watch-status") {
+      keys = ["Watching", "Completed", "Hold", "Quit"];
+    } //additional sort options would go here
+
+    keys.forEach((key, index) => {
       setTimeout(() => {
         setTierExpanded((prevExpanded) => ({
           ...prevExpanded,
@@ -69,15 +98,6 @@ function TierList({ mode }) {
       }, index * 50); // delays closing of tiers for visual effect
     });
   };
-
-  //tracks accordion open/close state for expand+collapse button logic
-  const handleAccordionChange = (key) => (event, isExpanded) => {
-    setTierExpanded((prevExpanded) => ({
-      ...prevExpanded,
-      [key]: isExpanded,
-    }));
-  };
-const sortedData = useSort(sortMode, tierData);
 
   if (error) {
     return (
@@ -88,7 +108,11 @@ const sortedData = useSort(sortMode, tierData);
     );
   }
 
-  if (!sortedData || Object.keys(sortedData).length === 0) {
+  if (
+    !tierData ||
+    Object.keys(tierData).length === 0 ||
+    tiersDefined.length === 0
+  ) {
     return <p>Loading data. Please wait...</p>;
   }
 
@@ -123,9 +147,21 @@ const sortedData = useSort(sortMode, tierData);
               "aria-labelledby": "sort-button",
             }}
           >
-            <MenuItem onClick={() => handleSortClose("tier")}>Tier</MenuItem>
-            <MenuItem onClick={() => handleSortClose("title")}>Title</MenuItem>
-            <MenuItem onClick={() => handleSortClose("watch-status")}>Watch Status</MenuItem>
+            <MenuItem
+              component={Link}
+              to="/tier"
+              onClick={() => handleSortClose("tier")}
+            >
+              Tier
+            </MenuItem>
+            <MenuItem
+              component={Link}
+              to="/title"
+              onClick={() => handleSortClose("title")}
+            >
+              Title
+            </MenuItem>
+            {/* <MenuItem component={Link} to="/watch-status" onClick={() => handleSortClose("watch-status")}>Watch Status</MenuItem> */}
           </Menu>
         </Box>
         <Box sx={{ display: "flex", flexDirection: "row" }}>
@@ -137,139 +173,32 @@ const sortedData = useSort(sortMode, tierData);
           </Button>
         </Box>
       </Box>
-      {(() => {
-        //conditional HTML depending on what sortMode is set to, default is Tier
-        if (sortMode === "tier") {
-          return tiersDefined
-            .sort((a, b) => a.order - b.order)
-            .map((tier) => (
-              <Accordion
-                key={tier.key}
-                expanded={tierExpanded[tier.key] || false}
-                onChange={handleAccordionChange(tier.key)}
-              >
-                <AccordionSummary
-                  expandIcon={<ExpandMoreRounded />}
-                  aria-controls={`panel-${tier.key}-content`}
-                  id={`panel-${tier.key}-header`}
-                  variant="h4"
-                  component="h2"
-                  sx={{
-                    justifyContent: "center",
-                    "& .MuiAccordionSummary-content": {
-                      justifyContent: "center",
-                    },
-                  }}
-                >
-                  <strong>{tier.tLabel}</strong>
-                </AccordionSummary>
-                <AccordionDetails
-                  sx={{
-                    display: "flex",
-                    justifyContent: "center",
-                    flexWrap: "wrap",
-                  }}
-                >
-                  {
-                    //prevents uncaught reference errors from map function
-                    sortedData[tier.key]?.length > 0 ? (
-                      sortedData[tier.key].map((show) => (
-                        <ShowCard key={show.Title} show={show} mode={mode} />
-                      ))
-                    ) : (
-                      <Typography>No shows in this tier</Typography>
-                    )
-                  }
-                </AccordionDetails>
-              </Accordion>
-            ));
-          //conditional HTML continues, with sortMode set to Title
-        } else if (sortMode === "title") {
-          return Object.keys(sortedData).map((group) => (
-            <Accordion
-              key={group}
-              expanded={tierExpanded[group] || false}
-              onChange={handleAccordionChange(group)}
-            >
-              <AccordionSummary
-                expandIcon={<ExpandMoreRounded />}
-                aria-controls={`panel-${group}-content`}
-                id={`panel-${group}-header`}
-                variant="h4"
-                component="h2"
-                sx={{
-                  justifyContent: "center",
-                  "& .MuiAccordionSummary-content": {
-                    justifyContent: "center",
-                  },
-                }}
-              >
-                <strong>{group}</strong>
-              </AccordionSummary>
-              <AccordionDetails
-                sx={{
-                  display: "flex",
-                  justifyContent: "center",
-                  flexWrap: "wrap",
-                }}
-              >
-                {
-                  //prevents uncaught reference errors from map function
-                  sortedData[group].length > 0 ? (
-                    sortedData[group].map((show) => (
-                      <ShowCard key={show.Title} show={show} mode={mode} />
-                    ))
-                  ) : (
-                    <Typography>No shows in this range</Typography>
-                  )
-                }
-              </AccordionDetails>
-            </Accordion>
-          ));
-        } else if (sortMode === "watch-status") {
-          return Object.keys(sortedData).map((status) => (
-            <Accordion
-              key={status}
-              expanded={tierExpanded[status] || false}
-              onChange={handleAccordionChange(status)}
-            >
-              <AccordionSummary
-                expandIcon={<ExpandMoreRounded />}
-                aria-controls={`panel-${status}-content`}
-                id={`panel-${status}-header`}
-                variant="h4"
-                component="h2"
-                sx={{
-                  justifyContent: "center",
-                  "& .MuiAccordionSummary-content": {
-                    justifyContent: "center",
-                  },
-                }}
-              >
-                <strong>{status}</strong>
-              </AccordionSummary>
-              <AccordionDetails
-                sx={{
-                  display: "flex",
-                  justifyContent: "center",
-                  flexWrap: "wrap",
-                }}
-              >
-                {
-                  //prevents uncaught reference errors from map function
-                  sortedData[status].length > 0 ? (
-                    sortedData[status].map((show) => (
-                      <ShowCard key={show.Title} show={show} mode={mode} />
-                    ))
-                  ) : (
-                    <Typography>No shows in this range</Typography>
-                  )
-                }
-              </AccordionDetails>
-            </Accordion>
-          ));
-        } //additional sort modes would go here
-      })()}
+      <Routes>
+        <Route
+          path="/tier"
+          element={
+            <SortedByTier
+              mode="view"
+              tierData={tierData}
+              tiersDefined={tiersDefined}
+              tierExpanded={tierExpanded}
+              handleAccordionChange={handleAccordionChange}
+            />
+          }
+        />
+        <Route
+          path="/title"
+          element={
+            <SortedByTitle
+              mode="view"
+              tierData={tierData}
+              tierExpanded={tierExpanded}
+              handleAccordionChange={handleAccordionChange}
+            />
+          }
+        />
+        {/* <Route path="/watch-status" element={<SortedByStatus mode="view" tierData={tierData} tierExpanded={tierExpanded} handleAccordionChange={handleAccordionChange} />} /> */}
+      </Routes>
     </Box>
   );
 }
@@ -277,5 +206,20 @@ const sortedData = useSort(sortMode, tierData);
 TierList.propTypes = {
   mode: PropTypes.string.isRequired,
 };
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<TierList />}>
+      <Route path="tier" element={<SortedByTier />} />
+      <Route path="title" element={<SortedByTitle />} />
+    </Route>
+  )
+);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
 
 export default TierList;
