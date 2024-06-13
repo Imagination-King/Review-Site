@@ -30,6 +30,18 @@ const tierStyles = (themeLightDark) => ({
       }),
 });
 
+const renderDates = (PremiereDate, EndDate) => {
+  if (EndDate === 0) {
+    //when the show is still airing or has been renewed for future seasons
+    return `${PremiereDate} - Present`;
+  } else if (EndDate === PremiereDate) {
+    //when the show aired entirely in a single year
+    return `${PremiereDate}`;
+  } else {
+    return `${PremiereDate} - ${EndDate}`;
+  }
+};
+
 function ShowCard({ show, themeLightDark, viewMode }) {
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -75,10 +87,20 @@ function ShowCard({ show, themeLightDark, viewMode }) {
   return (
     <>
       <Box onClick={handleCardClick} sx={cardStyle}>
-      <Typography>{show.Tier} {viewMode === "grid" ? "Tier" : undefined} </Typography>
+        <Typography>
+          {show.Tier} {viewMode === "grid" ? "Tier" : undefined}{" "}
+        </Typography>
         <img src={show.ImageLink} alt={show.Title} style={imgStyle} />
         <Box>
           <Typography sx={textStyle}>{show.Title}</Typography>
+          {viewMode === "list" && (
+            <>
+              <Typography>
+                {renderDates(show.PremiereDate, show.EndDate)}
+              </Typography>
+              <Typography>{show.WatchStatus}</Typography>
+            </>
+          )}
         </Box>
       </Box>
       <ShowModal show={show} isOpen={modalOpen} onClose={handleModalClose} />
@@ -91,6 +113,9 @@ ShowCard.propTypes = {
     Title: PropTypes.string.isRequired,
     ImageLink: PropTypes.string.isRequired,
     Tier: PropTypes.string.isRequired,
+    WatchStatus: PropTypes.string.isRequired,
+    PremiereDate: PropTypes.string.isRequired,
+    EndDate: PropTypes.string.isRequired,
   }).isRequired,
   themeLightDark: PropTypes.string.isRequired,
   viewMode: PropTypes.string.isRequired,
