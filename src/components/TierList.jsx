@@ -9,6 +9,8 @@ import {
   Accordion,
   AccordionDetails,
   AccordionSummary,
+  ToggleButtonGroup,
+  ToggleButton,
 } from "@mui/material";
 import {
   ExpandMoreRounded,
@@ -24,6 +26,7 @@ function TierList({ themeLightDark }) {
   const [tierExpanded, setTierExpanded] = useState({});
   const [anchorEl, setAnchorEl] = useState(null);
   const [sortMode, setSortMode] = useState("tier");
+  const [viewMode, setViewMode] = useState("grid");
 
   const JSON_URL =
     "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/tvShowsGraded.json";
@@ -77,6 +80,13 @@ function TierList({ themeLightDark }) {
       [key]: isExpanded,
     }));
   };
+
+  const handleViewChange = (event, newViewMode) => {
+    if(newViewMode !== null) {
+      setViewMode(newViewMode);
+    }
+  };
+
 const sortedData = useSort(sortMode, tierData);
 
   if (error) {
@@ -128,6 +138,12 @@ const sortedData = useSort(sortMode, tierData);
             <MenuItem onClick={() => handleSortClose("watch-status")}>Watch Status</MenuItem>
           </Menu>
         </Box>
+        <Box>
+          <ToggleButtonGroup value={viewMode} exclusive onChange={handleViewChange}>
+            <ToggleButton value="grid" aria-label="view as grid">Grid</ToggleButton>
+            <ToggleButton value="list" aria-label="view as list">List</ToggleButton>
+          </ToggleButtonGroup>
+        </Box>
         <Box sx={{ display: "flex", flexDirection: "row" }}>
           <Button startIcon={<UnfoldMoreRounded />} onClick={handleExpandAll}>
             Expand
@@ -174,7 +190,7 @@ const sortedData = useSort(sortMode, tierData);
                     //prevents uncaught reference errors from map function
                     sortedData[tier.key]?.length > 0 ? (
                       sortedData[tier.key].map((show) => (
-                        <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode="grid"/>
+                        <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode={viewMode}/>
                       ))
                     ) : (
                       <Typography>No shows in this tier</Typography>
@@ -217,7 +233,7 @@ const sortedData = useSort(sortMode, tierData);
                   //prevents uncaught reference errors from map function
                   sortedData[group].length > 0 ? (
                     sortedData[group].map((show) => (
-                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode="grid"/>
+                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode={viewMode}/>
                     ))
                   ) : (
                     <Typography>No shows in this range</Typography>
@@ -259,7 +275,7 @@ const sortedData = useSort(sortMode, tierData);
                   //prevents uncaught reference errors from map function
                   sortedData[status].length > 0 ? (
                     sortedData[status].map((show) => (
-                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode="list"/>
+                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode={viewMode}/>
                     ))
                   ) : (
                     <Typography>No shows in this range</Typography>
