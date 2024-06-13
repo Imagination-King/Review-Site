@@ -174,7 +174,7 @@ const sortedData = useSort(sortMode, tierData);
                     //prevents uncaught reference errors from map function
                     sortedData[tier.key]?.length > 0 ? (
                       sortedData[tier.key].map((show) => (
-                        <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} />
+                        <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode="grid"/>
                       ))
                     ) : (
                       <Typography>No shows in this tier</Typography>
@@ -217,7 +217,7 @@ const sortedData = useSort(sortMode, tierData);
                   //prevents uncaught reference errors from map function
                   sortedData[group].length > 0 ? (
                     sortedData[group].map((show) => (
-                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} />
+                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode="grid"/>
                     ))
                   ) : (
                     <Typography>No shows in this range</Typography>
@@ -259,7 +259,7 @@ const sortedData = useSort(sortMode, tierData);
                   //prevents uncaught reference errors from map function
                   sortedData[status].length > 0 ? (
                     sortedData[status].map((show) => (
-                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} />
+                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode="list"/>
                     ))
                   ) : (
                     <Typography>No shows in this range</Typography>

@@ -30,7 +30,7 @@ const tierStyles = (themeLightDark) => ({
       }),
 });
 
-function ShowCard({ show, themeLightDark }) {
+function ShowCard({ show, themeLightDark, viewMode }) {
   const [modalOpen, setModalOpen] = useState(false);
 
   const handleCardClick = () => {
@@ -42,41 +42,44 @@ function ShowCard({ show, themeLightDark }) {
 
   const themedStyles = tierStyles(themeLightDark)[show.Tier];
 
+  const cardStyle = {
+    width: viewMode === "grid" ? "170px" : "100%",
+    display: "flex",
+    flexDirection: viewMode === "grid" ? "column" : "row",
+    alignItems: "center",
+    cursor: "pointer",
+    border: viewMode === "grid" ? "5px solid" : "2px solid",
+    borderRadius: viewMode === "grid" ? "10px" : "50px",
+    boxShadow: "inset 0 0 15px rgba(0, 0, 0, .5)",
+    p: viewMode === "grid" ? "10px" : "5px 2em",
+    m: "3px",
+    ...themedStyles,
+  };
+
+  const imgStyle = {
+    width: viewMode === "grid" ? "150px" : "50px",
+    height: viewMode === "grid" ? "225px" : "75px",
+    paddingTop: viewMode === "grid" ? "5px" : undefined,
+    paddingLeft: viewMode === "grid" ? "0" : "20px",
+    objectFit: "cover",
+  };
+
+  const textStyle = {
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    width: viewMode === "grid" ? "150px" : "auto",
+    marginLeft: viewMode === "grid" ? "0" : "20px",
+  };
+
   return (
     <>
-      <Box
-        onClick={handleCardClick}
-        sx={{
-          width: "170px",
-          textAlign: "center",
-          cursor: "pointer",
-          border: "5px solid black",
-          borderRadius: "10px",
-          boxShadow: "inset 0 0 15px rgba(0, 0, 0, .5)",
-          p: "10px",
-          paddingTop: "15px",
-          m: "3px",
-          ...themedStyles,
-        }}
-      >
-        <img
-          src={show.ImageLink}
-          alt={show.Title}
-          style={{
-            width: "150px",
-            height: "225px",
-            objectFit: "cover",
-          }}
-        />
-        <Typography
-          sx={{
-            whiteSpace: "nowrap",
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-          }}
-        >
-          {show.Title}
-        </Typography>
+      <Box onClick={handleCardClick} sx={cardStyle}>
+      <Typography>{show.Tier} {viewMode === "grid" ? "Tier" : undefined} </Typography>
+        <img src={show.ImageLink} alt={show.Title} style={imgStyle} />
+        <Box>
+          <Typography sx={textStyle}>{show.Title}</Typography>
+        </Box>
       </Box>
       <ShowModal show={show} isOpen={modalOpen} onClose={handleModalClose} />
     </>
@@ -90,5 +93,6 @@ ShowCard.propTypes = {
     Tier: PropTypes.string.isRequired,
   }).isRequired,
   themeLightDark: PropTypes.string.isRequired,
+  viewMode: PropTypes.string.isRequired,
 };
 export default ShowCard;
