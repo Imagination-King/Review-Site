@@ -20,7 +20,7 @@ import useFetchShowData from "./useFetchShowData";
 import useSort from "./useSort";
 import PropTypes from "prop-types";
 
-function TierList({ mode }) {
+function TierList({ themeLightDark }) {
   const [tierExpanded, setTierExpanded] = useState({});
   const [anchorEl, setAnchorEl] = useState(null);
   const [sortMode, setSortMode] = useState("tier");
@@ -174,7 +174,7 @@ const sortedData = useSort(sortMode, tierData);
                     //prevents uncaught reference errors from map function
                     sortedData[tier.key]?.length > 0 ? (
                       sortedData[tier.key].map((show) => (
-                        <ShowCard key={show.Title} show={show} mode={mode} />
+                        <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} />
                       ))
                     ) : (
                       <Typography>No shows in this tier</Typography>
@@ -217,7 +217,7 @@ const sortedData = useSort(sortMode, tierData);
                   //prevents uncaught reference errors from map function
                   sortedData[group].length > 0 ? (
                     sortedData[group].map((show) => (
-                      <ShowCard key={show.Title} show={show} mode={mode} />
+                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} />
                     ))
                   ) : (
                     <Typography>No shows in this range</Typography>
@@ -259,7 +259,7 @@ const sortedData = useSort(sortMode, tierData);
                   //prevents uncaught reference errors from map function
                   sortedData[status].length > 0 ? (
                     sortedData[status].map((show) => (
-                      <ShowCard key={show.Title} show={show} mode={mode} />
+                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} />
                     ))
                   ) : (
                     <Typography>No shows in this range</Typography>
@@ -275,7 +275,7 @@ const sortedData = useSort(sortMode, tierData);
 }
 
 TierList.propTypes = {
-  mode: PropTypes.string.isRequired,
+  themeLightDark: PropTypes.string.isRequired,
 };
 
 export default TierList;

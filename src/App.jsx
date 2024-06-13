@@ -18,7 +18,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <h1>TV Show Tier List</h1>
-      <TierList mode={theme.palette.mode} />
+      <TierList themeLightDark={theme.palette.mode} />
     </ThemeProvider>
   );
 }
