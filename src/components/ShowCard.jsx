@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import ShowModal from "./ShowModal";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Stack } from "@mui/material";
 
 const tierStyles = (themeLightDark) => ({
   themeLightDark,
@@ -91,7 +91,7 @@ function ShowCard({ show, themeLightDark, viewMode }) {
           {show.Tier} {viewMode === "grid" ? "Tier" : undefined}{" "}
         </Typography>
         <img src={show.ImageLink} alt={show.Title} style={imgStyle} />
-        <Box>
+        <Stack direction="row" spacing={5}>
           <Typography sx={textStyle}>{show.Title}</Typography>
           {viewMode === "list" && (
             <>
@@ -101,7 +101,7 @@ function ShowCard({ show, themeLightDark, viewMode }) {
               <Typography>{show.WatchStatus}</Typography>
             </>
           )}
-        </Box>
+        </Stack>
       </Box>
       <ShowModal show={show} isOpen={modalOpen} onClose={handleModalClose} />
     </>
@@ -114,8 +114,8 @@ ShowCard.propTypes = {
     ImageLink: PropTypes.string.isRequired,
     Tier: PropTypes.string.isRequired,
     WatchStatus: PropTypes.string.isRequired,
-    PremiereDate: PropTypes.string.isRequired,
-    EndDate: PropTypes.string.isRequired,
+    PremiereDate: PropTypes.number.isRequired,
+    EndDate: PropTypes.number.isRequired,
   }).isRequired,
   themeLightDark: PropTypes.string.isRequired,
   viewMode: PropTypes.string.isRequired,
