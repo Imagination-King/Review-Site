@@ -1,7 +1,8 @@
-import * as React from "react";
+import React, { useRef } from "react";
 import { createTheme, ThemeProvider, useMediaQuery } from "@mui/material";
 import "./App.css";
 import TierList from "./components/TierList";
+import GoTopBtn from "./components/GoTopBtn";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -15,11 +16,17 @@ function App() {
       }),
     [prefersDarkMode]
   );
+
+  const refScrollUp = useRef(null);
+
   return (
-    <ThemeProvider theme={theme}>
-      <h1>TV Show Tier List</h1>
-      <TierList themeLightDark={theme.palette.mode} />
-    </ThemeProvider>
+    <>
+      <div ref={refScrollUp}></div>
+      <ThemeProvider theme={theme}>
+        <TierList themeLightDark={theme.palette.mode} />
+        <GoTopBtn />
+      </ThemeProvider>
+    </>
   );
 }
 

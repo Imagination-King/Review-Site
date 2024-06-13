@@ -122,6 +122,7 @@ const sortedData = useSort(sortMode, tierData);
 
   return (
     <Box sx={{ p: 1 }}>
+      <h1>TV Show Tier List</h1>
       <Box //Option Bar starts here
         sx={{
           display: "flex",
