@@ -52,24 +52,42 @@ function TierList({ themeLightDark }) {
 
   //epand+collapse button logic
   const handleExpandAll = () => {
-    Object.keys(tierData).forEach((key, index) => {
+    let keys = [];
+    if (sortMode === "tier") {
+      keys = tiersDefined.map((tier) => tier.key);
+    } else if (sortMode === "title") {
+      keys = Object.keys(sortedData);
+    } else if (sortMode === "watch-status") {
+      keys = ["Watching", "Completed", "Hold", "Quit"];
+    } //additional sort options would go here
+
+    keys.reverse().forEach((key, index) => {
       setTimeout(() => {
         setTierExpanded((prevExpanded) => ({
           ...prevExpanded,
           [key]: true,
         }));
-      }, index * 50); // delays opening of tiers for visual effect
+      }, index * 200); // delay set for visual and performance benefits
     });
   };
 
   const handleCollapseAll = () => {
-    Object.keys(tierData).forEach((key, index) => {
+    let keys = [];
+    if (sortMode === "tier") {
+      keys = tiersDefined.map((tier) => tier.key);
+    } else if (sortMode === "title") {
+      keys = Object.keys(sortedData);
+    } else if (sortMode === "watch-status") {
+      keys = ["Watching", "Completed", "Hold", "Quit"];
+    } //additional sort options would go here
+
+    keys.forEach((key, index) => {
       setTimeout(() => {
         setTierExpanded((prevExpanded) => ({
           ...prevExpanded,
           [key]: false,
         }));
-      }, index * 50); // delays closing of tiers for visual effect
+      }, index * 200); // delay set for visual and performance benefits
     });
   };
 
