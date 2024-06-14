@@ -5,6 +5,6 @@
   { "key": "C", "tLabel": "C Tier: They Had Their Moments", "order": 3 },
   { "key": "D", "tLabel": "D Tier: Mostly Wasted Potential", "order": 4 },
   { "key": "F", "tLabel": "F Tier: Nothing But Regret", "order": 5 },
-  { "key": "K", "tLabel": "Conflicted Feelings", "order": 6 },
-  { "key": "U", "tLabel": "Undecided", "order": 7 }
+  { "key": "K", "tLabel": "K Tier: Konflicted Feelings", "order": 6 },
+  { "key": "U", "tLabel": "U Tier: Undecided", "order": 7 }
 ]

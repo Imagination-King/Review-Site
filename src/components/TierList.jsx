@@ -10,9 +10,6 @@ import SortedByStatus from "./SortedByStatus";
 import { useNavigate, Routes, Route, Link, Navigate } from "react-router-dom";
 
 import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
   Box,
   Button,
   Menu,
@@ -33,7 +30,6 @@ function TierList({ theme }) {
   const [sortMode, setSortMode] = useState("tier");
   const [viewMode, setViewMode] = useState("grid");
 
-function TierList({ themeLightDark }) {
   const JSON_URL =
     "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/tvShowsGraded.json";
 
@@ -59,14 +55,6 @@ function TierList({ themeLightDark }) {
     setAnchorEl(null);
     setSortMode(mode);
     navigate(`/${mode}`);
-  };
-
-  //tracks accordion open/close state for expand+collapse button logic
-  const handleAccordionChange = (key) => (event, isExpanded) => {
-    setGroupExpanded((prevExpanded) => ({
-      ...prevExpanded,
-      [key]: isExpanded,
-    }));
   };
 
   // Tracks accordion open/close state

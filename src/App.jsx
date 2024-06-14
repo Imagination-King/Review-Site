@@ -21,11 +21,15 @@ function App() {
   const refScrollUp = useRef(null);
 
   return (
-    <ThemeProvider theme={theme}>
-      <Routes>
-        <Route path="*" element={<TierList theme={theme.palette.mode} />} />
-      </Routes>
-    </ThemeProvider>
+    <>
+      <div ref={refScrollUp}></div>
+      <ThemeProvider theme={theme}>
+        <Routes>
+          <Route path="*" element={<TierList theme={theme.palette.mode} />} />
+        </Routes>
+        <GoTopBtn />
+      </ThemeProvider>
+    </>
   );
 }
 
