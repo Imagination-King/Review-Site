@@ -69,6 +69,10 @@ const SortedByTier = (
 
 SortedByTier.propTypes = {
   theme: PropTypes.string.isRequired,
+  tierData: PropTypes.object.isRequired,
+  tiersDefined: PropTypes.array.isRequired,
+  tierExpanded: PropTypes.object.isRequired,
+  handleAccordionChange: PropTypes.func.isRequired,
 };
 
 export default SortedByTier;

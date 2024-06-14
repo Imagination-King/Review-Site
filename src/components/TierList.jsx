@@ -1,13 +1,5 @@
-import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
-import {
-  Route,
-  Routes,
-  Link,
-  createRoutesFromElements,
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { useState } from "react";
+import { useNavigate, Routes, Route, Link } from "react-router-dom";
 import { Box, Button, Menu, MenuItem } from "@mui/material";
 import {
   SortRounded,
@@ -19,7 +11,8 @@ import PropTypes from "prop-types";
 import SortedByTier from "./SortedByTier";
 import SortedByTitle from "./SortedByTitle";
 
-function TierList() {
+function TierList( {theme} ) {
+  const navigate = useNavigate();
   const [tierExpanded, setTierExpanded] = useState({});
   const [anchorEl, setAnchorEl] = useState(null);
   const [sortMode, setSortMode] = useState("tier");
@@ -38,25 +31,24 @@ function TierList() {
   );
 
   //sort menu logic
-  const open = Boolean(anchorEl);
-  const handleSortClick = (e) => {
-    setAnchorEl(e.currentTarget);
-  };
+  // const open = Boolean(anchorEl);
+  // const handleSortClick = (e) => {
+  //   setAnchorEl(e.currentTarget);
+  // };
 
   const handleSortClose = (mode) => {
     setAnchorEl(null);
-    if (mode && mode !== sortMode) {
-      setSortMode(mode);
-    }
+    setSortMode(mode);
+    navigate(`/${mode}`);
   };
 
   //tracks accordion open/close state for expand+collapse button logic
-  const handleAccordionChange = (key) => (event, isExpanded) => {
-    setTierExpanded((prevExpanded) => ({
-      ...prevExpanded,
-      [key]: isExpanded,
-    }));
-  };
+  // const handleAccordionChange = (key) => (event, isExpanded) => {
+  //   setTierExpanded((prevExpanded) => ({
+  //     ...prevExpanded,
+  //     [key]: isExpanded,
+  //   }));
+  // };
 
   //epand+collapse button logic
   const handleExpandAll = () => {
@@ -128,24 +120,25 @@ function TierList() {
       >
         <Box sx={{ display: "flex", flexDirection: "row" }}>
           <Button
-            variant="outlined"
-            id="sort-button"
+            //variant="outlined"
+            //id="sort-button"
             startIcon={<SortRounded />}
-            aria-controls={open ? "sort-menu" : undefined}
+            aria-controls="sort-menu"
             aria-haspopup="true"
-            aria-expanded={open ? "true" : undefined}
-            onClick={handleSortClick}
+            //aria-expanded={open ? "true" : undefined}
+            onClick={(e) => setAnchorEl(e.currentTarget)}
           >
             Sort
           </Button>
           <Menu
             id="sort-menu"
             anchorEl={anchorEl}
-            open={open}
-            onClose={() => handleSortClose(null)}
-            MenuListProps={{
-              "aria-labelledby": "sort-button",
-            }}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={() => setAnchorEl(null)}
+            // MenuListProps={{
+            //   "aria-labelledby": "sort-button",
+            // }}
           >
             <MenuItem
               component={Link}
@@ -178,11 +171,11 @@ function TierList() {
           path="/tier"
           element={
             <SortedByTier
-              mode="view"
+              theme={theme}
               tierData={tierData}
               tiersDefined={tiersDefined}
               tierExpanded={tierExpanded}
-              handleAccordionChange={handleAccordionChange}
+              handleAccordionChange={() => {}}
             />
           }
         />
@@ -190,10 +183,10 @@ function TierList() {
           path="/title"
           element={
             <SortedByTitle
-              mode="view"
+              theme={theme}
               tierData={tierData}
               tierExpanded={tierExpanded}
-              handleAccordionChange={handleAccordionChange}
+              handleAccordionChange={() => {}}
             />
           }
         />
@@ -204,22 +197,7 @@ function TierList() {
 }
 
 TierList.propTypes = {
-  mode: PropTypes.string.isRequired,
+  theme: PropTypes.string.isRequired,
 };
-
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<TierList />}>
-      <Route path="tier" element={<SortedByTier />} />
-      <Route path="title" element={<SortedByTitle />} />
-    </Route>
-  )
-);
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
-);
 
 export default TierList;

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { createTheme, ThemeProvider, useMediaQuery } from "@mui/material";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import TierList from "./components/TierList";
 
@@ -17,8 +18,9 @@ function App() {
   );
   return (
     <ThemeProvider theme={theme}>
-      <h1>TV Show Tier List</h1>
-      <TierList mode={theme.palette.mode} />
+      <Routes>
+        <Route path="*" element={<TierList theme={theme.palette.mode} />} />
+      </Routes>
     </ThemeProvider>
   );
 }
