@@ -1,22 +1,35 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
+
+//ShowCard no longer needed here
+import useFetchData from "./useFetchData";
+import useSort from "./useSort";
+import SortedByTier from "./SortedByTier";
+import SortedByTitle from "./SortedByTitle";
+import SortedByStatus from "./SortedByStatus";
+
 import { useNavigate, Routes, Route, Link, Navigate } from "react-router-dom";
-import { Box, Button, Menu, MenuItem } from "@mui/material";
+//a lot of MUI stuff is no longer needed here
+import {
+  Box,
+  Button,
+  Menu,
+  MenuItem,
+  ToggleButton,
+  ToggleButtonGroup,
+} from "@mui/material";
 import {
   SortRounded,
   UnfoldLessRounded,
   UnfoldMoreRounded,
 } from "@mui/icons-material";
-import useFetchShowData from "./useFetchShowData";
-import PropTypes from "prop-types";
-import SortedByTier from "./SortedByTier";
-import SortedByTitle from "./SortedByTitle";
-import SortedByStatus from "./SortedByStatus";
 
 function TierList({ theme }) {
   const navigate = useNavigate();
-  const [tierExpanded, setTierExpanded] = useState({});
+  const [groupExpanded, setGroupExpanded] = useState({});
   const [anchorEl, setAnchorEl] = useState(null);
   const [sortMode, setSortMode] = useState("tier");
+  const [viewMode, setViewMode] = useState("grid");
 
   const JSON_URL =
     "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/tvShowsGraded.json";
@@ -25,18 +38,19 @@ function TierList({ theme }) {
   const useLocalFile = false;
   const LOCAL_JSON_URL = "/tvShowsGraded.json";
 
-  const { tierData, tiersDefined, error } = useFetchShowData(
+  const { tierData, tiersDefined, error } = useFetchData(
     JSON_URL,
     LOCAL_JSON_URL,
     useLocalFile
   );
 
-  //sort menu logic
-  // const open = Boolean(anchorEl);
-  // const handleSortClick = (e) => {
-  //   setAnchorEl(e.currentTarget);
-  // };
+  const handleViewChange = (event, newViewMode) => {
+    if (newViewMode !== null) {
+      setViewMode(newViewMode);
+    }
+  };
 
+  //keep this version, handleSortClick no longer needed
   const handleSortClose = (mode) => {
     setAnchorEl(null);
     setSortMode(mode);
@@ -45,7 +59,7 @@ function TierList({ theme }) {
 
   //tracks accordion open/close state for expand+collapse button logic
   const handleAccordionChange = (key) => (event, isExpanded) => {
-    setTierExpanded((prevExpanded) => ({
+    setGroupExpanded((prevExpanded) => ({
       ...prevExpanded,
       [key]: isExpanded,
     }));
@@ -57,18 +71,19 @@ function TierList({ theme }) {
     if (sortMode === "tier") {
       keys = tiersDefined.map((tier) => tier.key);
     } else if (sortMode === "title") {
-      keys = Object.keys(tierData);
+      keys = Object.keys(sortedData);
     } else if (sortMode === "watch-status") {
       keys = ["Watching", "Completed", "Hold", "Quit"];
-    } //additional sort options would go here
+    } // Additional sort options would go here
 
-    keys.forEach((key, index) => {
+    keys.reverse().forEach((key, index) => {
+      // .reverse opens accordions in reverse order for visual benefit
       setTimeout(() => {
-        setTierExpanded((prevExpanded) => ({
+        setGroupExpanded((prevExpanded) => ({
           ...prevExpanded,
           [key]: true,
         }));
-      }, index * 50); // delays opening of tiers for visual effect
+      }, index * 200); // Delay for visual and performance benefits
     });
   };
 
@@ -77,20 +92,22 @@ function TierList({ theme }) {
     if (sortMode === "tier") {
       keys = tiersDefined.map((tier) => tier.key);
     } else if (sortMode === "title") {
-      keys = Object.keys(tierData);
+      keys = Object.keys(sortedData);
     } else if (sortMode === "watch-status") {
       keys = ["Watching", "Completed", "Hold", "Quit"];
-    } //additional sort options would go here
+    } // Additional sort options would go here
 
     keys.forEach((key, index) => {
       setTimeout(() => {
-        setTierExpanded((prevExpanded) => ({
+        setGroupExpanded((prevExpanded) => ({
           ...prevExpanded,
           [key]: false,
         }));
-      }, index * 50); // delays closing of tiers for visual effect
+      }, index * 200); // Delay for visual and performance benefits
     });
   };
+
+  const sortedData = useSort(sortMode, tierData);
 
   if (error) {
     return (
@@ -111,6 +128,22 @@ function TierList({ theme }) {
 
   return (
     <Box>
+      <h1>TV Show Tier List</h1>
+      <Box>
+        {/* Option Bar Row 1 - View Mode Buttons */}
+        <ToggleButtonGroup
+          value={viewMode}
+          exclusive
+          onChange={handleViewChange}
+        >
+          <ToggleButton value="grid" aria-label="view as grid">
+            Grid
+          </ToggleButton>
+          <ToggleButton value="list" aria-label="view as list">
+            List
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </Box>
       <Box //Option Bar starts here
         sx={{
           display: "flex",
@@ -187,9 +220,10 @@ function TierList({ theme }) {
           element={
             <SortedByTier
               theme={theme}
+              viewMode={viewMode}
               tierData={tierData}
               tiersDefined={tiersDefined}
-              tierExpanded={tierExpanded}
+              groupExpanded={groupExpanded}
               handleAccordionChange={handleAccordionChange}
             />
           }
@@ -199,8 +233,9 @@ function TierList({ theme }) {
           element={
             <SortedByTitle
               theme={theme}
+              viewMode={viewMode}
               tierData={tierData}
-              tierExpanded={tierExpanded}
+              groupExpanded={groupExpanded}
               handleAccordionChange={handleAccordionChange}
             />
           }
@@ -210,8 +245,9 @@ function TierList({ theme }) {
           element={
             <SortedByStatus
               theme={theme}
+              viewMode={viewMode}
               tierData={tierData}
-              tierExpanded={tierExpanded}
+              groupExpanded={groupExpanded}
               handleAccordionChange={handleAccordionChange}
             />
           }

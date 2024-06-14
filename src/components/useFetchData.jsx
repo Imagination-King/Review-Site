@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useFetchShowData = (JSON_URL, LOCAL_JSON_URL, useLocalFile) => {
+const useFetchData = (JSON_URL, LOCAL_JSON_URL, useLocalFile) => {
   const [tierData, setTierData] = useState({});
   const [tiersDefined, setTiersDefined] = useState({});
   const [error, setError] = useState(null);
@@ -48,4 +48,4 @@ const useFetchShowData = (JSON_URL, LOCAL_JSON_URL, useLocalFile) => {
   return { tierData, tiersDefined, error };
 };
 
-export default useFetchShowData;
+export default useFetchData;

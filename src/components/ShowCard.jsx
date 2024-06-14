@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import ShowModal from "./ShowModal";
 import { Box, Typography } from "@mui/material";
 
-const tierStyles = (mode) => ({
-  mode,
-  ...(mode === "light"
+const tierStyles = (themeLightDark) => ({
+  themeLightDark,
+  ...(themeLightDark === "light"
     ? {
         // palette values for light mode
         S: { borderColor: "gold", bgcolor: "#FFFA80" },
@@ -30,7 +30,7 @@ const tierStyles = (mode) => ({
       }),
 });
 
-function ShowCard({ show, mode }) {
+function ShowCard({ show, themeLightDark }) {
   const [modalOpen, setModalOpen] = useState(false);
 
   const handleCardClick = () => {
@@ -40,7 +40,7 @@ function ShowCard({ show, mode }) {
     setModalOpen(false);
   };
 
-  const styles = tierStyles(mode)[show.Tier];
+  const styles = tierStyles(themeLightDark)[show.Tier];
 
   return (
     <>
@@ -89,6 +89,6 @@ ShowCard.propTypes = {
     ImageLink: PropTypes.string.isRequired,
     Tier: PropTypes.string.isRequired,
   }).isRequired,
-  mode: PropTypes.string.isRequired,
+  themeLightDark: PropTypes.string.isRequired,
 };
 export default ShowCard;

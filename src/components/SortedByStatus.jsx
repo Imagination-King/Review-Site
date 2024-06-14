@@ -12,8 +12,9 @@ import PropTypes from "prop-types";
 
 const SortedByStatus = ({
   theme,
+  viewMode,
   tierData,
-  tierExpanded,
+  groupExpanded,
   handleAccordionChange,
 }) => {
   const sortedData = useSort("watch-status", tierData);
@@ -23,7 +24,7 @@ const SortedByStatus = ({
       {Object.keys(sortedData).map((status) => (
         <Accordion
           key={status}
-          expanded={tierExpanded[status] || false}
+          expanded={groupExpanded[status] || false}
           onChange={handleAccordionChange(status)}
         >
           <AccordionSummary
@@ -50,7 +51,12 @@ const SortedByStatus = ({
           >
             {sortedData[status].length > 0 ? (
               sortedData[status].map((show) => (
-                <ShowCard key={show.Title} show={show} mode={theme} />
+                <ShowCard
+                  key={show.Title}
+                  show={show}
+                  themeLightDark={theme}
+                  viewMode={viewMode}
+                />
               ))
             ) : (
               <Typography>No shows in this group</Typography>
@@ -64,8 +70,9 @@ const SortedByStatus = ({
 
 SortedByStatus.propTypes = {
   theme: PropTypes.string.isRequired,
+  viewMode: PropTypes.string.isRequired,
   tierData: PropTypes.object.isRequired,
-  tierExpanded: PropTypes.object.isRequired,
+  groupExpanded: PropTypes.object.isRequired,
   handleAccordionChange: PropTypes.func.isRequired,
 };
 

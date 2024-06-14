@@ -12,8 +12,9 @@ import useSort from "./useSort";
 
 const SortedByTitle = ({
   theme,
+  viewMode,
   tierData,
-  tierExpanded,
+  groupExpanded,
   handleAccordionChange,
 }) => {
   const sortedData = useSort("title", tierData);
@@ -23,7 +24,7 @@ const SortedByTitle = ({
       {Object.keys(sortedData).map((group) => (
         <Accordion
           key={group}
-          expanded={tierExpanded[group] || false}
+          expanded={groupExpanded[group] || false}
           onChange={handleAccordionChange(group)}
         >
           <AccordionSummary
@@ -48,16 +49,18 @@ const SortedByTitle = ({
               flexWrap: "wrap",
             }}
           >
-            {
-              //prevents uncaught reference errors from map function
-              sortedData[group].length > 0 ? (
-                sortedData[group].map((show) => (
-                  <ShowCard key={show.Title} show={show} mode={theme} />
-                ))
-              ) : (
-                <Typography>No shows in this range</Typography>
-              )
-            }
+            {sortedData[group].length > 0 ? (
+              sortedData[group].map((show) => (
+                <ShowCard
+                  key={show.Title}
+                  show={show}
+                  themeLightDark={theme}
+                  viewMode={viewMode}
+                />
+              ))
+            ) : (
+              <Typography>No shows in this range</Typography>
+            )}
           </AccordionDetails>
         </Accordion>
       ))}
@@ -67,8 +70,9 @@ const SortedByTitle = ({
 
 SortedByTitle.propTypes = {
   theme: PropTypes.string.isRequired,
+  viewMode: PropTypes.string.isRequired,
   tierData: PropTypes.object.isRequired,
-  tierExpanded: PropTypes.object.isRequired,
+  groupExpanded: PropTypes.object.isRequired,
   handleAccordionChange: PropTypes.func.isRequired,
 };
 

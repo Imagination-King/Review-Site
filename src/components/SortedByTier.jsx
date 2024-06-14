@@ -12,9 +12,10 @@ import useSort from "./useSort";
 
 const SortedByTier = ({
   theme,
+  viewMode,
   tierData,
   tiersDefined,
-  tierExpanded,
+  groupExpanded,
   handleAccordionChange,
 }) => {
   const sortedData = useSort("tier", tierData);
@@ -26,7 +27,7 @@ const SortedByTier = ({
         .map((tier) => (
           <Accordion
             key={tier.key}
-            expanded={tierExpanded[tier.key] || false}
+            expanded={groupExpanded[tier.key] || false}
             onChange={handleAccordionChange(tier.key)}
           >
             <AccordionSummary
@@ -51,16 +52,18 @@ const SortedByTier = ({
                 flexWrap: "wrap",
               }}
             >
-              {
-                //prevents uncaught reference errors from map function
-                sortedData[tier.key]?.length > 0 ? (
-                  sortedData[tier.key].map((show) => (
-                    <ShowCard key={show.Title} show={show} mode={theme} />
-                  ))
-                ) : (
-                  <Typography>No shows in this tier</Typography>
-                )
-              }
+              {sortedData[tier.key]?.length > 0 ? (
+                sortedData[tier.key].map((show) => (
+                  <ShowCard
+                    key={show.Title}
+                    show={show}
+                    themeLightDark={theme}
+                    viewMode={viewMode}
+                  />
+                ))
+              ) : (
+                <Typography>No shows in this tier</Typography>
+              )}
             </AccordionDetails>
           </Accordion>
         ))}
@@ -70,9 +73,10 @@ const SortedByTier = ({
 
 SortedByTier.propTypes = {
   theme: PropTypes.string.isRequired,
+  viewMode: PropTypes.string.isRequired,
   tierData: PropTypes.object.isRequired,
   tiersDefined: PropTypes.array.isRequired,
-  tierExpanded: PropTypes.object.isRequired,
+  groupExpanded: PropTypes.object.isRequired,
   handleAccordionChange: PropTypes.func.isRequired,
 };
 
