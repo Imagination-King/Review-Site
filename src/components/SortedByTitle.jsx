@@ -10,15 +10,16 @@ import ShowCard from "./ShowCard";
 import PropTypes from "prop-types";
 import useSort from "./useSort";
 
-const SortedByTitle = (
+const SortedByTitle = ({
   theme,
   tierData,
   tierExpanded,
-  handleAccordionChange
-) => {
+  handleAccordionChange,
+}) => {
   const sortedData = useSort("title", tierData);
+
   return (
-    <Box sx={{ p: 1 }}>
+    <Box>
       {Object.keys(sortedData).map((group) => (
         <Accordion
           key={group}
@@ -29,8 +30,6 @@ const SortedByTitle = (
             expandIcon={<ExpandMoreRounded />}
             aria-controls={`panel-${group}-content`}
             id={`panel-${group}-header`}
-            variant="h4"
-            component="h2"
             sx={{
               justifyContent: "center",
               "& .MuiAccordionSummary-content": {
@@ -38,7 +37,9 @@ const SortedByTitle = (
               },
             }}
           >
-            <strong>{group}</strong>
+            <Typography variant="h4">
+              <strong>{group}</strong>
+            </Typography>
           </AccordionSummary>
           <AccordionDetails
             sx={{
@@ -66,6 +67,9 @@ const SortedByTitle = (
 
 SortedByTitle.propTypes = {
   theme: PropTypes.string.isRequired,
+  tierData: PropTypes.object.isRequired,
+  tierExpanded: PropTypes.object.isRequired,
+  handleAccordionChange: PropTypes.func.isRequired,
 };
 
 export default SortedByTitle;

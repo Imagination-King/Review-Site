@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate, Routes, Route, Link } from "react-router-dom";
+import { useNavigate, Routes, Route, Link, Navigate } from "react-router-dom";
 import { Box, Button, Menu, MenuItem } from "@mui/material";
 import {
   SortRounded,
@@ -10,8 +10,9 @@ import useFetchShowData from "./useFetchShowData";
 import PropTypes from "prop-types";
 import SortedByTier from "./SortedByTier";
 import SortedByTitle from "./SortedByTitle";
+import SortedByStatus from "./SortedByStatus";
 
-function TierList( {theme} ) {
+function TierList({ theme }) {
   const navigate = useNavigate();
   const [tierExpanded, setTierExpanded] = useState({});
   const [anchorEl, setAnchorEl] = useState(null);
@@ -43,12 +44,12 @@ function TierList( {theme} ) {
   };
 
   //tracks accordion open/close state for expand+collapse button logic
-  // const handleAccordionChange = (key) => (event, isExpanded) => {
-  //   setTierExpanded((prevExpanded) => ({
-  //     ...prevExpanded,
-  //     [key]: isExpanded,
-  //   }));
-  // };
+  const handleAccordionChange = (key) => (event, isExpanded) => {
+    setTierExpanded((prevExpanded) => ({
+      ...prevExpanded,
+      [key]: isExpanded,
+    }));
+  };
 
   //epand+collapse button logic
   const handleExpandAll = () => {
@@ -109,23 +110,22 @@ function TierList( {theme} ) {
   }
 
   return (
-    <Box sx={{ p: 1 }}>
+    <Box>
       <Box //Option Bar starts here
         sx={{
           display: "flex",
           flexDirection: "row",
-          pb: ".5em",
           justifyContent: "space-between",
         }}
       >
         <Box sx={{ display: "flex", flexDirection: "row" }}>
           <Button
-            //variant="outlined"
-            //id="sort-button"
+            variant="outlined"
+            id="sort-button"
             startIcon={<SortRounded />}
             aria-controls="sort-menu"
             aria-haspopup="true"
-            //aria-expanded={open ? "true" : undefined}
+            aria-expanded={open ? "true" : undefined}
             onClick={(e) => setAnchorEl(e.currentTarget)}
           >
             Sort
@@ -136,9 +136,9 @@ function TierList( {theme} ) {
             keepMounted
             open={Boolean(anchorEl)}
             onClose={() => setAnchorEl(null)}
-            // MenuListProps={{
-            //   "aria-labelledby": "sort-button",
-            // }}
+            MenuListProps={{
+              "aria-labelledby": "sort-button",
+            }}
           >
             <MenuItem
               component={Link}
@@ -154,19 +154,34 @@ function TierList( {theme} ) {
             >
               Title
             </MenuItem>
-            {/* <MenuItem component={Link} to="/watch-status" onClick={() => handleSortClose("watch-status")}>Watch Status</MenuItem> */}
+            <MenuItem
+              component={Link}
+              to="/watch-status"
+              onClick={() => handleSortClose("watch-status")}
+            >
+              Watch Status
+            </MenuItem>
           </Menu>
         </Box>
         <Box sx={{ display: "flex", flexDirection: "row" }}>
-          <Button startIcon={<UnfoldMoreRounded />} onClick={handleExpandAll}>
+          <Button
+            variant="outlined"
+            startIcon={<UnfoldMoreRounded />}
+            onClick={handleExpandAll}
+          >
             Expand
           </Button>
-          <Button startIcon={<UnfoldLessRounded />} onClick={handleCollapseAll}>
+          <Button
+            variant="outlined"
+            startIcon={<UnfoldLessRounded />}
+            onClick={handleCollapseAll}
+          >
             Collapse
           </Button>
         </Box>
       </Box>
       <Routes>
+        <Route path="/" element={<Navigate to="/tier" replace />} />
         <Route
           path="/tier"
           element={
@@ -175,7 +190,7 @@ function TierList( {theme} ) {
               tierData={tierData}
               tiersDefined={tiersDefined}
               tierExpanded={tierExpanded}
-              handleAccordionChange={() => {}}
+              handleAccordionChange={handleAccordionChange}
             />
           }
         />
@@ -186,11 +201,21 @@ function TierList( {theme} ) {
               theme={theme}
               tierData={tierData}
               tierExpanded={tierExpanded}
-              handleAccordionChange={() => {}}
+              handleAccordionChange={handleAccordionChange}
             />
           }
         />
-        {/* <Route path="/watch-status" element={<SortedByStatus mode="view" tierData={tierData} tierExpanded={tierExpanded} handleAccordionChange={handleAccordionChange} />} /> */}
+        <Route
+          path="/watch-status"
+          element={
+            <SortedByStatus
+              theme={theme}
+              tierData={tierData}
+              tierExpanded={tierExpanded}
+              handleAccordionChange={handleAccordionChange}
+            />
+          }
+        />
       </Routes>
     </Box>
   );

@@ -10,16 +10,17 @@ import ShowCard from "./ShowCard";
 import PropTypes from "prop-types";
 import useSort from "./useSort";
 
-const SortedByTier = (
+const SortedByTier = ({
   theme,
   tierData,
   tiersDefined,
   tierExpanded,
-  handleAccordionChange
-) => {
+  handleAccordionChange,
+}) => {
   const sortedData = useSort("tier", tierData);
+
   return (
-    <Box sx={{ p: 1 }}>
+    <Box>
       {tiersDefined
         .sort((a, b) => a.order - b.order)
         .map((tier) => (
@@ -32,8 +33,6 @@ const SortedByTier = (
               expandIcon={<ExpandMoreRounded />}
               aria-controls={`panel-${tier.key}-content`}
               id={`panel-${tier.key}-header`}
-              variant="h4"
-              component="h2"
               sx={{
                 justifyContent: "center",
                 "& .MuiAccordionSummary-content": {
@@ -41,7 +40,9 @@ const SortedByTier = (
                 },
               }}
             >
-              <strong>{tier.tLabel}</strong>
+              <Typography variant="h4">
+                <strong>{tier.tLabel}</strong>
+              </Typography>
             </AccordionSummary>
             <AccordionDetails
               sx={{
