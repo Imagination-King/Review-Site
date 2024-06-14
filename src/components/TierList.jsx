@@ -1,7 +1,6 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-//ShowCard no longer needed here
 import useFetchData from "./useFetchData";
 import useSort from "./useSort";
 import SortedByTier from "./SortedByTier";
@@ -9,8 +8,11 @@ import SortedByTitle from "./SortedByTitle";
 import SortedByStatus from "./SortedByStatus";
 
 import { useNavigate, Routes, Route, Link, Navigate } from "react-router-dom";
-//a lot of MUI stuff is no longer needed here
+
 import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
   Box,
   Button,
   Menu,
@@ -31,26 +33,28 @@ function TierList({ theme }) {
   const [sortMode, setSortMode] = useState("tier");
   const [viewMode, setViewMode] = useState("grid");
 
+function TierList({ themeLightDark }) {
   const JSON_URL =
     "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/tvShowsGraded.json";
 
-  //in case the server decides to not cooperate, use a local backup
-  const useLocalFile = false;
+  const useLocalFile = false; // Set to true to use local backup of Show Data
   const LOCAL_JSON_URL = "/tvShowsGraded.json";
 
+  // Fetch show data and tier definitions
   const { tierData, tiersDefined, error } = useFetchData(
     JSON_URL,
     LOCAL_JSON_URL,
     useLocalFile
   );
 
+  // View mode button logic
   const handleViewChange = (event, newViewMode) => {
     if (newViewMode !== null) {
       setViewMode(newViewMode);
     }
   };
 
-  //keep this version, handleSortClick no longer needed
+  // Sort mode button logic
   const handleSortClose = (mode) => {
     setAnchorEl(null);
     setSortMode(mode);
@@ -65,7 +69,15 @@ function TierList({ theme }) {
     }));
   };
 
-  //epand+collapse button logic
+  // Tracks accordion open/close state
+  const handleAccordionChange = (key) => (event, isExpanded) => {
+    setGroupExpanded((prevExpanded) => ({
+      ...prevExpanded,
+      [key]: isExpanded,
+    }));
+  };
+
+  // Epand button logic
   const handleExpandAll = () => {
     let keys = [];
     if (sortMode === "tier") {
@@ -87,6 +99,7 @@ function TierList({ theme }) {
     });
   };
 
+  // Collapse button logic
   const handleCollapseAll = () => {
     let keys = [];
     if (sortMode === "tier") {
@@ -107,6 +120,7 @@ function TierList({ theme }) {
     });
   };
 
+  // useSort contains logic for all sorting options
   const sortedData = useSort(sortMode, tierData);
 
   if (error) {
@@ -126,6 +140,9 @@ function TierList({ theme }) {
     return <p>Loading data. Please wait...</p>;
   }
 
+  //----------------------------------------------
+  // HTML Starts Here
+  //----------------------------------------------
   return (
     <Box>
       <h1>TV Show Tier List</h1>
@@ -144,7 +161,8 @@ function TierList({ theme }) {
           </ToggleButton>
         </ToggleButtonGroup>
       </Box>
-      <Box //Option Bar starts here
+  
+      <Box // Option Bar Row 2 - Sort and Expand/Collapse Buttons
         sx={{
           display: "flex",
           flexDirection: "row",
@@ -152,7 +170,7 @@ function TierList({ theme }) {
         }}
       >
         <Box sx={{ display: "flex", flexDirection: "row" }}>
-          <Button
+          <Button //Sort button
             variant="outlined"
             id="sort-button"
             startIcon={<SortRounded />}
@@ -163,7 +181,8 @@ function TierList({ theme }) {
           >
             Sort
           </Button>
-          <Menu
+          
+          <Menu //Sort menu
             id="sort-menu"
             anchorEl={anchorEl}
             keepMounted
@@ -196,6 +215,8 @@ function TierList({ theme }) {
             </MenuItem>
           </Menu>
         </Box>
+
+        {/* Expand and Collapse buttons */}
         <Box sx={{ display: "flex", flexDirection: "row" }}>
           <Button
             variant="outlined"
@@ -213,6 +234,7 @@ function TierList({ theme }) {
           </Button>
         </Box>
       </Box>
+
       <Routes>
         <Route path="/" element={<Navigate to="/tier" replace />} />
         <Route

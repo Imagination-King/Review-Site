@@ -1,11 +1,14 @@
 import { useCallback, useMemo } from "react";
 
 const useSort = (sortMode, tierData) => {
+  // Callbacks are used to prevent infinite rerendering
   const sortByTier = useCallback(() => {
     const tierSplit = { ...tierData };
 
+    // Keeps items in each tier sorted alphabetically
     for (const tier in tierSplit) {
       tierSplit[tier].sort((a, b) => {
+        // Ignore "The" at beginning of titles
         const titleA = a.Title.replace(/^The\s+/i, "");
         const titleB = b.Title.replace(/^The\s+/i, "");
         return titleA.localeCompare(titleB);
@@ -16,6 +19,7 @@ const useSort = (sortMode, tierData) => {
 
   const sortByTitle = useCallback(() => {
     const alphaSplit = {
+      // If you change these ranges, make sure to change them below too
       "#-F": [],
       "G-M": [],
       "N-R": [],
@@ -28,6 +32,7 @@ const useSort = (sortMode, tierData) => {
         const title = show.Title.replace(/^The\s+/i, "");
         const firstLetter = title.charAt(0).toUpperCase();
 
+        // These should match the ranges identified above
         if (firstLetter >= "0" && firstLetter <= "F") {
           alphaSplit["#-F"].push(show);
         } else if (firstLetter >= "G" && firstLetter <= "M") {
@@ -39,6 +44,7 @@ const useSort = (sortMode, tierData) => {
         }
       });
 
+    // Without this, shows will be ordered by Tier in each range
     for (const key in alphaSplit) {
       alphaSplit[key].sort((a, b) => {
         const titleA = a.Title.replace(/^The\s+/i, "");
@@ -51,6 +57,7 @@ const useSort = (sortMode, tierData) => {
 
   const sortByStatus = useCallback(() => {
     const statusSplit = {
+      // These values are based on JSON data
       Watching: [],
       Completed: [],
       Hold: [],
@@ -72,6 +79,7 @@ const useSort = (sortMode, tierData) => {
         }
       });
 
+    // Without this, shows will be ordered by Tier in each range
     for (const key in statusSplit) {
       statusSplit[key].sort((a, b) => {
         const titleA = a.Title.replace(/^The\s+/i, "");

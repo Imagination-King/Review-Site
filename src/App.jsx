@@ -1,8 +1,9 @@
-import * as React from "react";
+import React, { useRef } from "react";
 import { createTheme, ThemeProvider, useMediaQuery } from "@mui/material";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import TierList from "./components/TierList";
+import GoTopBtn from "./components/BtnGoTo";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -16,6 +17,9 @@ function App() {
       }),
     [prefersDarkMode]
   );
+
+  const refScrollUp = useRef(null);
+
   return (
     <ThemeProvider theme={theme}>
       <Routes>
