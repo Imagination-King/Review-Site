@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useFetchShowData = (JSON_URL, LOCAL_JSON_URL, useLocalFile) => {
+const useFetchData = (JSON_URL, LOCAL_JSON_URL, useLocalFile) => {
   const [tierData, setTierData] = useState({});
   const [tiersDefined, setTiersDefined] = useState({});
   const [error, setError] = useState(null);
@@ -8,15 +8,15 @@ const useFetchShowData = (JSON_URL, LOCAL_JSON_URL, useLocalFile) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        //Fetching tier data
+        // Fetching tier data
         const tierResponse = await fetch("/tiersDefined.json");
-        if(tierResponse.status >= 400) {
+        if (tierResponse.status >= 400) {
           throw new Error("Failed to fetch tier info");
         }
         const tierData = await tierResponse.json();
         setTiersDefined(tierData);
 
-        //Fetching show data
+        // Fetching show data
         const url = useLocalFile ? LOCAL_JSON_URL : JSON_URL;
         const response = await fetch(url, { mode: "cors" });
         if (response.status >= 400) {
@@ -24,12 +24,13 @@ const useFetchShowData = (JSON_URL, LOCAL_JSON_URL, useLocalFile) => {
         }
         const showData = await response.json();
 
-        //Default sort mode, Creates arrays for each Tier based on tiersDefined array
+        // Default sort mode, Creates arrays for each Tier based on tiersDefined array
         const tiers = tierData.reduce((acc, tier) => {
           acc[tier.key] = [];
           return acc;
         }, {});
 
+        // Fills Tier arrays
         showData.forEach((show) => {
           if (tiers[show.Tier]) {
             tiers[show.Tier].push(show);
@@ -48,4 +49,4 @@ const useFetchShowData = (JSON_URL, LOCAL_JSON_URL, useLocalFile) => {
   return { tierData, tiersDefined, error };
 };
 
-export default useFetchShowData;
+export default useFetchData;

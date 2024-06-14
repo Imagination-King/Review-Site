@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { createTheme, ThemeProvider, useMediaQuery } from "@mui/material";
 import "./App.css";
 import TierList from "./components/TierList";
-import GoTopBtn from "./components/GoTopBtn";
+import GoTopBtn from "./components/BtnGoTo";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");

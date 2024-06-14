@@ -1,16 +1,21 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
+
+import useFetchData from "./useFetchData";
+import useSort from "./useSort";
 import ShowCard from "./ShowCard";
+
 import {
-  Box,
-  Typography,
-  Button,
-  Menu,
-  MenuItem,
   Accordion,
   AccordionDetails,
   AccordionSummary,
-  ToggleButtonGroup,
+  Box,
+  Button,
+  Menu,
+  MenuItem,
   ToggleButton,
+  ToggleButtonGroup,
+  Typography,
 } from "@mui/material";
 import {
   ExpandMoreRounded,
@@ -18,26 +23,34 @@ import {
   UnfoldLessRounded,
   UnfoldMoreRounded,
 } from "@mui/icons-material";
-import useFetchShowData from "./useFetchShowData";
-import useSort from "./useSort";
-import PropTypes from "prop-types";
 
 function TierList({ themeLightDark }) {
-  const [tierExpanded, setTierExpanded] = useState({});
-  const [anchorEl, setAnchorEl] = useState(null);
-  const [sortMode, setSortMode] = useState("tier");
-  const [viewMode, setViewMode] = useState("grid");
-
   const JSON_URL =
     "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/tvShowsGraded.json";
 
-  //in case the server decides to not cooperate, use a local backup
-  const useLocalFile = false;
+  const useLocalFile = false; // Set to true to use local backup of Show Data
   const LOCAL_JSON_URL = "/tvShowsGraded.json";
 
-  const { tierData, tiersDefined, error} = useFetchShowData(JSON_URL, LOCAL_JSON_URL, useLocalFile);
+  const [groupExpanded, setGroupExpanded] = useState({}); // Track open/close state for accordions
+  const [anchorEl, setAnchorEl] = useState(null); // Anchor Element to keep Sort Menu attached to button
+  const [sortMode, setSortMode] = useState("tier"); // Track Sort Mode state
+  const [viewMode, setViewMode] = useState("grid"); // Track View Mode state
 
-  //sort menu logic
+  // Fetch show data and tier definitions
+  const { tierData, tiersDefined, error } = useFetchData(
+    JSON_URL,
+    LOCAL_JSON_URL,
+    useLocalFile
+  );
+
+  // View mode button logic
+  const handleViewChange = (event, newViewMode) => {
+    if (newViewMode !== null) {
+      setViewMode(newViewMode);
+    }
+  };
+
+  // Sort menu logic
   const open = Boolean(anchorEl);
   const handleSortClick = (e) => {
     setAnchorEl(e.currentTarget);
@@ -50,7 +63,15 @@ function TierList({ themeLightDark }) {
     }
   };
 
-  //epand+collapse button logic
+  // Tracks accordion open/close state
+  const handleAccordionChange = (key) => (event, isExpanded) => {
+    setGroupExpanded((prevExpanded) => ({
+      ...prevExpanded,
+      [key]: isExpanded,
+    }));
+  };
+
+  // Epand button logic
   const handleExpandAll = () => {
     let keys = [];
     if (sortMode === "tier") {
@@ -59,18 +80,20 @@ function TierList({ themeLightDark }) {
       keys = Object.keys(sortedData);
     } else if (sortMode === "watch-status") {
       keys = ["Watching", "Completed", "Hold", "Quit"];
-    } //additional sort options would go here
+    } // Additional sort options would go here
 
     keys.reverse().forEach((key, index) => {
+      // .reverse opens accordions in reverse order for visual benefit
       setTimeout(() => {
-        setTierExpanded((prevExpanded) => ({
+        setGroupExpanded((prevExpanded) => ({
           ...prevExpanded,
           [key]: true,
         }));
-      }, index * 200); // delay set for visual and performance benefits
+      }, index * 200); // Delay for visual and performance benefits
     });
   };
 
+  // Collapse button logic
   const handleCollapseAll = () => {
     let keys = [];
     if (sortMode === "tier") {
@@ -79,33 +102,20 @@ function TierList({ themeLightDark }) {
       keys = Object.keys(sortedData);
     } else if (sortMode === "watch-status") {
       keys = ["Watching", "Completed", "Hold", "Quit"];
-    } //additional sort options would go here
+    } // Additional sort options would go here
 
     keys.forEach((key, index) => {
       setTimeout(() => {
-        setTierExpanded((prevExpanded) => ({
+        setGroupExpanded((prevExpanded) => ({
           ...prevExpanded,
           [key]: false,
         }));
-      }, index * 200); // delay set for visual and performance benefits
+      }, index * 200); // Delay for visual and performance benefits
     });
   };
 
-  //tracks accordion open/close state for expand+collapse button logic
-  const handleAccordionChange = (key) => (event, isExpanded) => {
-    setTierExpanded((prevExpanded) => ({
-      ...prevExpanded,
-      [key]: isExpanded,
-    }));
-  };
-
-  const handleViewChange = (event, newViewMode) => {
-    if(newViewMode !== null) {
-      setViewMode(newViewMode);
-    }
-  };
-
-const sortedData = useSort(sortMode, tierData);
+  // useSort contains logic for all sorting options
+  const sortedData = useSort(sortMode, tierData);
 
   if (error) {
     return (
@@ -120,10 +130,28 @@ const sortedData = useSort(sortMode, tierData);
     return <p>Loading data. Please wait...</p>;
   }
 
+  //----------------------------------------------
+  // HTML Starts Here
+  //----------------------------------------------
   return (
     <Box sx={{ p: 1 }}>
       <h1>TV Show Tier List</h1>
-      <Box //Option Bar starts here
+      <Box>
+        {/* Option Bar Row 1 - View Mode Buttons */}
+        <ToggleButtonGroup
+          value={viewMode}
+          exclusive
+          onChange={handleViewChange}
+        >
+          <ToggleButton value="grid" aria-label="view as grid">
+            Grid
+          </ToggleButton>
+          <ToggleButton value="list" aria-label="view as list">
+            List
+          </ToggleButton>
+        </ToggleButtonGroup>
+      </Box>
+      <Box // Option Bar Row 2 - Sort and Expand/Collapse Buttons
         sx={{
           display: "flex",
           flexDirection: "row",
@@ -154,15 +182,13 @@ const sortedData = useSort(sortMode, tierData);
           >
             <MenuItem onClick={() => handleSortClose("tier")}>Tier</MenuItem>
             <MenuItem onClick={() => handleSortClose("title")}>Title</MenuItem>
-            <MenuItem onClick={() => handleSortClose("watch-status")}>Watch Status</MenuItem>
+            <MenuItem onClick={() => handleSortClose("watch-status")}>
+              Watch Status
+            </MenuItem>
           </Menu>
         </Box>
-        <Box>
-          <ToggleButtonGroup value={viewMode} exclusive onChange={handleViewChange}>
-            <ToggleButton value="grid" aria-label="view as grid">Grid</ToggleButton>
-            <ToggleButton value="list" aria-label="view as list">List</ToggleButton>
-          </ToggleButtonGroup>
-        </Box>
+
+        {/* Expand and Collapse buttons have their own box to keep them together */}
         <Box sx={{ display: "flex", flexDirection: "row" }}>
           <Button startIcon={<UnfoldMoreRounded />} onClick={handleExpandAll}>
             Expand
@@ -172,6 +198,8 @@ const sortedData = useSort(sortMode, tierData);
           </Button>
         </Box>
       </Box>
+
+      {/* Eventually this all should be done with routing... */}
       {(() => {
         //conditional HTML depending on what sortMode is set to, default is Tier
         if (sortMode === "tier") {
@@ -180,7 +208,7 @@ const sortedData = useSort(sortMode, tierData);
             .map((tier) => (
               <Accordion
                 key={tier.key}
-                expanded={tierExpanded[tier.key] || false}
+                expanded={groupExpanded[tier.key] || false}
                 onChange={handleAccordionChange(tier.key)}
               >
                 <AccordionSummary
@@ -205,25 +233,28 @@ const sortedData = useSort(sortMode, tierData);
                     flexWrap: "wrap",
                   }}
                 >
-                  {
-                    //prevents uncaught reference errors from map function
-                    sortedData[tier.key]?.length > 0 ? (
-                      sortedData[tier.key].map((show) => (
-                        <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode={viewMode}/>
-                      ))
-                    ) : (
-                      <Typography>No shows in this tier</Typography>
-                    )
-                  }
+                  {sortedData[tier.key]?.length > 0 ? (
+                    sortedData[tier.key].map((show) => (
+                      <ShowCard
+                        key={show.Title}
+                        show={show}
+                        themeLightDark={themeLightDark}
+                        viewMode={viewMode}
+                      />
+                    ))
+                  ) : (
+                    <Typography>No shows in this tier</Typography>
+                  )}
                 </AccordionDetails>
               </Accordion>
             ));
-          //conditional HTML continues, with sortMode set to Title
+
+          // Conditional HTML continues
         } else if (sortMode === "title") {
           return Object.keys(sortedData).map((group) => (
             <Accordion
               key={group}
-              expanded={tierExpanded[group] || false}
+              expanded={groupExpanded[group] || false}
               onChange={handleAccordionChange(group)}
             >
               <AccordionSummary
@@ -248,24 +279,28 @@ const sortedData = useSort(sortMode, tierData);
                   flexWrap: "wrap",
                 }}
               >
-                {
-                  //prevents uncaught reference errors from map function
-                  sortedData[group].length > 0 ? (
-                    sortedData[group].map((show) => (
-                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode={viewMode}/>
-                    ))
-                  ) : (
-                    <Typography>No shows in this range</Typography>
-                  )
-                }
+                {sortedData[group].length > 0 ? (
+                  sortedData[group].map((show) => (
+                    <ShowCard
+                      key={show.Title}
+                      show={show}
+                      themeLightDark={themeLightDark}
+                      viewMode={viewMode}
+                    />
+                  ))
+                ) : (
+                  <Typography>No shows in this range</Typography>
+                )}
               </AccordionDetails>
             </Accordion>
           ));
+
+          // Conditional HTML continues
         } else if (sortMode === "watch-status") {
           return Object.keys(sortedData).map((status) => (
             <Accordion
               key={status}
-              expanded={tierExpanded[status] || false}
+              expanded={groupExpanded[status] || false}
               onChange={handleAccordionChange(status)}
             >
               <AccordionSummary
@@ -290,20 +325,22 @@ const sortedData = useSort(sortMode, tierData);
                   flexWrap: "wrap",
                 }}
               >
-                {
-                  //prevents uncaught reference errors from map function
-                  sortedData[status].length > 0 ? (
-                    sortedData[status].map((show) => (
-                      <ShowCard key={show.Title} show={show} themeLightDark={themeLightDark} viewMode={viewMode}/>
-                    ))
-                  ) : (
-                    <Typography>No shows in this range</Typography>
-                  )
-                }
+                {sortedData[status].length > 0 ? (
+                  sortedData[status].map((show) => (
+                    <ShowCard
+                      key={show.Title}
+                      show={show}
+                      themeLightDark={themeLightDark}
+                      viewMode={viewMode}
+                    />
+                  ))
+                ) : (
+                  <Typography>No shows in this range</Typography>
+                )}
               </AccordionDetails>
             </Accordion>
           ));
-        } //additional sort modes would go here
+        } // Additional sort modes would go here
       })()}
     </Box>
   );
