@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 
+// Styling for all modals
 const modalStyle = {
   position: "absolute",
   top: "50%",
@@ -18,7 +19,7 @@ const modalStyle = {
   width: "80%",
   maxWidth: 800,
   maxHeight: "85%",
-  bgcolor: "beige",
+  bgcolor: "beige", // May change this later
   color: "black",
   boxShadow: 24,
   p: 4,
@@ -26,12 +27,12 @@ const modalStyle = {
   overflowY: "auto",
 };
 
+// Renders dates properly
 const renderDates = (PremiereDate, EndDate) => {
   if (EndDate === 0) {
-    //when the show is still airing or has been renewed for future seasons
+    // 0 is for still airing or renewed shows
     return `${PremiereDate} - Present`;
   } else if (EndDate === PremiereDate) {
-    //when the show aired entirely in a single year
     return `${PremiereDate}`;
   } else {
     return `${PremiereDate} - ${EndDate}`;
@@ -52,6 +53,7 @@ const ShowModal = ({ show, isOpen, onClose }) => {
     Review = "No review available",
   } = show;
 
+  // Use MUI's built-in breakpoints for media queries
   const isScreenSmall = useMediaQuery((theme) => theme.breakpoints.down("md"));
 
   return (
@@ -62,6 +64,7 @@ const ShowModal = ({ show, isOpen, onClose }) => {
       aria-describedby="modal-description"
     >
       <Box sx={modalStyle}>
+        {/* Little X in top right corner for closing modal */}
         <IconButton
           aria-label="close"
           onClick={onClose}
@@ -110,6 +113,7 @@ const ShowModal = ({ show, isOpen, onClose }) => {
                 textAlign: isScreenSmall ? "center" : "left",
               }}
             >
+              {/* Typically the untranslated name for anime shows */}
               {AltName}
             </Typography>
             <Typography
@@ -136,6 +140,7 @@ const ShowModal = ({ show, isOpen, onClose }) => {
             >
               <strong>WATCH STATUS:</strong> {WatchStatus}
             </Typography>
+            {/* Eventually, these tags will be color-coded and clickable */}
             <Stack
               direction="row"
               sx={{
