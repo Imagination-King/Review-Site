@@ -25,10 +25,10 @@ import {
 
 function TierList({ theme }) {
   const navigate = useNavigate();
-  const [groupExpanded, setGroupExpanded] = useState({});
-  const [anchorEl, setAnchorEl] = useState(null);
-  const [sortMode, setSortMode] = useState("tier");
-  const [viewMode, setViewMode] = useState("grid");
+  const [groupExpanded, setGroupExpanded] = useState({}); // Track open/close state for accordions
+  const [anchorEl, setAnchorEl] = useState(null); // Anchor element to keep Sort Menu attached to button
+  const [sortMode, setSortMode] = useState("tier"); // Track Sort Mode state
+  const [viewMode, setViewMode] = useState("grid"); // Track View Mode state
 
   const JSON_URL =
     "https://gist.githubusercontent.com/Imagination-King/041d38bac40cd81eebb92506a180f3d1/raw/tvShowsGraded.json";
